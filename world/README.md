@@ -31,7 +31,7 @@ world/
 - **Capital:** Velkash, on the Weavers' River.
 - **Magic:** the Glimmer — rare, feared, contained by the Censer order.
 - **The Quiet:** a rent in reality left by the Sundering, running across Aurelith.
-- **Deities:** the Chorus — Solvane, Luneth, Orbren, Veyra, Vaelmarr, Mornath, Ithyn, Cayren.
+- **Deities:** the Chorus — Solvane, Luneth, Orbren, Veyra, Vaelmarr, Mornath, Ithyn, Cayren — worshipped differently by each species (same names, recast names, or rejected). Unique deities: Khord (dwarf), the Eldertree (elf), Akhmat (hollowborn).
 
 ## Next steps
 

@@ -3,7 +3,7 @@
   "name": "The Chorus",
   "type": "pantheon",
   "world": "vaeloria",
-  "summary": "The pantheon of Vaeloria, called the Chorus for the song of creation the gods left behind. Worship is regional; no god holds universal sway since the Sundering.",
+  "summary": "The cosmic pantheon of Vaeloria, called the Chorus for the song of creation the gods left behind. The Chorus is one truth; each species worships it through its own choir. Some gods are shared across species by the same name, some are the same being under different names, and some are unique to a single species.",
   "deities": [
     {
       "id": "solvane",
@@ -13,7 +13,13 @@
       "symbol": "a ringed sun",
       "clergy": "High temples called Halos; judges and reeves swear on his name.",
       "temperament": "stern, lawful, merciful to the honest",
-      "attitude_to_magic": "Magic is a duty to be bound by law, not a gift."
+      "attitude_to_magic": "Magic is a duty to be bound by law, not a gift.",
+      "worship_by_species": [
+        { "species": "human", "name": "Solvane", "relation": "chief god of the Crownlands", "note": "The canonical face of the Chorus; oaths, courts, and coronations fall to him." },
+        { "species": "elf", "name": "Aurel, the Far King", "relation": "honored, distant", "note": "The day that does not reach the deep groves. Worshipped politely at grove-edges, never at the heart." },
+        { "species": "dwarf", "name": "the Bright One Above", "relation": "acknowledged, not worshipped", "note": "A foreigner's god, a lamp for the surface. The deep-folk nod to him at sunrise and go back below." },
+        { "species": "hollowborn", "name": "Ishmet, the Burning Crown", "relation": "appeased", "note": "In the desert the sun is a tyrant. Prayer to Ishmet is defensive: offerings against the burn, vows for mercy, never joy." }
+      ]
     },
     {
       "id": "luneth",
@@ -23,7 +29,13 @@
       "symbol": "a crescent over a full circle",
       "clergy": "Moonwardens; they keep calendars, debts, and birthings.",
       "temperament": "patient, sly, protective",
-      "attitude_to_magic": "The Glimmer waxes and wanes like her; it is not evil, but it is not to be trusted at full."
+      "attitude_to_magic": "The Glimmer waxes and wanes like her; it is not evil, but it is not to be trusted at full.",
+      "worship_by_species": [
+        { "species": "human", "name": "Luneth", "relation": "canonical", "note": "Moonwardens reckon debts and births by her phases." },
+        { "species": "elf", "name": "Aelune, the Silver Mother", "relation": "revered", "note": "Keeper of the grove-calendars; elven rites are timed to her marks." },
+        { "species": "dwarf", "name": "Erethat, the Deep Tide", "relation": "same being, recast", "note": "Not a moon to the deep-folk but the slow pulse of the earth — the rhythm that swells and falls in the deep places." },
+        { "species": "hollowborn", "name": "the Pale Thief", "relation": "inverted into a demon", "note": "The desert moon steals heat. The hollowborn do not worship Luneth; they fear the Pale Thief who walks the night cold." }
+      ]
     },
     {
       "id": "orbren",
@@ -33,7 +45,13 @@
       "symbol": "a hammer over a broken ring",
       "clergy": "Deep-Shaper priests; artisans, miners, and masons.",
       "temperament": "gruff, generous to makers",
-      "attitude_to_magic": "Hates the Glimmer; calls it a lie the earth never made."
+      "attitude_to_magic": "Hates the Glimmer; calls it a lie the earth never made.",
+      "worship_by_species": [
+        { "species": "human", "name": "Orbren", "relation": "canonical", "note": "Patron of smiths, masons, and honest craft." },
+        { "species": "dwarf", "name": "Orbren", "relation": "same name, chief god", "note": "The forge-god is the one deity every species names the same. To the deep-folk he is the first hammer, and every hall is his altar." },
+        { "species": "elf", "name": "the Stone-Hammer", "relation": "endured, not worshipped", "note": "The green sees him as the one who cuts roots to raise stone. Necessary, respected, never loved." },
+        { "species": "hollowborn", "name": "absent", "relation": "known only as a northern god", "note": "The sands hold no forges; his name is a rumor travelers bring from the Stone Crown." }
+      ]
     },
     {
       "id": "veyra",
@@ -43,7 +61,13 @@
       "symbol": "a leaf-branch of five stems",
       "clergy": "Verdant kin; druids of the old greenwood.",
       "temperament": "wild, nurturing, unforgiving to harmers of green",
-      "attitude_to_magic": "The Glimmer is a sickness on living things; she purges it where it takes root."
+      "attitude_to_magic": "The Glimmer is a sickness on living things; she purges it where it takes root.",
+      "worship_by_species": [
+        { "species": "human", "name": "Veyra", "relation": "canonical", "note": "Worshipped at field-festivals and harvests." },
+        { "species": "elf", "name": "Veyra, the First Root", "relation": "supreme", "note": "To the greenfolk she is the only true god; the rest of the Chorus are lesser voices echoing her song." },
+        { "species": "dwarf", "name": "the Root-Rival", "relation": "the enemy of deep-work", "note": "The green that eats into mines and collapses shafts. The deep-folk placate her, never pray to her." },
+        { "species": "hollowborn", "name": "rejected, the slow flood", "relation": "disdained", "note": "In the desert green is a rare mercy or a false promise; Veyra's name is said only with suspicion." }
+      ]
     },
     {
       "id": "vaelmarr",
@@ -53,7 +77,13 @@
       "symbol": "a wave breaking over a blade",
       "clergy": "Storm-Bound; sailors, soldiers, and warcaptains.",
       "temperament": "loud, honorable, quick to anger",
-      "attitude_to_magic": "Claims the Glimmer as his weapon when battle demands it — and damns those who refuse it."
+      "attitude_to_magic": "Claims the Glimmer as his weapon when battle demands it — and damns those who refuse it.",
+      "worship_by_species": [
+        { "species": "human", "name": "Vaelmarr", "relation": "canonical", "note": "God of sailors and soldiers; Storm-Bound bless fleets and warbands." },
+        { "species": "hollowborn", "name": "Shardstorm", "relation": "same being, recast", "note": "No sea in the desert — he is the glass-storm that scours the dunes and gives rain only to the deserving. Their war-god." },
+        { "species": "dwarf", "name": "the Falling Sky", "relation": "observed, not worshipped", "note": "The sea is a ceiling falling; the deep-folk find his tempests amusing and keep to their halls." },
+        { "species": "elf", "name": "the Young Storm", "relation": "barely named", "note": "The Greenwood is older than storms; the greenfolk do not deny him, they simply do not wait on him." }
+      ]
     },
     {
       "id": "mornath",
@@ -63,7 +93,13 @@
       "symbol": "a grey hourglass held sideways",
       "clergy": "Veil-keepers; funeral rites and last vows.",
       "temperament": "quiet, patient, without cruelty",
-      "attitude_to_magic": "The Glimmer thins the Veil he guards; he is the first to fear it."
+      "attitude_to_magic": "The Glimmer thins the Veil he guards; he is the first to fear it.",
+      "worship_by_species": [
+        { "species": "human", "name": "Mornath", "relation": "canonical", "note": "Veil-keepers tend the dead and keep the Stilleven vigil." },
+        { "species": "dwarf", "name": "Karveth, the Still-Singer", "relation": "honored", "note": "The finisher of halls; where humans fear him, the deep-folk toast him — every hall must be ended well." },
+        { "species": "elf", "name": "Elveth, the Long Sleep", "relation": "the gentle ending", "note": "The autumn of the very old. The greenfolk sing him, not mourn him." },
+        { "species": "hollowborn", "name": "the Hollow Mouth", "relation": "omnipresent", "note": "Buried cities ring the desert; death is a neighbor. Their rites are silence, and the Hollow Sign is his language." }
+      ]
     },
     {
       "id": "ithyn",
@@ -73,7 +109,13 @@
       "symbol": "an unclosed eye",
       "clergy": "The remembered few; scholars of the banned. Often hunted.",
       "temperament": "obsessive, kind, tragic",
-      "attitude_to_magic": "The Glimmer is a language to be relearned, not a sin."
+      "attitude_to_magic": "The Glimmer is a language to be relearned, not a sin.",
+      "worship_by_species": [
+        { "species": "human", "name": "Ithyn", "relation": "outlawed", "note": "His cult is heretical in the Crownlands but persists in the Hollow Mile and the Ashlands." },
+        { "species": "elf", "name": "the Whisperer", "relation": "taboo", "note": "The voice of the Quiet, the wound. Naming him is near-blasphemy in the Greenwood." },
+        { "species": "dwarf", "name": "rejected", "relation": "the buried belong to Khord", "note": "The deep-folk keep their own keeper of the forgotten and refuse Ithyn's open eye." },
+        { "species": "hollowborn", "name": "the Under-Sands", "relation": "secret cult, same being", "note": "A buried eye under the dunes. The Rememberers of the sands dig old writing and trade it — they are the one cult that still openly keeps him, in silence." }
+      ]
     },
     {
       "id": "cayren",
@@ -83,12 +125,85 @@
       "symbol": "a coin with two faces",
       "clergy": "Road-Singers; jesters, gamblers, guides.",
       "temperament": "mercurial, fond of the unlucky",
-      "attitude_to_magic": "The Glimmer is the best joke in the world; he delights in its chaos."
+      "attitude_to_magic": "The Glimmer is the best joke in the world; he delights in its chaos.",
+      "worship_by_species": [
+        { "species": "human", "name": "Cayren", "relation": "canonical", "note": "Road-Singers bless travelers, gamblers, and the unlucky." },
+        { "species": "elf", "name": "Vess, the Turning Leaf", "relation": "same being, recast", "note": "Not a trickster to the green — change is the turning of the season, natural and inevitable." },
+        { "species": "hollowborn", "name": "Dhar, the Shifting Dune", "relation": "central", "note": "The god of caravans, mirages, and the luck of the road. Every hollowborn caravan lights a candle for Dhar at dusk." },
+        { "species": "dwarf", "name": "rejected, a shallow voice", "relation": "refused", "note": "The deep-folk do not deny Cayren exists; they simply will not name a noise of the surface." }
+      ]
+    }
+  ],
+  "species_unique_deities": [
+    {
+      "id": "khord",
+      "species": "dwarf",
+      "name": "Khord",
+      "aspects": ["the buried", "the forgotten-below", "deep secrets", "lost halls"],
+      "gender": "masculine",
+      "symbol": "a closed door in rock",
+      "clergy": "Door-Keepers who seal the Sunken Halls and tend shafts that must not be reopened.",
+      "temperament": "silent, patient, absolute",
+      "note": "Not of the Chorus. Khord holds everything the earth has swallowed — and decides what stays buried. The deep-folk keep his door shut over all others."
+    },
+    {
+      "id": "the-eldertree",
+      "species": "elf",
+      "name": "the Eldertree",
+      "aspects": ["the first tree", "the deepest grove", "Veyra's heart"],
+      "gender": "neuter",
+      "symbol": "a five-stemmed leaf over a single root",
+      "clergy": "the Root-Wardens, who guard the innermost grove where no stranger walks.",
+      "temperament": "ancient, dreaming, watchful",
+      "note": "The first tree of creation, given its own soul when Veyra poured herself into the green. The greenfolk worship it as the eldest living thing, distinct from — but born of — Veyra."
+    },
+    {
+      "id": "akhmat",
+      "species": "hollowborn",
+      "name": "Akhmat",
+      "aspects": ["oases", "mercy", "water", "the exhausted traveler"],
+      "gender": "feminine",
+      "symbol": "a still pool under a ring of reeds",
+      "clergy": "Well-Sisters who keep the deep wells and the spring-oases.",
+      "temperament": "gentle, stubborn, unforgiving to those who poison water",
+      "note": "The one merciful face in the desert pantheon. She is said to weep springs; her wells must never be fouled, or she turns them to salt."
+    }
+  ],
+  "species_overview": [
+    {
+      "species": "human",
+      "pantheon": "the full Chorus, canonical names",
+      "chief": "Solvane (Crownlands)",
+      "unique_deities": [],
+      "note": "The base canon; the Chorus as written. Regional kingdoms vary the emphasis but not the names."
+    },
+    {
+      "species": "dwarf",
+      "pantheon": "Orbren (chief), Erethat, Karveth; tolerated: the Bright One Above",
+      "rejected": ["Cayren", "Ithyn", "Veyra (as the Root-Rival)", "Vaelmarr"],
+      "unique_deities": ["khord"],
+      "note": "The deep-folk keep a closed choir: forge, deep tide, and the ending of halls. Anything of the surface is either foreign or refused."
+    },
+    {
+      "species": "elf",
+      "pantheon": "Veyra (supreme), Aurel, Aelune, Vess, Elveth",
+      "rejected": ["Ithyn (the Whisperer, taboo)", "Orbren (the Stone-Hammer, endured)", "Vaelmarr"],
+      "unique_deities": ["the-eldertree"],
+      "note": "The greenfolk hold Veyra as the only true god and the rest as lesser voices. Ithyn is unnameable; the Glimmer is their great fear."
+    },
+    {
+      "species": "hollowborn",
+      "pantheon": "Ishmet, Shardstorm, the Hollow Mouth, Dhar; secret: the Under-Sands",
+      "rejected": ["Veyra", "Orbren", "Luneth (as the demon Pale Thief)"],
+      "unique_deities": ["akhmat"],
+      "note": "A harsh, defensive pantheon: appeasement, silence, and luck. They are the only species to keep Ithyn's cult alive, in the dark."
     }
   ],
   "worship_notes": [
-    "Since the Sundering no single god is universally worshipped; the Chorus is honored as a whole at high festivals.",
-    "Ithyn's cult is outlawed in the Crownlands but persists in the Hollow Mile and the Ashlands.",
+    "The theological truth is one Chorus; the species choirs are arrangements of the same song. Human clergy call the other names heresy; the deep-folk say the surface mishears the rhythm.",
+    "Luneth is the sharpest fault-line: a beloved mother to humans and elves, a deep pulse to dwarves, a demon to the hollowborn.",
+    "Since the Sundering no god is universally worshipped; the Chorus is honored as a whole at high festivals.",
+    "Ithyn's cult is outlawed in the Crownlands but persists in the Hollow Mile, the Ashlands, and among the hollowborn Rememberers.",
     "The Censer order claims to serve no god, only the containment of the Glimmer — many suspect they answer to Mornath."
   ]
 }
