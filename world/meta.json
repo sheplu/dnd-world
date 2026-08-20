@@ -9,10 +9,12 @@
     "visible_in": ["ruins", "cursed grounds", "sanctioned circles", "the Quiet"]
   },
   "era": {
-    "current_age": "The Age of Ashes",
-    "age_before": "The Concord of Weavers",
+    "current_age": "age-of-ashes",
+    "current_age_year": 812,
+    "counting": "per-age",
+    "notation_note": "Years restart at 1 with each new age, e.g. 812 AA (Age of Ashes).",
     "defining_event": "The Sundering",
-    "years_since_sundering": 812
+    "history": "world/history.json"
   },
   "calendar": {
     "year_length_days": 360,

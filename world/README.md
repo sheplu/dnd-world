@@ -7,6 +7,7 @@ A trademark-free heroic fantasy world. Magic is **rare and feared**; the world l
 ```
 world/
 ├── meta.json            World settings, calendar, currency, languages
+├── history.json         Six ages, sub-eras, per-age year counts
 ├── cosmology.json       Creation myth, planes, magic, prophecies
 ├── continents/
 │   └── aurelith.json    Main continent + regions
@@ -24,7 +25,8 @@ world/
 
 ## Quick orientation
 
-- **World:** Vaeloria — Age of Ashes, 812 years after the Sundering.
+- **World:** Vaeloria — Age of Ashes, year 812 AA (per-age count).
+- **Timeline:** see [history.json](history.json) — First Stillness → Age of Stone → Concord of Weavers → the Sundering → Age of Silence → Age of Ashes.
 - **Continent:** Aurelith, four regions (Crownlands, Ashlands, Dusk Reach, Burning Sands).
 - **Capital:** Velkash, on the Weavers' River.
 - **Magic:** the Glimmer — rare, feared, contained by the Censer order.
