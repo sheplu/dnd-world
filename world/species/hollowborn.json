@@ -1,0 +1,34 @@
+{
+  "id": "hollowborn",
+  "name": "Hollowborn",
+  "type": "species",
+  "world": "vaeloria",
+  "homeland": "the Burning Sands — the oases, the Glass Reach, the buried cities",
+  "lifespan": "90–130 years",
+  "language": "Hollow Sign (silent trade tongue), plus spoken desert dialects",
+  "summary": "The people of the dunes and the buried glass. Hollowborn live over a world of entombed cities — the desert swallowed the Concord's southern works whole — and they have made silence, not speech, their mother tongue. They dig, they remember, and they trade in things other people fear to name.",
+  "appearance": [
+    "Lean and sun-hardened, skin dark and lined like cracked earth, eyes pale as the salt-flats.",
+    "Cloth wrapped against sand and sun; the hollowborn rarely show their hands, which are scored with the scars of rope, glass, and digging.",
+    "Speech is a luxury; many hollowborn are fluent in Hollow Sign before their first spoken word."
+  ],
+  "temperament": "hard, courteous, secretive, generous to fellow travelers",
+  "society": {
+    "government": "Oasis-councils of Well-Sisters; caravans govern themselves on the road by the code of the Hollow Sign",
+    "settlements": "Spring-oases ringed by reeds, tent-cities, and the half-excavated mouths of buried Concord cities",
+    "economy": ["caravan trade", "glass", "salt", "excavated relics", "banned writings"],
+    "values": ["water", "the oath of the road", "silence", "the buried memory"],
+    "family": "Blood is light; the caravan and the well are family. Names are taken from the oasis or the road where one was born"
+  },
+  "religion": "A defensive pantheon: Ishmet the Burning Crown (appeased), Shardstorm (their war-god), the Hollow Mouth (death, omnipresent), Dhar the Shifting Dune (the luck of the road), Akhmat (mercy, the wells). The Pale Thief — Luneth — is a demon of the night cold, not a god. In secret, the Rememberers keep the Under-Sands: Ithyn under another name.",
+  "relations": [
+    { "species": "human", "attitude": "suspicious commerce", "note": "The salt roads pay well and the hollowborn's books worry the Crownlands; trade continues and trust does not." },
+    { "species": "dwarf", "attitude": "regarded as stone-men", "note": "The deep-folk's pity is returned with quiet amusement; the hollowborn dig deeper than the deep-folk ever will." },
+    { "species": "elf", "attitude": "mutual awe", "note": "Silence speaks to silence. A greenfolk and a hollowborn can converse for an hour without a word and call it a fine meeting." }
+  ],
+  "notes": [
+    "The Rememberers are the only institution on Aurelith that openly keeps Ithyn's cult — in silence, beneath the sand, where the Edict of Silence cannot reach.",
+    "Hollowborn are the greatest excavators of the lost Concord; every buried city is both their heritage and their trade.",
+    "They are the one species for whom the Sundering was not a disaster but a legacy — the glass that rings the dunes is beautiful, and they mine it."
+  ]
+}

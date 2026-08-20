@@ -13,6 +13,11 @@ world/
 │   └── aurelith.json    Main continent + regions
 ├── cities/
 │   └── velkash.json     Capital city (districts, landmarks, conflicts)
+├── species/
+│   ├── human.json       Humans — makers of the current age
+│   ├── dwarf.json       Deep-folk of the Stone Crown
+│   ├── elf.json         Greenfolk of the Greenwood
+│   └── hollowborn.json  Desert people of the Burning Sands
 └── deities/
     └── pantheon.json    The Chorus: 8 deities
 ```
@@ -32,10 +37,10 @@ world/
 - **Magic:** the Glimmer — rare, feared, contained by the Censer order.
 - **The Quiet:** a rent in reality left by the Sundering, running across Aurelith.
 - **Deities:** the Chorus — Solvane, Luneth, Orbren, Veyra, Vaelmarr, Mornath, Ithyn, Cayren — worshipped differently by each species (same names, recast names, or rejected). Unique deities: Khord (dwarf), the Eldertree (elf), Akhmat (hollowborn).
+- **Species:** humans (Crownlands), deep-folk (Dusk Reach), greenfolk (Dusk Reach), hollowborn (Burning Sands).
 
 ## Next steps
 
 - Flesh out the remaining cities (Dusk Reach holds, Ashlands towns, Burning Sands oases).
 - Add factions (the Censer, the Reeve's court, the Hollow Mile, Storm-Bound).
-- Add species/ancestries document.
 - Begin campaign documents referencing this world.

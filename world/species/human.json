@@ -1,0 +1,32 @@
+{
+  "id": "human",
+  "name": "Humans",
+  "type": "species",
+  "world": "vaeloria",
+  "homeland": "the Crownlands and every reach of Aurelith",
+  "lifespan": "60–90 years",
+  "language": "Common Speech",
+  "summary": "The makers of the current age. Short-lived, restless, and everywhere. Humans rebuilt the Crownlands after the Sundering, struck the first coins, and hold the canonical Chorus. They forget the song faster than any other people — and remember fear longest.",
+  "appearance": [
+    "As varied as the regions they inhabit: fair and freckled in the Dusk Reach, sun-browned in the Crownlands, ash-pale in the shadow of the Quiet.",
+    "Hair worn long in the east, shaved at the temples in the west; the white silk of Velkash is the common pride of the wealthy."
+  ],
+  "temperament": "ambitious, adaptable, reverent to ritual, quick to forget",
+  "society": {
+    "government": "Kingdoms and elected reeves; the Crownlands' council is the oldest standing institution",
+    "settlements": "River-towns, walled cities, frontier hamlets",
+    "economy": ["grain", "white silk", "salt", "river shipping", "coin"],
+    "values": ["oaths", "lineage", "harvest", "law"],
+    "family": "Households of three generations; oaths bind families as much as blood"
+  },
+  "religion": "The Chorus in its canonical form. Solvane chief in the Crownlands; regional variation everywhere. Ithyn's cult outlawed but alive in the Hollow Mile.",
+  "relations": [
+    { "species": "dwarf", "attitude": "trading partners", "note": "The deep-folk's steel and the human grain feed each other; the deep-folk find human haste tiresome." },
+    { "species": "elf", "attitude": "wary respect", "note": "The greenfolk are old and slow; humans petition them for lore and receive silence." },
+    { "species": "hollowborn", "attitude": "suspicious commerce", "note": "Caravan trade thrives, but the hollowborn's forbidden writings worry the Reeve's court." }
+  ],
+  "notes": [
+    "Humans are the only species with no unique deity — they took the whole Chorus and made it theirs.",
+    "Their speed of forgetting is central to the age: the Sundering is history to them, myth to the greenfolk, a scar to the deep-folk."
+  ]
+}
