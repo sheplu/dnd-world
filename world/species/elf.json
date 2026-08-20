@@ -1,0 +1,34 @@
+{
+  "id": "elf",
+  "name": "Greenfolk (Elves)",
+  "type": "species",
+  "world": "vaeloria",
+  "homeland": "the Dusk Reach — the Greenwood",
+  "lifespan": "600–800 years",
+  "language": "Green Speech",
+  "summary": "The children of the Compact of Five Roots, bound to the Greenwood and to Veyra. They are the oldest mortal memory on Aurelith — they watched the Concord rise and fall, and they named the Glimmer a sickness before anyone else dared. Their patience is not kindness; it is the patience of a forest.",
+  "appearance": [
+    "Tall and slight, bark-brown to moss-grey skin, hair that grows the colour of the season it began in.",
+    "Eyes pale and wide — greenfolk see in the deepest grove-dark, and their gaze is described as 'rooted'.",
+    "They do not age so much as slow; a greenfolk of 700 looks like a tree that has decided to stand."
+  ],
+  "temperament": "patient, old, watchful, unforgiving to harmers of green",
+  "society": {
+    "government": "The Root-Wardens, elders of the deepest grove; speak for the whole Greenwood",
+    "settlements": "Grove-halls threaded through the living trees; the innermost grove is walked by no stranger",
+    "economy": ["greenwood lore", "healing", "silent trade", "woodcraft"],
+    "values": ["the green", "the slow vow", "the Compact of Five Roots", "the long memory"],
+    "family": "The grove is family; children are raised by the whole, and names are taken from the tree one is born beneath"
+  },
+  "religion": "Veyra as the First Root and only true god. Aurel (the Far King), Aelune (the Silver Mother), Vess (the Turning Leaf), and Elveth (the Long Sleep) are the lesser voices. Ithyn is unnameable — the Whisperer, the wound. The Eldertree is their own heart.",
+  "relations": [
+    { "species": "human", "attitude": "wary tolerance", "note": "Humans petition for lore and healing; the greenfolk give what costs nothing and keep the rest." },
+    { "species": "dwarf", "attitude": "ancient tension", "note": "Root against shaft. The deep-folk cut through their earth; the greenfolk do not forget a cut." },
+    { "species": "hollowborn", "attitude": "rare, regarded with awe", "note": "A hollowborn caravan at the grove-edge is a generation's event; their silence pleases the greenfolk." }
+  ],
+  "notes": [
+    "The greenfolk fear the Glimmer more than anything: it is the sickness Veyra purges. A greenfolk who takes the Glimmer is cast out — the first, forbidden exile.",
+    "They are the only people who could, in principle, remember the whole song. They refuse. The memory is kept by those who went silent in the Sundering instead.",
+    "The Root-Wardens keep a vow of non-interference in mortal wars — a vow that has held for 800 years and is fraying."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "dwarf",
+  "name": "Deep-Folk (Dwarves)",
+  "type": "species",
+  "world": "vaeloria",
+  "homeland": "the Dusk Reach — the Stone Crown and the Sunken Halls",
+  "lifespan": "250–350 years",
+  "language": "Deep Tongue",
+  "summary": "The children of Orbren's hammer. The deep-folk carved the Stone Crown into the Sunken Halls before the Concord, kept their doors shut through the Sundering, and emerged into the Age of Ashes largely intact — which is to say, deeply suspicious of the surface and its broken song.",
+  "appearance": [
+    "Broad and low-built, heavy-boned, with hands that never stop measuring.",
+    "Beards worn long and bound with iron rings that mark clan, craft, and age; rings are added, never removed.",
+    "Eyes adapted to the deep: pale irises that squint painfully in open sun."
+  ],
+  "temperament": "patient, gruff, generous to makers, unmoved by novelty",
+  "society": {
+    "government": "Clan-holds, each with a Hall-voice; the oldest hold, Hallord, arbitrates the rest",
+    "settlements": "Sunken Halls carved into the Stone Crown; fewer than a score of holds survived the Sundering",
+    "economy": ["steel", "stone", "iron-rings", "deep-lore", "sealed vaults"],
+    "values": ["the hall", "the craft", "the closed door", "the finished work"],
+    "family": "Clan is everything; adoption by craft is as binding as blood"
+  },
+  "religion": "Orbren (chief, by his true name), Erethat (the Deep Tide), Karveth (the Still-Singer). Khord holds the buried. Cayren is refused, Ithyn refused, the green is endured as the Root-Rival.",
+  "relations": [
+    { "species": "human", "attitude": "trading partners", "note": "They sell steel and buy grain; they find human oaths loud and human haste wasteful." },
+    { "species": "elf", "attitude": "ancient tension", "note": "The Greenwood's roots and the Halls' shafts argue under the earth; neither side wins, neither side forgets." },
+    { "species": "hollowborn", "attitude": "curious distance", "note": "The sands have no stone to speak of; the deep-folk regard the desert people with something like pity." }
+  ],
+  "notes": [
+    "They are the people least changed by the Sundering — their halls were already deep and their god already true-named. This makes them the world's most consistent memory of the old order.",
+    "Khord's Door-Keepers seal shafts that must not be reopened. No one alive remembers what the newest sealed door holds.",
+    "The Glimmer is a lie to them: a thing that never came from the earth, and therefore cannot be trusted."
+  ]
+}
