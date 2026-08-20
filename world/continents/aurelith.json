@@ -1,0 +1,49 @@
+{
+  "id": "aurelith",
+  "name": "Aurelith",
+  "world": "vaeloria",
+  "type": "continent",
+  "summary": "The cradle of the mortal realms. One great landmass of varied climes, split by the scar of the Quiet, ringed by cold seas and one burning desert.",
+  "regions": [
+    {
+      "id": "the-crownlands",
+      "name": "The Crownlands",
+      "climate": "temperate",
+      "summary": "The fertile heart of Aurelith, seat of the old kingdoms and the capital Velkash. Breadbasket, crossroads, and center of the current political order.",
+      "cities": ["velkash"],
+      "key_features": ["the King's Road", "the Thresher's Vale", "the Broken Moat"]
+    },
+    {
+      "id": "the-ashlands",
+      "name": "The Ashlands",
+      "climate": "wasteland",
+      "summary": "Where the Sundering struck hardest. A grey scrubland of dead magic and leaning ruins, dotted with villages that pay the Quiet in prayer and silence.",
+      "cities": [],
+      "key_features": ["the Quiet", "the Ruin of Karvess", "Ashveil Cross"]
+    },
+    {
+      "id": "the-dusk-reach",
+      "name": "The Dusk Reach",
+      "climate": "cold-temperate",
+      "summary": "Northern highlands of long winters and old stone. Home to the deep-kingdoms and the last stands of greenwood.",
+      "cities": [],
+      "key_features": ["the Stone Crown mountains", "the Greenwood", "the Sunken Halls"]
+    },
+    {
+      "id": "the-burning-sands",
+      "name": "The Burning Sands",
+      "climate": "desert",
+      "summary": "A southern desert of glass-dunes and buried cities, crossed by silent-tongue caravans. The Glimmer here flickers like heat-haze.",
+      "cities": [],
+      "key_features": ["the Glass Reach", "the Oasis of Hollow Wells", "the Sand-Drowned"]
+    }
+  ],
+  "neighbors": [
+    { "id": "the-veiled-sea", "name": "The Veiled Sea", "relation": "western waters", "note": "Uncharted; ships that sail past the horizon are said to find the Veil." },
+    { "id": "the-bone-archipelago", "name": "The Bone Archipelago", "relation": "eastern isles", "note": "Skeleton coasts; home to pirates and forgotten shrines." }
+  ],
+  "geography_notes": [
+    "The Quiet runs north-east to south-west, a visible scar of cracked earth and silver mist.",
+    "The King's Road avoids the Quiet at all costs; Ashveil Cross is its single sanctioned crossing."
+  ]
+}

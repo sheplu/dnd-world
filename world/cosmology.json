@@ -1,0 +1,53 @@
+{
+  "id": "vaeloria-cosmology",
+  "world": "vaeloria",
+  "creation_myth": "In the First Stillness, Solvane struck the dark and named it day; Luneth drew the shadow behind her and named it night. Together they breathed, and the world Vaeloria gathered in their breath. The lesser gods poured themselves into stone, seed, storm, and flame so that life might hold, and for ages the Concord of Weavers tended the song they left behind.",
+  "planes": [
+    {
+      "id": "the-veil",
+      "name": "The Veil",
+      "description": "The threshold between the living world and the divine. Thin places exist where grief or the Glimmer pools; the Veil is said to be thinning again.",
+      "relation": "prayer",
+      "risk": "High"
+    },
+    {
+      "id": "the-sunlit-reach",
+      "name": "The Sunlit Reach",
+      "description": "Solvane's court of light and order. The dead who are remembered walk here.",
+      "relation": "afterlife",
+      "risk": "Low"
+    },
+    {
+      "id": "the-hollow",
+      "name": "The Hollow",
+      "description": "The quiet under-realm of Mornath, keeper of endings. Not evil, but patient.",
+      "relation": "death",
+      "risk": "Low"
+    },
+    {
+      "id": "the-quiet",
+      "name": "The Quiet",
+      "description": "A rent in reality left by the Sundering. Within it, the Glimmer does not answer — and something listens in the silence. Crossed only by the desperate or the mad.",
+      "relation": "wound",
+      "risk": "Extreme"
+    }
+  ],
+  "magic": {
+    "origin": "The Weavers' Concord bound the song of creation into mortal hands. When the Concord fell, that song shattered.",
+    "current_state": "The Glimmer is a broken echo of the song. It is rare, unstable, and dangerous. Casters called Glimmerborn are feared; sanctioned orders exist to contain them.",
+    "cost": "Every working of the Glimmer feeds the thinning of the Veil. This is why it is feared — and why the Quiet grows.",
+    "scholarship": "Forbidden in most realms. The order of the Censer hoards the last true writings."
+  },
+  "prophecies": [
+    {
+      "id": "the-last-weaver",
+      "name": "The Last Weaver",
+      "text": "One will be born with the whole song, not the echo. The Veil will rise or fall on that voice.",
+      "status": "unfulfilled"
+    }
+  ],
+  "notes": [
+    "Cosmology is a foundation; each plane can become a full document.",
+    "The Quiet doubles as a hazard and as a narrative engine for horror-adjacent quests."
+  ]
+}

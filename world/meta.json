@@ -1,0 +1,52 @@
+{
+  "id": "vaeloria",
+  "name": "Vaeloria",
+  "tone": "classic-heroic-fantasy",
+  "magic": {
+    "level": "rare-and-feared",
+    "common_name": "the Glimmer",
+    "description": "Residue of the Weavers' Concord, the lost age of high magic. True magic is scarce; most folk never see it. Those born with the Glimmer are feared, hidden, or conscripted. Scholarship on it is forbidden in most realms.",
+    "visible_in": ["ruins", "cursed grounds", "sanctioned circles", "the Quiet"]
+  },
+  "era": {
+    "current_age": "The Age of Ashes",
+    "age_before": "The Concord of Weavers",
+    "defining_event": "The Sundering",
+    "years_since_sundering": 812
+  },
+  "calendar": {
+    "year_length_days": 360,
+    "months": [
+      { "id": "frostweep", "name": "Frostweep", "days": 30, "season": "winter", "note": "Deep cold; veils are hung for the dead." },
+      { "id": "thawtide", "name": "Thawtide", "days": 30, "season": "winter", "note": "Rivers wake; thaw-fairs across the heartland." },
+      { "id": "bloommorn", "name": "Bloommorn", "days": 30, "season": "spring", "note": "First planting; festivals of the Verdant." },
+      { "id": "greensong", "name": "Greensong", "days": 30, "season": "spring", "note": "Fields sing; crowning of the harvest queens." },
+      { "id": "highsun", "name": "Highsun", "days": 30, "season": "summer", "note": "Longest days; pilgrimages to Solvane's high temples." },
+      { "id": "goldharvest", "name": "Goldharvest", "days": 30, "season": "summer", "note": "First reaping; tax day across most realms." },
+      { "id": "duskfall", "name": "Duskfall", "days": 30, "season": "autumn", "note": "Leaf-fire nights; the Glimmer is said to stir." },
+      { "id": "mistshroud", "name": "Mistshroud", "days": 30, "season": "autumn", "note": "Fog thickens; no caravan travels the old roads." },
+      { "id": "firstfrost", "name": "Firstfrost", "days": 30, "season": "autumn", "note": "Quiet begins; hearths are blessed against the cold." },
+      { "id": "hearthwane", "name": "Hearthwane", "days": 30, "season": "winter", "note": "Indoor season; sagas are told by the fire." },
+      { "id": "stilleven", "name": "Stilleven", "days": 30, "season": "winter", "note": "A week of silence observed; Mornath's vigil." },
+      { "id": "darkveil", "name": "Darkveil", "days": 30, "season": "winter", "note": "Year's end; the Veil grows thin." }
+    ]
+  },
+  "currency": [
+    { "name": "bit", "metal": "copper", "value": 1, "note": "Common coin of the common folk." },
+    { "name": "shard", "metal": "silver", "value": 20, "note": "Standard wage of a skilled laborer per week." },
+    { "name": "crown", "metal": "gold", "value": 100, "note": "Minted in Velkash; accepted continent-wide." },
+    { "name": "sun", "metal": "platinum", "value": 1000, "note": "Rare; used for land, war, and tribute." }
+  ],
+  "common_languages": [
+    { "id": "common", "name": "Common Speech" },
+    { "id": "old-weaver", "name": "Old Weaver", "note": "Language of the lost Concord; writing it is illegal in most realms." },
+    { "id": "dwarven", "name": "Deep Tongue" },
+    { "id": "elven", "name": "Green Speech" },
+    { "id": "hollow", "name": "Hollow Sign", "note": "Silent trade tongue of the desert folk." }
+  ],
+  "notes": [
+    "Trademark-free heroic fantasy: original deities, calendar, and cosmology.",
+    "Magic is rare and feared; the age is post-apocalyptic in a slow, heroic way — ruins everywhere, glory in the past.",
+    "Structure is intentionally a skeleton; flesh out cities, regions, and deities in subsequent work."
+  ]
+}
