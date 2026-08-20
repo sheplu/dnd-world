@@ -1,0 +1,94 @@
+{
+  "id": "pantheon",
+  "name": "The Chorus",
+  "type": "pantheon",
+  "world": "vaeloria",
+  "summary": "The pantheon of Vaeloria, called the Chorus for the song of creation the gods left behind. Worship is regional; no god holds universal sway since the Sundering.",
+  "deities": [
+    {
+      "id": "solvane",
+      "name": "Solvane",
+      "aspects": ["the sun", "justice", "order", "bonds of oath"],
+      "gender": "masculine",
+      "symbol": "a ringed sun",
+      "clergy": "High temples called Halos; judges and reeves swear on his name.",
+      "temperament": "stern, lawful, merciful to the honest",
+      "attitude_to_magic": "Magic is a duty to be bound by law, not a gift."
+    },
+    {
+      "id": "luneth",
+      "name": "Luneth",
+      "aspects": ["the moon", "cycles", "secrets", "midwives"],
+      "gender": "feminine",
+      "symbol": "a crescent over a full circle",
+      "clergy": "Moonwardens; they keep calendars, debts, and birthings.",
+      "temperament": "patient, sly, protective",
+      "attitude_to_magic": "The Glimmer waxes and wanes like her; it is not evil, but it is not to be trusted at full."
+    },
+    {
+      "id": "orbren",
+      "name": "Orbren",
+      "aspects": ["the forge", "earth", "craft", "the deep-kingdoms"],
+      "gender": "masculine",
+      "symbol": "a hammer over a broken ring",
+      "clergy": "Deep-Shaper priests; artisans, miners, and masons.",
+      "temperament": "gruff, generous to makers",
+      "attitude_to_magic": "Hates the Glimmer; calls it a lie the earth never made."
+    },
+    {
+      "id": "veyra",
+      "name": "Veyra",
+      "aspects": ["the green", "beasts", "growth", "the Greenwood"],
+      "gender": "feminine",
+      "symbol": "a leaf-branch of five stems",
+      "clergy": "Verdant kin; druids of the old greenwood.",
+      "temperament": "wild, nurturing, unforgiving to harmers of green",
+      "attitude_to_magic": "The Glimmer is a sickness on living things; she purges it where it takes root."
+    },
+    {
+      "id": "vaelmarr",
+      "name": "Vaelmarr",
+      "aspects": ["storm", "sea", "war", "the Veiled Sea"],
+      "gender": "masculine",
+      "symbol": "a wave breaking over a blade",
+      "clergy": "Storm-Bound; sailors, soldiers, and warcaptains.",
+      "temperament": "loud, honorable, quick to anger",
+      "attitude_to_magic": "Claims the Glimmer as his weapon when battle demands it — and damns those who refuse it."
+    },
+    {
+      "id": "mornath",
+      "name": "Mornath",
+      "aspects": ["death", "fate", "endings", "the Hollow"],
+      "gender": "neutral",
+      "symbol": "a grey hourglass held sideways",
+      "clergy": "Veil-keepers; funeral rites and last vows.",
+      "temperament": "quiet, patient, without cruelty",
+      "attitude_to_magic": "The Glimmer thins the Veil he guards; he is the first to fear it."
+    },
+    {
+      "id": "ithyn",
+      "name": "Ithyn",
+      "aspects": ["knowledge", "the forgotten", "memory", "old magic"],
+      "gender": "neutral",
+      "symbol": "an unclosed eye",
+      "clergy": "The remembered few; scholars of the banned. Often hunted.",
+      "temperament": "obsessive, kind, tragic",
+      "attitude_to_magic": "The Glimmer is a language to be relearned, not a sin."
+    },
+    {
+      "id": "cayren",
+      "name": "Cayren",
+      "aspects": ["change", "trickery", "crossroads", "luck"],
+      "gender": "fluid",
+      "symbol": "a coin with two faces",
+      "clergy": "Road-Singers; jesters, gamblers, guides.",
+      "temperament": "mercurial, fond of the unlucky",
+      "attitude_to_magic": "The Glimmer is the best joke in the world; he delights in its chaos."
+    }
+  ],
+  "worship_notes": [
+    "Since the Sundering no single god is universally worshipped; the Chorus is honored as a whole at high festivals.",
+    "Ithyn's cult is outlawed in the Crownlands but persists in the Hollow Mile and the Ashlands.",
+    "The Censer order claims to serve no god, only the containment of the Glimmer — many suspect they answer to Mornath."
+  ]
+}

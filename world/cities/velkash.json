@@ -1,0 +1,37 @@
+{
+  "id": "velkash",
+  "name": "Velkash",
+  "type": "city",
+  "continent": "aurelith",
+  "region": "the-crownlands",
+  "summary": "The crown of the Crownlands: a walled capital of white stone and steep bridges, built on the bend of the Weavers' River where it widens to a lake.",
+  "role": "capital",
+  "ruler": {
+    "title": "High Reeve",
+    "current": "Reeve Aldara of the White Step",
+    "note": "Elected every ten years by the salt-and-harvest council."
+  },
+  "districts": [
+    { "id": "the-white-step", "name": "The White Step", "type": "government", "description": "Palace hill, seat of the Reeve and the council." },
+    { "id": "the-thread", "name": "The Thread", "type": "trade", "description": "Canal district of weavers, dyers, and markets. The city's name is said to come from the white silk threaded here." },
+    { "id": "the-hollow-mile", "name": "The Hollow Mile", "type": "underbelly", "description": "Beneath the bridges; smugglers, gambling dens, and the black market in banned writings." },
+    { "id": "censer-quarter", "name": "Censer Quarter", "type": "institution", "description": "Walled enclave of the Censer order. They collect Glimmerborn and old books. No one outside knows what they keep." }
+  ],
+  "landmarks": [
+    { "id": "the-broken-moat", "name": "The Broken Moat", "description": "A dry, stone-lined trench from before the Sundering. Kept as a memorial; the Reeve fills it only at Mornath's vigil." },
+    { "id": "solvanes-halo", "name": "Solvane's Halo", "description": "The great sun temple crowning the White Step, ringed by twelve brass bells." },
+    { "id": "the-silent-bridge", "name": "The Silent Bridge", "description": "The only bridge whose stone is never touched by the Glimmer. Crossing it is said to quiet the Weavers' song in a traveler." }
+  ],
+  "economy": ["white silk", "grain trade", "salt", "river shipping"],
+  "conflicts": [
+    "The Reeve's court and the Censer order clash over how far the Glimmer hunt may go.",
+    "The Hollow Mile runs banned texts despite the Reeve's decree.",
+    "Refugees from the Ashlands crowd the outer gates, and the city is not sure it wants them."
+  ],
+  "inhabitants": [
+    { "species": "human", "share": "majority", "note": "Dominant across the Crownlands." },
+    { "species": "dwarven", "share": "minority", "note": "Stonewrights and smiths of the Thread." },
+    { "species": "elven", "share": "minority", "note": "Greenwood emissaries and healers, watched warily." },
+    { "species": "hollowborn", "share": "rare", "note": "Desert-tongue traders from the Burning Sands." }
+  ]
+}
