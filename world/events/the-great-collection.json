@@ -1,0 +1,41 @@
+{
+  "id": "the-great-collection",
+  "name": "The Great Collection",
+  "type": "event",
+  "world": "vaeloria",
+  "age": "age-of-silence",
+  "years": "~200–310 Si (with roots at the Edict, ~80 Si)",
+  "scale": "continental purge campaign",
+  "summary": "The Censer's century-long campaign to seize every Glimmerborn and every written word of the old song on Aurelith. It began as scattered purges and became a machine: watchlists, seizure convoys, archive-vaults, and the quiet invention of an enemy market. The Collection nearly succeeded — and its overflow created everything it was meant to prevent: the Hollow Mile's black market, the Rememberers' Chain of Memory, and the continent's permanent habit of fear.",
+  "participants": [
+    { "kind": "faction", "name": "the-censer", "side": "the Collection", "note": "wardens, incense-bearers, and the first watchlists" },
+    { "kind": "faction", "name": "the-rememberers", "side": "the hunted", "note": "Ithyn's heirs, organized into the Chain of Memory by the purge itself" },
+    { "kind": "faction", "name": "the-hollow-mile", "side": "born of the overflow", "note": "every seizure made a buyer; every buyer made a fence" },
+    { "kind": "realm", "name": "realms of the Silence", "side": "complicit or compliant", "note": "signatory courts supplied wagons, jails, and silence" }
+  ],
+  "course_of_events": [
+    { "phase": "The Edict's Shadow", "when": "~80 Si", "what": "The first Reeve bans written Old Weaver. Penalty: a year of silence, sewn mouth or exile, by whim. The Collection has its legal ground." },
+    { "phase": "The First Continental Purge", "when": "~200 Si", "what": "Coordinated seizures across every realm at once — Glimmerborn taken at birth from Moonwarden birth-ledgers, books burned by the wagonload. The overflow of forgeries and duplicates finds buyers under Velkash's bridges: the Hollow Mile is born." },
+    { "phase": "The Machine", "when": "~250–300 Si", "what": "Watchlists standardize; seizure convoys run scheduled routes; the archive-quarter rises in Velkash on a burned college's foundation. Its deepest wing receives 'the silent ones' — no record says in what condition." },
+    { "phase": "The Great Collection proper", "when": "~310 Si", "what": "The final sweep: every Old Weaver text the Censer can find, seized in a single season. Nearly complete. The survivors of the purge formalize the Chain of Memory — texts copied thrice, cells of three, no cell knowing two others — and go underground for four hundred years." },
+    { "phase": "The Quiet After", "when": "~490 Si", "what": "Few Glimmerborn remain; fewer are found. The song is a rumor. The Collection ends not with victory but with nothing left to collect — the Grey Peace." }
+  ],
+  "key_places": [
+    { "name": "The Archive Quarter", "description": "The Censer's walled vaults in Velkash, built on a destroyed college's foundation. Its deepest wing holds the silent ones — and, some say, still receives deliveries.", "status": "active, sealed" },
+    { "name": "The Hollow Mile", "description": "Born from the purge's overflow: the mile of tunnels beneath Velkash's bridges where everything seized developed a second, purchasable life.", "status": "active", "ref": "the-hollow-mile" },
+    { "name": "The White Roads' Stumps", "description": "The Concord's white paved roads were pulled up for firewood during the Falling Kingdoms; purge convoys later used the stumps as route-markers. Sections survive in the Wealdmark.", "status": "fragmentary remains" },
+    { "name": "The Chain Wells", "description": "Rememberer meeting-places disguised as wells, ruins, and root-cellars across three realms. No complete list has ever existed — by design.", "status": "hidden network" }
+  ],
+  "consequences": [
+    "Open Glimmerborn nearly extinct by the Grey Peace — the Waking's later shock.",
+    "Old Weaver survives only in the Chain of Memory and the Censer's own forbidden archives.",
+    "The Hollow Mile becomes permanent: prohibition's economy outlives the prohibition's zeal.",
+    "Birth-ledgers become surveillance — and the Moonwardens become reluctant collaborators."
+  ],
+  "remembrance": "Uncommemorated by design; the Silence erases its own history. Survives inverted: 'a year of silence' as curse, the Road-Singers' forbidden verse about the wagons, and the Rememberers' motto — 'the song is not lost; it is hidden.'",
+  "adventure_hooks": [
+    "A purge-era seizure convoy's manifest surfaces: one item listed was never archived. All three claimants want players to fetch it.",
+    "An aged Moonwarden holds the original falsified birth-ledgers — proof that hundreds listed as born elsewhere were Glimmerborn saved by her order.",
+    "The Chain's oldest cell keeps a vacancy: a memorizer died with a song unpassed. Players must find someone willing to learn it — and bear it."
+  ]
+}

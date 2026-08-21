@@ -1,0 +1,41 @@
+{
+  "id": "the-waking-and-ashfall",
+  "name": "The Waking and the Year of Ashfall",
+  "type": "event",
+  "world": "vaeloria",
+  "age": "age-of-ashes",
+  "years": "~700–812 AA (ongoing)",
+  "scale": "unfolding continental crisis",
+  "summary": "The current age's turning: after four centuries of comfortable forgetting, Glimmerborn began being born again — first one, in a Dusk Reach village, then three more within the year. The Censer's hunts doubled; the Quiet's advance quickened; the sealed places started to ring. In 812 AA, ash from an un-named mountain dusted the Crownlands, a page of the Song Unbinding surfaced in the Hollow Mile, and the Censer split against itself over whether the returning song is a plague or a promise. Nobody calls it a crisis yet. Everybody prepares like one.",
+  "participants": [
+    { "kind": "faction", "name": "the-censer", "side": "containment — and divided", "note": "hunts doubled; the First-Heard sect preaches second chances" },
+    { "kind": "faction", "name": "the-rememberers", "side": "the Chain frays", "note": "young members want to teach openly; elders insist on silence" },
+    { "kind": "faction", "name": "reeves-court", "side": "opportunism", "note": "backs scholarship to spite the Censer; wants the Karvess expedition" },
+    { "kind": "faction", "name": "first-heard-sect", "side": "reform from within", "note": "believes the Waking is a call, not a curse" },
+    { "kind": "species", "name": "glimmerborn", "side": "the returned", "note": "born in rising waves since ~700 AA; greying slower, the First-Heard claim" }
+  ],
+  "course_of_events": [
+    { "phase": "The Waking", "when": "~700 AA", "what": "A Dusk Reach village girl hums a note no one taught her and the well-water rises an inch. The Censer takes her. Before year's end, three more Glimmerborn surface across three realms. The Grey Peace ends quietly, like a held breath released." },
+    { "phase": "The Quickening", "when": "~700–811 AA", "what": "Births rise yearly. The Quiet advances by hands' widths instead of fingers. Hallord seals a ringing shaft; the Storm-Bound hear the sea sing; Karvess's towers change their note. Each realm explains it locally. The patterns match." },
+    { "phase": "The Year of Ashfall", "when": "812 AA", "what": "Ash from an un-named mountain dusts the Crownlands on Goldharvest. The Quiet advances two hand-widths. A page of the Song Unbinding sells in the Hollow Mile for a king's ransom — possibly genuine. Three buyers are dead. The seller has vanished." },
+    { "phase": "The Schism of Ashfall", "when": "812 AA (current)", "what": "The First-Heard sect's leaks reach the Rememberers; the Nine Ashes schedule a purge vote. For the first time since its founding oath, the Censer may draw blades on itself. The Reeve's court waits, coin in hand, for whichever side wins." }
+  ],
+  "key_places": [
+    { "name": "The Waking Village", "description": "The Dusk Reach village where the first new Glimmerborn was found. The well still rises an inch when certain notes are sung nearby; the Censer keeps a permanent warden there now.", "status": "watched" },
+    { "name": "The Un-Named Mountain", "description": "Source of the 812 ashfall — it appears on no map. Ash-line analysis points somewhere east of the Stone Crown, into country no survey returns from.", "status": "unknown, sought" },
+    { "name": "The Singing Places", "description": "Hallord's sealed shaft, the Veiled Sea past the horizon, Karvess's towers, the Deep-Forging's anvil-note: all sounding the same tone now, at intervals that are shortening.", "status": "active phenomenon" },
+    { "name": "The Mile's Dead Buyers' Row", "description": "Three purchasers of the Song Unbinding page died within a season — each differently, each with the page one room away. The fourth copy is the one for sale.", "status": "active mystery" }
+  ],
+  "consequences": [
+    "The Grey Peace is over: fear is policy again in every chancery.",
+    "The Censer faces its first internal schism in 812 years.",
+    "Every faction is positioning for something — revival, purge, profit, or proof.",
+    "The Last Weaver prophecy has stopped being mythology: someone appears to be searching for that voice."
+  ],
+  "remembrance": "Too current for remembrance — this is the story players walk into. The Road-Singers' spreading ballad about the ashfall contains details no singer should know.",
+  "adventure_hooks": [
+    "Players hold the deciding testimony at the tide-moot or the purge vote — factions begin courting them before they understand the stakes.",
+    "Finding the un-named mountain answers whether the ash is death or birth; both expeditions already forming want the same guides.",
+    "The vanished seller of the Song Unbinding page contacts players: they will give the page free — to whoever swears to read it aloud at the Stone Crown's seal."
+  ]
+}

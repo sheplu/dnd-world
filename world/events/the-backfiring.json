@@ -1,0 +1,42 @@
+{
+  "id": "the-backfiring",
+  "name": "The Backfiring of Solmere",
+  "type": "event",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "age": "age-of-ashes",
+  "years": "12–183 AA (the kingdom); the Backfiring itself, 183 AA; the Accords, 184 AA",
+  "scale": "kingdom-scale catastrophe with continental legal consequences",
+  "summary": "The Bright Kingdom tried to restore the golden age in a generation: the Glimmer taxed, licensed, and taught; a college reopened; Old Weaver studied openly. For 170 years it worked — proof that magic could return under law. Then a civic harvest-blessing tore a pocket of Quiet beneath Solmere's own capital, and every argument about magic on Aurelith ended for six centuries. The shattered Crownlands signed the Accords granting the Censer its modern warrant. Every Censer argument since ends with 'remember Solmere.'",
+  "participants": [
+    { "kind": "faction", "name": "silmere", "side": "the experiment", "note": "the Bright Kingdom: revival movement turned state; see extinct orders" },
+    { "kind": "faction", "name": "the-censer", "side": "the inheritor", "note": "arrived to 'help' in 184 AA and never left" },
+    { "kind": "realm", "name": "the-velkash-crown", "side": "survivor, signatory", "note": "signed the Accords from weakness; has chafed ever since" },
+    { "kind": "species", "name": "hedge-casters of the Crownlands", "side": "the dispersed", "note": "Solmere's licensed casters fled or were collected" }
+  ],
+  "course_of_events": [
+    { "phase": "The Founding", "when": "12 AA", "what": "Followers of a Solvane revival preach that the sun god's silence can be answered by worthy works. They found Solmere on the Thresher's Vale's south bank — within sight of the First Kindling's hearth." },
+    { "phase": "The Licensed Return", "when": "~90 AA", "what": "Solmere's courts quietly employ hedge-casters: the Glimmer taxed, licensed, inspected. Nothing goes wrong. For eighty years, nothing goes wrong." },
+    { "phase": "The Second Dawn", "when": "~150 AA", "what": "Solmere declares the song's controlled return: public workings, a reopened college, Old Weaver studied openly. Refugees of fear flee TO Solmere — the only realm people have ever fled toward." },
+    { "phase": "The Backfiring", "when": "183 AA", "what": "A civic working meant to bless the harvest tears a pocket of Quiet beneath the capital. The city does not explode — it falls silent. Perfectly preserved, colors unfaded, sound dead at its treaty line forever after." },
+    { "phase": "The Accords", "when": "184 AA", "what": "The Censer arrives to help. The exhausted Crownlands sign: circle-tests legalized, seizure writs standardized, archive rights confirmed. The modern order is born in a single signing ceremony." }
+  ],
+  "key_places": [
+    { "name": "Solmere City", "description": "The silence-zone itself: intact, unfaded, a day's walk from Velkash. Its working is not broken but paused, mid-blessing — the Sunspire's lens still aims at the sun.", "status": "silence-zone", "ref": "solmere-city" },
+    { "name": "The Harvest Square Spiral", "description": "The cobblestone crack where the working tore. Has not widened in 629 years — or has widened by exactly one hand's width, depending which survey is believed.", "status": "site within the zone" },
+    { "name": "The Open College Cellars", "description": "The Censer burned Solmere's library in 184 AA but never searched the cellars. Pre-Edict texts collected by Solmere's scholars may still be there — the one library never catalogued.", "status": "unsearched" },
+    { "name": "The Treaty Posts", "description": "White posts marking the Accords line around the zone. Someone leaves flowers at the nearest post every Stilleven; the Censer has stopped investigating who.", "status": "active boundary" }
+  ],
+  "consequences": [
+    "The Accords of 184 AA — the Censer's modern legal warrant, which the Reeve's court still chafes against.",
+    "Controlled return of magic becomes unthinkable for 600 years; hedge-craft survives only in kitchens.",
+    "The silence-zone becomes the continent's standing lesson and its most forbidden ground.",
+    "Solmere's refugees seed tolerance in the Wealdmark and the ash-barons' code."
+  ],
+  "remembrance": "'Remember Solmere' ends every Censer argument. The Backfiring's anniversary rings every bell in Velkash once, unassisted. Among hedge-witches, his name is a blessing: 'may your workings stay small.'",
+  "adventure_hooks": [
+    "This year's survey shows the pocket grew twice as fast as any year prior — the Veil-Wardens need escorts no faction will officially lend.",
+    "Players find the Open College cellars' entrance. What they carry out decides the Rememberers' future — or starts the next purge.",
+    "The flower-leaver at the treaty post is finally identified: the answer runs through House Dellet's sealed records."
+  ]
+}

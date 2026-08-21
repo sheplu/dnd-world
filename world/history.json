@@ -52,6 +52,9 @@
       "lore_hooks": [
         "The 'seven true places' of the Shaping are a treasure map older than any kingdom. Do they still hum with the song?",
         "The Veil was woven, not born. Who wove it, and what is the loom?"
+      ],
+      "major_events": [
+        "the-divine-warring"
       ]
     },
     {
@@ -121,6 +124,9 @@
       "lore_hooks": [
         "The Sunken Halls predate the Concord — if something moved in before the Weavers, what was it?",
         "The Compact of Five Roots still binds the Greenwood. Breaking it may be the only way to wake Veyra."
+      ],
+      "major_events": [
+        "the-war-of-heavens-edge"
       ]
     },
     {
@@ -190,6 +196,9 @@
       "lore_hooks": [
         "The Colleges of the Weave were not all destroyed. Some sealed themselves against the Sundering and may still hold Weavers — or something wearing them.",
         "The Song Unbinding was inscribed. The Censer hunts every copy, and the Hollow Mile sells forgeries."
+      ],
+      "major_events": [
+        "the-silent-war"
       ]
     },
     {
@@ -248,6 +257,9 @@
       "lore_hooks": [
         "Those who 'went silent' and walked into the Quiet are still out there — some say they are the only ones who remember the whole song.",
         "The Sundering took one year. The winter it ended was warm, and no one has explained why."
+      ],
+      "major_events": [
+        "the-sundering"
       ]
     },
     {
@@ -312,6 +324,9 @@
       "lore_hooks": [
         "The Censer's archives hold more than books — a wing is said to hold 'the silent ones' from the Sundering, in no state to be called prisoners.",
         "The Edict of Silence was never repealed. Writing Old Weaver is still a crime in the Crownlands."
+      ],
+      "major_events": [
+        "the-great-collection"
       ]
     },
     {
@@ -371,6 +386,10 @@
         "The 'Ruin of Karvess' in the Ashlands is the largest Concord ruin standing. The Censer forbids expeditions. The Reeve wants one mounted. The players may be it.",
         "The ashfall of year 812 came from a mountain no map shows. Finding it is the difference between a mystery and a doom.",
         "The Veil is thinning. If the song is relearned slowly, the world might heal — or the Sundering might repeat."
+      ],
+      "major_events": [
+        "the-backfiring",
+        "the-waking-and-ashfall"
       ]
     }
   ]
