@@ -1,0 +1,16 @@
+{
+  "id": "veil-thread",
+  "name": "the-Veil-Thread",
+  "aspects": ["the Veil", "thinning", "boundary", "between-worlds"],
+  "gender": "neuter",
+  "symbol": "a thread fading to white",
+  "clergy": "the Veil-Wardens, scholars who map the Quiet's advance and advise the Reeve's court",
+  "temperament": "calculating, detached, urgent",
+  "attitude_to_magic": "The Glimmer is the song that thins the Veil; the-Veil-Thread is the tension that holds or breaks it.",
+  "worship_by_species": [
+    { "species": "human", "name": "the-Veil-Thread", "relation": "feared and consulted", "note": "The Reeve's court consults the Veil-Wardens before expedition into the Ashlands; the Censer denies his existence." },
+    { "species": "dwarf", "name": "the-Stone-Seam", "relation": "same being, recast", "note": "The deep-folk feel the Veil as a seam in the earth; the-Veil-Thread is where the earth's skin is thinnest." },
+    { "species": "elf", "name": "the-Green-Edge", "relation": "same being, recast", "note": "The greenfolk say the Veil is the edge of the forest; when it thins, the old things return." },
+    { "species": "hollowborn", "name": "the-Dune-Breath", "relation": "same being, recast", "note": "The desert's shifting dunes are his breath; when the wind stops, the Veil is at its thickest." }
+  ]
+}
