@@ -6,6 +6,7 @@
   "region": "the-ashlands",
   "realm": "ashveil-free-town",
   "summary": "The only sanctioned crossing of the Quiet. Where the King's Road meets the scar, a garrison town of silence-bells and veiled lanterns holds the road open — barely. Everyone here is paid to be near the wound, and everyone has a reason they can't leave.",
+  "map": { "shape": "point", "coords": [[56, 44]] },
   "role": "garrison and toll town; the Quiet's crossing",
   "ruler": {
     "title": "Warden of the Cross",

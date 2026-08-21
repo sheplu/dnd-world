@@ -1,0 +1,211 @@
+{
+  "id": "world-geography",
+  "name": "The Charted World",
+  "type": "world-geography-index",
+  "world": "vaeloria",
+  "summary": "The global view: one charted continent, four named waters, and a horizon nobody has returned from. Everything the mapmakers of Velkash dare to draw on a single sheet.",
+  "coordinate_convention": {
+    "grid": "0-100 by 0-100",
+    "x": "west (0) to east (100)",
+    "y": "north (0) to south (100)",
+    "note": "Every 'map' block in world data uses this grid. The Guild of Charted Lands in Velkash sells a six-foot cloth copy; the edges are deliberately left blank."
+  },
+  "charted_landmasses": [
+    {
+      "id": "aurelith",
+      "name": "Aurelith",
+      "status": "charted",
+      "summary": "The cradle of the mortal realms and the only landmass on any surviving map. Everything else is water, weather, and rumor."
+    }
+  ],
+  "uncharted_rumors": [
+    {
+      "id": "the-far-shore",
+      "name": "The Far Shore",
+      "summary": "Sailors swear a grey line shows on the southern horizon some dawns. No ship that chased it came back; the Skeleton Courts hold it is the hulls of the drowned standing in a row."
+    },
+    {
+      "id": "the-north-beyond",
+      "name": "Beyond the Pale Main",
+      "summary": "Ice and silence. Deep-folk saga-keeps say their oldest holds continue under the sea-floor northward, but no living clan claims those doors."
+    }
+  ],
+  "waters": [
+    {
+      "id": "the-veiled-sea",
+      "name": "The Veiled Sea",
+      "type": "sea",
+      "position": "west of Aurelith",
+      "status": "partially charted",
+      "summary": "The western waters, grey and fog-bound. Ships that sail past the horizon are said to find the Veil itself; the Wealdmark's fishermen work its shelf and no farther. Storm-Bound convoys have twice reported meeting their own wakes sailing the other way.",
+      "map": {
+        "shape": "poly",
+        "coords": [
+          [
+            0,
+            0
+          ],
+          [
+            22,
+            0
+          ],
+          [
+            20,
+            38
+          ],
+          [
+            18,
+            58
+          ],
+          [
+            20,
+            80
+          ],
+          [
+            30,
+            90
+          ],
+          [
+            24,
+            100
+          ],
+          [
+            0,
+            100
+          ]
+        ]
+      },
+      "label": [
+        9,
+        52
+      ]
+    },
+    {
+      "id": "the-pale-main",
+      "name": "The Pale Main",
+      "type": "ocean",
+      "position": "north of Aurelith",
+      "status": "probed only",
+      "summary": "The cold northern ocean: white water, iceberg fields, and a wind that strips prayer off the tongue. Northmarch's whalers take two weeks of profit a year from its edge and lose a ship most winters.",
+      "map": {
+        "shape": "poly",
+        "coords": [
+          [
+            0,
+            0
+          ],
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            10
+          ],
+          [
+            72,
+            14
+          ],
+          [
+            44,
+            8
+          ],
+          [
+            24,
+            14
+          ],
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "label": [
+        50,
+        4.5
+      ]
+    },
+    {
+      "id": "the-bone-sea",
+      "name": "The Bone Sea",
+      "type": "sea",
+      "position": "east of Aurelith, around the Bone Archipelago",
+      "status": "charted in patches",
+      "summary": "The storm-lashed eastern sea, named for the skeleton coasts it gnaws. Reef-charts are worth more than cargo here; the Skeleton Courts sell theirs twice. The Storm-Bound run escort through it and call it an honest sea — it kills you to your face.",
+      "map": {
+        "shape": "poly",
+        "coords": [
+          [
+            74,
+            10
+          ],
+          [
+            100,
+            10
+          ],
+          [
+            100,
+            88
+          ],
+          [
+            70,
+            86
+          ],
+          [
+            76,
+            54
+          ],
+          [
+            74,
+            40
+          ],
+          [
+            74,
+            26
+          ]
+        ]
+      },
+      "label": [
+        91,
+        70
+      ]
+    },
+    {
+      "id": "the-burnt-shallows",
+      "name": "The Burnt Shallows",
+      "type": "sea",
+      "position": "south of Aurelith",
+      "status": "charted inshore",
+      "summary": "A hot, shallow, salt-crusted sea off the desert's south coast. At low tide the flats stink of brine and glass-dust; deep-draft ships must anchor a full day out. Hollowborn salt-gatherers walk the flats at dawn, signing as they work.",
+      "map": {
+        "shape": "poly",
+        "coords": [
+          [
+            0,
+            88
+          ],
+          [
+            100,
+            88
+          ],
+          [
+            100,
+            100
+          ],
+          [
+            0,
+            100
+          ]
+        ]
+      },
+      "label": [
+        50,
+        93.5
+      ]
+    }
+  ],
+  "notes": [
+    "Aurelith is the whole of the known world; the seas are its walls and its road.",
+    "Sea names are Velkash chart usage; each culture has its own (the Dhar Roads sign 'the dry ring' for all four at once)."
+  ]
+}

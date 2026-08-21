@@ -1,0 +1,27 @@
+{
+  "id": "the-kings-road",
+  "name": "The King's Road",
+  "type": "road",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-crownlands", "the-ashlands"],
+  "summary": "The great road of the Crownlands: from Velkash's gates northeast across the grain-belt to Ashveil Cross — the single sanctioned crossing of the Quiet — and on into the ruined east where charters end and salvage custom begins. It avoids the scar at all costs; that is why it exists.",
+  "geography": {
+    "character": "paved and maintained Velkash to Ashveil Cross; beyond the charter line, broken pavement and waystone stumps",
+    "route": "Velkash → the Ford-Step → grain-belt stations → Ashveil Cross (the Veiled Gate) → ruined eastward continuation toward old Karvess",
+    "crossings": [
+      { "name": "The Veiled Gate", "settlement": "ashveil-cross", "note": "A mile of paved road through the Quiet's edge, lined with silence-bells. Crossed by caravan at dawn, single file, veils drawn." }
+    ]
+  },
+  "adjacent_to": ["the-weavers-river", "the-threshers-vale", "the-quiet-scar", "greyspire-pass", "the-white-roads"],
+  "nearby_settlements": ["velkash", "ashveil-cross", "karvess-ruin"],
+  "lore_notes": [
+    "A Northmarch branch leaves the main road at the grain-belt and climbs to Greyspire Pass; toll-stations mark every bowshot.",
+    "Beyond Ashveil Cross's charter line the road is ash-baron country: no law but salvage custom, and the pavement itself is the most salvaged thing there is."
+  ],
+  "adventure_hooks": [
+    "A Censer wagon lies wrecked mid-road between stations; its manifest lists nothing dangerous, which is the most alarming thing about it.",
+    "Mile-marker stones have begun showing a new carving nobody cuts by day."
+  ],
+  "map": { "shape": "line", "coords": [[38,48],[44,44],[50,42],[56,44],[62,42],[68,38]] }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "the-glass-reach",
+  "name": "The Glass Reach",
+  "type": "glass-dunes",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-burning-sands"],
+  "summary": "The southeastern sands where the Sundering's heat ran the desert to glass: dune-seas of green and smoke-grey glass over buried Concord cities. The Shard Cities — excavation city-states — dig, scaffold, and sell what they find; the Dhar Roads carry it north.",
+  "geography": {
+    "character": "glass-dune seas that chime in wind; sand-blowne towers of buried cities breaking the surface like ribs",
+    "notable_sites": [
+      { "name": "The Mouth Cities", "note": "Shard City excavations built into the exposed gate-mouths of buried Concord cities; the diggers live inside their ancestors' doorways." },
+      { "name": "The Chimeway", "note": "A glassed Concord boulevard running half a mile underground between two digs; lantern-lit toll-road, privately held, frequently disputed." }
+    ]
+  },
+  "adjacent_to": ["the-salt-roads", "the-deep-dunes", "the-quiet-scar"],
+  "nearby_settlements": ["hollow-wells", "karvess-ruin"],
+  "lore_notes": [
+    "'The deserts ran with glass' in the Year of Ashfall; the Reach is that sentence made landscape.",
+    "Karvess — the glass kingdom vitrified by the Rent — lies at the Reach's northern edge; its weathering glass feeds the dunes.",
+    "The Glimmer flickers like heat-haze here: hedge-craft works oddly, echo-touched items sing on windy nights."
+  ],
+  "adventure_hooks": [
+    "A dig breaks into a chamber still holding air from before the Sundering; what exhaled out has not been identified.",
+    "The Shard Cities hire outsiders for a salvage race after a sandstorm exposes a new tower-top."
+  ],
+  "map": { "shape": "poly", "coords": [[56,70],[68,72],[72,80],[64,86],[56,82]] }
+}

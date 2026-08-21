@@ -1,0 +1,28 @@
+{
+  "id": "the-sunken-halls",
+  "name": "The Sunken Halls",
+  "type": "underground-complex",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-dusk-reach"],
+  "summary": "The deep-folk's oldest realm under the Stone Crown: nine clan-halls carved in the Concord's high age, sunk or sealed through the Sundering and the long silence after. Hallord is the eldest and only gate most outsiders will ever see; the rest answer to their own Keepers.",
+  "geography": {
+    "character": "vast carved halls, stair-streets, forge-vents, and sealed doors older than any living signer",
+    "notable_sites": [
+      { "name": "Hallord Gate", "note": "The open hold — trade-hall, embassy, and the continent's best hammer-work." },
+      { "name": "The Sealed Ninth", "note": "A hall shut from the inside during the Sundering. Knocking has been reported. The clans do not discuss it." },
+      { "name": "The Deep Forge", "note": "Where deep-forge coal still burns; its fire predates the Edict and has never been let out." }
+    ]
+  },
+  "adjacent_to": ["the-stone-crown", "greyspire-pass"],
+  "nearby_settlements": ["hallord", "hearthvale"],
+  "lore_notes": [
+    "The Deep Forging — Orbren teaching the hammer — is said to have happened here, in fire that has not gone out since.",
+    "Deep-folk maps of the halls are sung, not drawn; a stolen copy would be worth a kingdom and cause three wars."
+  ],
+  "adventure_hooks": [
+    "A sealed door opens one inch on its own and the clan asks outsiders to stand witness — someone must be blameable if it goes wrong.",
+    "Deep-forge coal surfaces in a Hollow Mile crate; finding the shaft it leaked from means finding a hall that is not on any list."
+  ],
+  "map": { "shape": "point", "coords": [[50,22]] }
+}

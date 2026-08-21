@@ -1,0 +1,27 @@
+{
+  "id": "the-greenwood",
+  "name": "The Greenwood",
+  "type": "forest",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-dusk-reach"],
+  "summary": "The last great forest of Aurelith: old, deliberate, and not fond of strangers. Under the Root-Wardens of the Greenwood Compact it is less a territory than a signatory — the oldest treaty in the world was sworn here, and greenfolk say the trees were witness.",
+  "geography": {
+    "character": "old-growth broadleaf and grey pine, dense canopy, way-paths that move with the seasons",
+    "notable_sites": [
+      { "name": "The Eldertree", "note": "The greenfolk's unique deity is said to be this tree, or to live in it, or to dream it — theology varies by grove." },
+      { "name": "The Moot-Lawns", "note": "Clearings kept open for Compact councils; fire is forbidden within sight of them." }
+    ]
+  },
+  "adjacent_to": ["the-stone-crown", "greyspire-pass"],
+  "nearby_settlements": ["hearthvale"],
+  "lore_notes": [
+    "Veyra's vow — the Greenwood Compact of the Age of Stone — binds the greenfolk to answer any realm that asks under the old forms; none have asked in four centuries.",
+    "Wood-cutters licensed by the Wardens take deadfall only. The few who took living wood are names spoken to frighten children on both sides of the forest edge."
+  ],
+  "adventure_hooks": [
+    "A Northmarch mining charter's survey stakes appear inside the treeline; somebody moved them, and nobody admits which side.",
+    "Greenfolk envoys ask outsiders to carry a sealed acorn to the Septuary — fast, and without opening the box."
+  ],
+  "map": { "shape": "poly", "coords": [[24,18],[40,14],[46,22],[42,30],[32,32],[24,28]] }
+}

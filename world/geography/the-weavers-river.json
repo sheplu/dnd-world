@@ -1,0 +1,30 @@
+{
+  "id": "the-weavers-river",
+  "name": "The Weavers' River",
+  "type": "river",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-dusk-reach", "the-crownlands"],
+  "summary": "The great river of Aurelith: rising in the Stone Crown's snowmelt, running south through the March's valley, past the capital Velkash, and west through the Wealdmark to the Veiled Sea. It is the continent's spine of trade, its oldest border dispute, and the reason either realm can feed an army.",
+  "geography": {
+    "source": "Stone Crown glaciers, north arm",
+    "course": "south through Greyspire valley → widens to Reedmere lake below the March → Velkash at the ford-step → west through the Wealdmark → mouth at the Veiled Sea",
+    "mouth": { "name": "The Grey Mouth", "note": "Silt-delta harbors fought over since before the Sundering; free navigation upriver is the Wealdmark's oldest demand and the Crown's oldest concession." },
+    "crossings": [
+      { "name": "The Ford-Step", "settlement": "velkash", "note": "The ancient shallows the capital grew around; bridged twice, collapsed twice, ferried always." },
+      { "name": "Wealdmark Fords", "note": "A chain of toll-fords downstream — raised and lowered with every treaty cycle." }
+    ]
+  },
+  "adjacent_to": ["the-stone-crown", "greyspire-pass", "the-threshers-vale", "the-white-roads", "the-sewers-road"],
+  "nearby_settlements": ["velkash", "solmere-city"],
+  "lore_notes": [
+    "Central tension made water: the Velkash Crown vs the Wealdmark on the river — tolls, fords, and who owns the mouth.",
+    "Named for the Weavers: Concord-era barges wove white silk upstream for the high towers, and the name outlived everything else about them.",
+    "Reedmere, the lake-widening below the March, freezes late and thaws late; ice-fairs on it mark the true new year for river-folk regardless of what the calendar says."
+  ],
+  "adventure_hooks": [
+    "A toll-barge sinks at the Ford-Step carrying something the Censer listed; the salvage race starts at dawn.",
+    "The Grey Mouth's pilots report silt where charts promise channel — as if the delta is growing toward the horizon."
+  ],
+  "map": { "shape": "line", "coords": [[48,26],[46,32],[44,38],[41,43],[38,48],[34,53],[30,56],[25,58],[19,60]] }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "the-wreck-shrines",
+  "name": "The Wreck-Shrines",
+  "type": "shrine-network",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-bone-archipelago"],
+  "summary": "Shrines older than the Greenwood Compact, built into the hulls and bones of ships beached along the skeleton coasts. No living faith claims them; every crew that wrecks nearby leaves an offering anyway, and the Storm-Bound's tide-moots open with a circuit of the nearest shrine.",
+  "geography": {
+    "character": "beached hull-shrines on storm-coasts: rib-arches, figureheads as idols, tide-pool offering basins",
+    "notable_sites": [
+      { "name": "The Keel-Mother", "note": "The largest shrine — an entire whale-ship set keel-up, its hold a chapel. Parley held within its shadow is sacred to every crew, Courts and Storm-Bound alike." }
+    ]
+  },
+  "adjacent_to": [],
+  "nearby_settlements": [],
+  "lore_notes": [
+    "Wreck-shrine offerings are never taken; even the Skeleton Courts' Articles forbid it, and the Articles are enforced by people who enforce little else.",
+    "Their builders are unknown — pre-Compact stonework under post-Sundering hulls in some, which satisfies no chronology anyone has proposed."
+  ],
+  "adventure_hooks": [
+    "An offering vanishes from three shrines in one tide; the crews assume it was outsiders and prepare to be right.",
+    "A wrecked crew washes ashore alive with no ship and no memory of water."
+  ],
+  "map": {
+    "shape": "points",
+    "coords": [[81,28],[89,40],[80,53],[93,55]]
+  }
+}

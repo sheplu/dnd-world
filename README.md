@@ -8,8 +8,18 @@ Original, trademark-free heroic fantasy world for roleplaying campaigns.
 ## Layout
 
 - `world/` — the setting: continents, realms, cities, species, deities, factions, history, events, items, as JSON + markdown.
-- `tools/` — validation tooling.
+- `tools/` — validation and map tooling.
 - (future) `campaigns/` — adventures set in Vaeloria.
+
+## Maps
+
+Render the world maps from the geography data:
+
+```bash
+npm run maps                # writes maps/world.svg + maps/aurelith.svg
+```
+
+Geography data uses a normalized 0-100 grid (`x` west→east, `y` north→south); see `world/geography/world-geography.json` for the convention.
 
 ## Validation
 

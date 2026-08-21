@@ -6,6 +6,7 @@
   "region": "the-burning-sands",
   "realm": "the-well-league",
   "summary": "The greatest oasis of the Burning Sands and the southern terminus of the salt roads. Built around a ring of deep wells sunk into the floor of a buried Concord cistern, Hollow Wells is half living city, half excavation — its people dwell literally on top of the old world and sell pieces of it north.",
+  "map": { "shape": "point", "coords": [[46, 74]] },
   "role": "caravan hub; well-capital of the sands",
   "ruler": {
     "title": "First Well-Sister",

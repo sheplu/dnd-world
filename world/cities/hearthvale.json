@@ -7,6 +7,7 @@
   "region": "the-dusk-reach",
   "destroyed": "~50 CoW — abandoned, not destroyed",
   "summary": "The vale where the Nine Hearths lit their nine fires during the War of Heaven's Edge, and where the Compact was dissolved a thousand years later. Not ruined — retired. The terraces stand, the hearth-platforms remain, and the last fire has been kept alive ever since by whoever passes: a custom older than every kingdom on Aurelith.",
+  "map": { "shape": "point", "coords": [[42, 22]] },
   "original_role": "capital of the Nine Hearths (see factions/extinct-orders.json)",
   "current_state": {
     "access": "open to all who come on foot; the folk-custom of hearth-right holds here absolutely",

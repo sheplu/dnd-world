@@ -56,7 +56,24 @@ world/
 │   ├── everfull-flask.json            prized / wrought
 │   └── weaver-shears.json             prized / wrought
 ├── continents/
-│   └── aurelith.json    Main continent + regions
+│   └── aurelith.json    Main continent + regions (+ region map polygons)
+├── geography/
+│   ├── world-geography.json          Global view: seas, charted lands, rumors, grid convention
+│   ├── the-stone-crown.json          Mountain range of the Dusk Reach
+│   ├── the-greenwood.json            The last great forest
+│   ├── greyspire-pass.json           Northmarch's fortified valley pass
+│   ├── the-sunken-halls.json         Deep-folk halls under the Stone Crown
+│   ├── the-weavers-river.json        Great river: Stone Crown → Velkash → Veiled Sea
+│   ├── the-kings-road.json           Velkash → Ashveil Cross → ruined east
+│   ├── the-threshers-vale.json       Crownlands grain vale (First Kindling)
+│   ├── the-sewers-road.json          Edict-era exile route north
+│   ├── the-white-roads.json          Concord ruin roads (stump-lines)
+│   ├── the-quiet-scar.json           The Sundering's wound on the land
+│   ├── the-glass-reach.json          Glass dunes over buried Concord cities
+│   ├── the-salt-roads.json           Caravan routes reconnected after the Sundering
+│   ├── the-oasis-of-hollow-wells.json  The great oasis of the Burning Sands
+│   ├── the-deep-dunes.json           Southern sand-sea
+│   └── the-wreck-shrines.json        Pre-Compact shrines on the skeleton coasts
 ├── cities/
 │   ├── velkash.json         Capital city (districts, landmarks, conflicts)
 │   ├── ashveil-cross.json   Ashlands garrison town at the Quiet's crossing
@@ -103,12 +120,15 @@ world/
 - Lore lives in JSON; rich prose goes in companion `.md` files beside the JSON when needed.
 - **Lost settlements** carry `"status": "lost"` and a `destroyed` field, and document `sites` rather than districts (see `cities/karvess-ruin.json`).
 - **Collection files** (`factions/extinct-orders.json`, `factions/religious-orders.json`) wrap multiple entities under an `orders` array; the inner ids are valid cross-reference targets.
+- **Map coordinates** use a normalized 0–100 grid (`x` west→east, `y` north→south) in a `map` block: `{ "shape": "point|points|line|multiline|poly", "coords": [[x, y], ...] }`. Regions and cities carry them too; render with `npm run maps`.
+- Region `key_features` in `continents/aurelith.json` are geography feature ids.
 
 ## Quick orientation
 
 - **World:** Vaeloria — Age of Ashes, year 812 AA (per-age count).
 - **Timeline:** see [history.json](history.json) — First Stillness → Age of Stone → Concord of Weavers → the Sundering → Age of Silence → Age of Ashes. Major events per age: see [events/](events/).
 - **Continent:** Aurelith, five regions (Crownlands, Ashlands, Dusk Reach, Burning Sands, Bone Archipelago).
+- **Geography:** the Stone Crown (mountains) and the Greenwood in the north; the Weavers' River running to the Veiled Sea; the King's Road and the Quiet scar cutting northeast–southwest; the Glass Reach, salt roads, and Deep Dunes of the southern sands; wreck-shrines on the eastern isles. See [geography/](geography/) — maps: `maps/world.svg`, `maps/aurelith.svg` (`npm run maps`).
 - **Realms:** 13 political entities across the continent — see [realms/](realms/). Central tension: the Velkash Crown vs the Wealdmark on the river; the Censer's writ runs through every realm.
 - **Capital:** Velkash, on the Weavers' River.
 - **Settlements:** every region has a living hub (Velkash, Ashveil Cross, Hallord, Hollow Wells) and lost sites from prior ages (`status: "lost"` — Karvess, Solmere City, Hearthvale).
