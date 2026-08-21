@@ -1,0 +1,23 @@
+{
+  "id": "ash-line-seed",
+  "name": "Ash-Line Seeds",
+  "type": "item",
+  "category": "relic-fragment",
+  "world": "vaeloria",
+  "status": "rare, seasonal",
+  "rarity": { "tier": "rare", "glimmer": "echo-touched", "note": "Echo-touched by the Quiet's edge; living material, which unsettles everyone." },
+  "summary": "Seeds from the stunted trees that grow exactly at the ash-line — the boundary where the Quiet's influence makes normal growth impossible but hasn't yet killed everything. The trees fruit once a decade; the seeds germinate into saplings with silver-veined leaves that lean away from the Quiet wherever they're planted. Verdant kin consider them sacred, useful, and deeply troubling: living things should not point.",
+  "origin": "The Ashlands' ash-line; harvested by permit from the Verdant kin",
+  "current_whereabouts": "A handful of grown sentinels at Veil-Warden stations; seeds traded under strict permit.",
+  "properties": [
+    "Saplings lean away from the Quiet — a living compass for the scar's direction",
+    "Leaves silver when the Quiet advances nearby, within days",
+    "Seeds die if planted further from the Quiet than their parent tree stood"
+  ],
+  "keepers": "Verdant kin harvest; Veil-Wardens plant; the Censer would prefer both stopped.",
+  "value_or_danger": "Fifty crowns with permit. Without one: exile from the Greenwood is the least of it.",
+  "adventure_hooks": [
+    "A station sentinel silvers every day for a month. The Quiet is advancing somewhere no map watches.",
+    "Players are asked to smuggle one seed to Solmere City's treaty line — to see which way it leans there."
+  ]
+}

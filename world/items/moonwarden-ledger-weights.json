@@ -1,0 +1,23 @@
+{
+  "id": "moonwarden-ledger-weights",
+  "name": "Moonwarden Ledger Weights",
+  "type": "item",
+  "category": "tool",
+  "world": "vaeloria",
+  "status": "common, institutional",
+  "rarity": { "tier": "common", "glimmer": "none", "note": "Precision craft, no Glimmer — but accuracy this trusted is its own magic." },
+  "summary": "The calibrated brass weights every Moonwarden uses to settle debts, measure grain tithes, and record births against standard measures. Stamped with the crescent-over-circle and re-certified yearly at the local Halo. Half the continent's commerce runs on trust in these small objects; the other half runs on arguing about them.",
+  "origin": "Standardized at the Crown Re-set charters (~120 AA)",
+  "current_whereabouts": "Every Moonwarden's ledger-kit; master sets in Velkash and Hallord.",
+  "properties": [
+    "Yearly certification stamps wear a ring into the brass — an unbroken stamp-ring means never questioned",
+    "Deep-folk smiths certify the master sets; their weights and the Crown's agree to within a hair",
+    "A 'questioned weight' in court voids every contract measured with it since last certification"
+  ],
+  "keepers": "Moonwardens; forging one attacks the continent's whole system of debt.",
+  "value_or_danger": "Worth a few shards. Capable of collapsing a grain market.",
+  "adventure_hooks": [
+    "A master set drifts out of true; every contract in three towns is voidable until players find who filed it.",
+    "A forged weight certifies a harvest that never existed — the loan is due, and the forger has vanished."
+  ]
+}

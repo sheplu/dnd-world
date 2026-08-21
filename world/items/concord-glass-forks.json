@@ -19,5 +19,10 @@
     "A cracked fork is sold in the Mile; its false-positive readings could mark half a district as Glimmerborn.",
     "Players must steal a fork to prove a circle-test fraud — the same fork that condemned their client.",
     "A fork rings itself at night in the evidence-vault, pointing steadily east."
-  ]
+  ],
+  "rarity": {
+    "tier": "prized",
+    "glimmer": "wrought",
+    "note": "~60 survive as a class; each numbered, none replaceable."
+  }
 }

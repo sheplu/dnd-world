@@ -19,5 +19,10 @@
     "All forty-one rang last night — silently, together, for an hour. Kell needs witnesses who will say so publicly.",
     "Players are asked to retrieve a bell stolen from the Vitrified Square in Karvess: rung once, it might answer the towers.",
     "A bell-founder claims he can recast a cracked bell using Quiet-side bronze; the Censer wants him stopped, the barons want him funded."
-  ]
+  ],
+  "rarity": {
+    "tier": "unique",
+    "glimmer": "echo-touched",
+    "note": "Forty-one bells tuned by proximity to the Quiet itself."
+  }
 }

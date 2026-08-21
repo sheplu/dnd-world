@@ -1,0 +1,23 @@
+{
+  "id": "ash-glass-charm",
+  "name": "Ash-Glass Charms",
+  "type": "item",
+  "category": "charm",
+  "world": "vaeloria",
+  "status": "sold everywhere, mostly fake",
+  "rarity": { "tier": "uncommon", "glimmer": "echo-touched", "note": "Genuine ones are uncommon; the market is flooded with fakes at common prices." },
+  "summary": "Pendant charms of glassy ash-glass from the Ashlands, sold as protection against the Quiet's attention. The honest ones — a minority — are cut from true vitrified material near the scar, and they do something: grow cold when the Quiet's edge comes within a mile. The Toll Market at Ashveil Cross sells both kinds at the same price, and the vendors' honesty is proportional to how directly you ask.",
+  "origin": "The Ashlands' salvage trade; genuine stock diminishes yearly",
+  "current_whereabouts": "Necklaces and saddle-tassels across the continent; Ashveil Cross is the authenticity capital.",
+  "properties": [
+    "Genuine: chills as the Quiet's edge nears — crude but real early warning",
+    "Genuine pieces also fog with silver mist before Mistshroud storms",
+    "Fakes: identical until it matters"
+  ],
+  "keepers": "Toll Market vendors; Warden Kell buys and destroys counterfeits when she can afford to.",
+  "value_or_danger": "A shard either kind. In the Ashlands interior, the difference between them is your life.",
+  "adventure_hooks": [
+    "A whole caravan's genuine charms go cold simultaneously — the Quiet moved somewhere no one is watching.",
+    "Players must sort forty charms into true and false by dawn; a baron's daughter rides with the false ones."
+  ]
+}

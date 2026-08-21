@@ -19,5 +19,10 @@
     "Kell offers players sealed duplicates for escort to the Veil-Wardens — without either paymaster learning.",
     "A tube is found opened and resealed, one year's records subtly altered. Only two people could have; one is dead.",
     "Kell's shorthand proves to be Old Weaver notation adapted for numbers — she has been writing forbidden language for forty-one years without knowing."
-  ]
+  ],
+  "rarity": {
+    "tier": "unique",
+    "glimmer": "none",
+    "note": "Paper, ink, and forty-one years of discipline."
+  }
 }

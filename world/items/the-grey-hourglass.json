@@ -1,0 +1,23 @@
+{
+  "id": "the-grey-hourglass",
+  "name": "The Grey Hourglass",
+  "type": "item",
+  "category": "relic",
+  "world": "vaeloria",
+  "status": "unique, unclaimed",
+  "rarity": { "tier": "unique", "glimmer": "wrought", "note": "Found where the Last God walked out; no craft of this world claims it." },
+  "summary": "A glass hourglass held sideways in a frame of grey wood, found on the shore where Mornath was last seen walking out — the only object at the site, placed upright on a stone as if set down deliberately. Its sand does not fall. It moves only during Stilleven, the month of silence, flowing slowly from the left bulb to the right; after eight centuries it is perhaps a tenth shifted. Veil-Keepers tend its shrine and answer all questions about it with silence, which everyone agrees is appropriate.",
+  "origin": "1 Sun (winter's end) — found at the site of the Last God Walks",
+  "current_whereabouts": "Its shrine beside the largest Stilleven vigil-ground in the Crownlands; tended by an unbroken succession of Veil-Keepers.",
+  "properties": [
+    "Sand flows only during Stilleven — roughly a fistful per year, left to right",
+    "No one has determined what fills the right bulb when the left empties, or what happens then",
+    "The frame's grey wood matches no species on Aurelith"
+  ],
+  "keepers": "The Veil-Keepers by universal custom; every realm recognizes the shrine even where it recognizes nothing else of Mornath.",
+  "value_or_danger": "Beyond transaction. The open question — what happens when the sand finishes — is the closest thing Aurelith has to a countdown.",
+  "adventure_hooks": [
+    "This Stilleven, the sand moved two fistfuls. The Keepers have not announced it; players learn it anyway.",
+    "A Rememberer text claims the hourglass was Mornath's gift, not his leavings: 'he left the world his patience.' What it measures is not time."
+  ]
+}

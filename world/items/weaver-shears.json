@@ -1,0 +1,23 @@
+{
+  "id": "weaver-shears",
+  "name": "Weaver's Shears",
+  "type": "item",
+  "category": "tool-wrought",
+  "world": "vaeloria",
+  "status": "prized, four known pairs",
+  "rarity": { "tier": "prized", "glimmer": "wrought", "note": "True Glimmer-wrought survival; named, tracked, Censer-listed." },
+  "summary": "Four surviving pairs of Concord shears that cut any fibrous thing along a line both blades 'agree to' — cloth, rope, root, hair, and once, allegedly, a river's current. They refuse to cut what is sworn: oath-cords, wave-knots, and the white silk (if the last bolt exists) cannot be touched. The colleges' guild-marks are still on the handles; the Censer lists them as contained, which two of the four pairs would dispute.",
+  "origin": "Concord of Weavers — college workshops, pre-Sundering",
+  "current_whereabouts": "One pair in the Censer archive; one with the Wealdmark's orchard-tenders; one lost at sea with a Skeleton Court crew; one whose location is written only in the Ring-Vault.",
+  "properties": [
+    "Cut anything fibrous along an agreed line — the user must genuinely intend the line",
+    "Cannot cut anything sworn: oaths, knots, compacts resist absolutely",
+    "The blades warm when brought near worked thread of any age"
+  ],
+  "keepers": "As above; the Censer's pair is used to cut confiscated knot-charms 'humanely'.",
+  "value_or_danger": "A realm's debt. In the wrong hands: every oath on Aurelith becomes negotiable.",
+  "adventure_hooks": [
+    "The lost-at-sea pair surfaces in a Skeleton Courts auction; three factions bid, none intend to pay.",
+    "Players must cut something sworn — the Compact's orchard-border hedge — and the shears are the only tool that can even try."
+  ]
+}

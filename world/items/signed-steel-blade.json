@@ -1,0 +1,23 @@
+{
+  "id": "signed-steel-blade",
+  "name": "First Forge Signed Steel",
+  "type": "item",
+  "category": "weapon",
+  "world": "vaeloria",
+  "status": "common to commission",
+  "rarity": { "tier": "uncommon", "glimmer": "none", "note": "No magic whatsoever — craft so reliable it functions like a guarantee." },
+  "summary": "Blades signed at Hallord's First Forge: the smith's clan-ring struck twice into the tang, the steel folded over deep-folk charcoal, and the whole sworn on the never-dying fire. Signed steel holds an edge through a campaign and never — in four thousand years of records — has one broken in honest use. There is no enchantment in it. There doesn't need to be.",
+  "origin": "The Deep-Forging's traditions; continuous production since ~450 AS",
+  "current_whereabouts": "Everywhere serious soldiers and honest judges are found; forgeries everywhere else.",
+  "properties": [
+    "Two ring-marks in the tang match the smith's registered pair at Hallord",
+    "Warranty is real: a broken signed blade entitles the bearer to the smith's clan-ring as forfeit",
+    "Courts accept signed steel as proof of identity in lieu of witnesses"
+  ],
+  "keepers": "Sold by charter at the Surface Porch; the clans limit yearly output to keep the signature honest.",
+  "value_or_danger": "Twenty crowns honest; two bits forged — and carrying a forgery insults every hold at once.",
+  "adventure_hooks": [
+    "A signed blade breaks in honest use for the first time ever recorded; Hallord demands the pieces and the story.",
+    "Players must authenticate a dead man's blade before his clan will bury him — the rings say one thing, the widow another."
+  ]
+}

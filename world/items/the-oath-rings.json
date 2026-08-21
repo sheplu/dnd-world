@@ -19,5 +19,10 @@
     "A ring in the vault bears a craft-mark no forge claims — and it was added after its bearer's burial.",
     "Players find a complete ring-set on a body in the Ashlands: the owner walked into the Quiet during the Sundering. Returning them means opening the vault for the twelfth time.",
     "A young dwarf offers players her first oath-ring to hold as collateral; the clan wants to know why."
-  ]
+  ],
+  "rarity": {
+    "tier": "unique",
+    "glimmer": "none",
+    "note": "Mundane iron carrying eight millennia of sworn memory."
+  }
 }

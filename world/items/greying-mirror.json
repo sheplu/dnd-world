@@ -1,0 +1,23 @@
+{
+  "id": "greying-mirror",
+  "name": "A Greying Mirror",
+  "type": "item",
+  "category": "tool",
+  "world": "vaeloria",
+  "status": "rare, discreetly traded",
+  "rarity": { "tier": "rare", "glimmer": "hedge", "note": "Hedge-craft of unusual refinement; the maker's art, not the object's power." },
+  "summary": "A hand-mirror that shows a caster honestly: the Greying's progress reads in the reflection as a fading at the edges — colors duller, outline softer, the degree of loss exact. Hedge-witches make them for their own students, so casters can see the price they are paying. Possession is not illegal; what people do on seeing themselves sometimes is.",
+  "origin": "Hedge-craft tradition; each is ground and silvered by hand over a season",
+  "current_whereabouts": "A few dozen exist, mostly in hedge-witch lineages; the Censer would pay to destroy every one.",
+  "properties": [
+    "Shows only the Greying — nothing else magical registers",
+    "Works for anyone who has ever worked the Glimmer, however small",
+    "Shows nothing at all for the never-cast: plain mirror"
+  ],
+  "keepers": "Hedge-witches and their circles; a few physicians of the rich keep one 'for diagnosis'.",
+  "value_or_danger": "Fifty crowns and up. To a caster in denial: unbearable.",
+  "adventure_hooks": [
+    "A young Glimmerborn sees their own fading and bolts for the Quiet that night; players are asked to find them before the Censer's wardens do.",
+    "Someone is manufacturing greying mirrors with the fade painted on — driving casters to despair, or to sale."
+  ]
+}

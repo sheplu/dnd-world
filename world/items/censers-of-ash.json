@@ -19,5 +19,10 @@
     "A censer is stolen — the first theft in order history. Inside job or Mile forgery run?",
     "A First-Heard member refuses induction ash, proposing new ash 'from what we burn next'. The schism turns ritual.",
     "Players are hired to authenticate a claimed pre-Sundering relic: a censer of College ash older than the order itself."
-  ]
+  ],
+  "rarity": {
+    "tier": "unique",
+    "glimmer": "echo-touched",
+    "note": "College ash remembers smoke; grey flame shows workings to the sworn."
+  }
 }

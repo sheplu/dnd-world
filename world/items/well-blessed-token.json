@@ -1,0 +1,23 @@
+{
+  "id": "well-blessed-token",
+  "name": "Well-Blessed Tokens",
+  "type": "item",
+  "category": "charm",
+  "world": "vaeloria",
+  "status": "common in the south, prized by travelers",
+  "rarity": { "tier": "uncommon", "glimmer": "hedge", "note": "Genuine hedge-craft: weak, but reliably about the water." },
+  "summary": "Reed-and-clay tokens blessed at a Well-Sister's dawn drawing, carried by anyone who must drink uncertain water. A genuine token dropped into a questionable source keeps it sweet for a day and shows any poison as an oily sheen. The Sisters make them from each oasis's own clay — a token works best near the well that made it, and hollowborn say they 'long to go home'.",
+  "origin": "The Well-League; practice predates the Salt Roads",
+  "current_whereabouts": "Caravan kits continent-wide; genuine ones only from Well-Sisters directly.",
+  "properties": [
+    "Sweetens a day's water and reveals poison as sheen — hedge-craft's most reliable working, because the Sisters practice constantly",
+    "Dissolves fully when spent; a used token proves nothing and is worth nothing",
+    "Counterfeits abound; real ones smell faintly of the reeds they were fired with"
+  ],
+  "keepers": "Well-Sisters distribute; reselling them north is tolerated so long as the price stays honest.",
+  "value_or_danger": "A shard honest. In the deep dunes during emergency: whatever you have.",
+  "adventure_hooks": [
+    "A token sheens over water everyone has drunk already. The poison is slow, and it is already inside half the caravan.",
+    "A Sister blesses tokens for players and refuses payment: 'you'll be carrying something for me instead.'"
+  ]
+}

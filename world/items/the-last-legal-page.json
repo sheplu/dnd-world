@@ -19,5 +19,10 @@
     "A repeal vote hinges on the page's full sentence; both sides need players to reach the vault first.",
     "The page's unknown hand matches a fragment in the Rememberers' Chain — two halves of one original.",
     "During a decennial display, the page is found altered: one word changed. The vault was not breached."
-  ]
+  ],
+  "rarity": {
+    "tier": "unique",
+    "glimmer": "wrought",
+    "note": "Old Weaver is worked language; the law quotes it and fears it equally."
+  }
 }

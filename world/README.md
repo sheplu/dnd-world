@@ -26,18 +26,35 @@ world/
 │   ├── the-backfiring.json        Ashes: Solmere's fall and the Accords
 │   └── the-waking-and-ashfall.json Ashes: the current crisis (812 AA)
 ├── items/
-│   ├── song-unbinding-pages.json  The most hunted objects on Aurelith
-│   ├── the-last-legal-page.json   The one lawful Old Weaver page
-│   ├── censers-of-ash.json        The Censer order's namesake regalia
-│   ├── the-oath-rings.json        Deep-folk living genealogy, iron rings
-│   ├── the-broken-seal-stone.json The Edict's authorless law, split in two
-│   ├── concord-glass-forks.json   Circle-test tuning-forks, irreplaceable
-│   ├── the-silence-bells.json     Ashveil's bells that swing without sound
-│   ├── the-woven-chain-link.json  A loop of chained hurricane, still taut
-│   ├── kells-tally.json           41 years of Quiet data in sealed tubes
-│   ├── beleths-confession.json    The sealed mercy in the archive vault
-│   ├── forged-warrants.json       The Mile's crown export
-│   └── the-last-bolt-of-white-silk.json Lost relic of the Concord's craft
+│   ├── ash-glass-charm.json           uncommon / echo-touched
+│   ├── ash-line-seed.json             rare / echo-touched
+│   ├── beleths-confession.json        unique / none
+│   ├── bridge-stone.json              prized / wrought
+│   ├── censers-of-ash.json            unique / echo-touched
+│   ├── concord-glass-forks.json       prized / wrought
+│   ├── deep-forge-coal.json           unique / echo-touched
+│   ├── forged-warrants.json           rare / none
+│   ├── greying-mirror.json            rare / hedge
+│   ├── hollow-sign-slate.json         common / none
+│   ├── karvess-glass-shard.json       prized / echo-touched (illegal)
+│   ├── kells-tally.json               unique / none
+│   ├── moonwarden-ledger-weights.json common / none
+│   ├── oath-anchor-stone.json         uncommon / hedge
+│   ├── quiet-lantern.json             rare / hedge
+│   ├── road-knot-charm.json           common / hedge
+│   ├── sella-dellets-ring.json        unique / none
+│   ├── signed-steel-blade.json        uncommon / none
+│   ├── song-unbinding-pages.json      unique / wrought
+│   ├── storm-relay-shard.json         rare / echo-touched
+│   ├── the-broken-seal-stone.json     unique / none
+│   ├── the-grey-hourglass.json        unique / wrought
+│   ├── the-last-bolt-of-white-silk.json unique / wrought
+│   ├── the-last-legal-page.json       unique / wrought
+│   ├── the-oath-rings.json            unique / none
+│   ├── the-silence-bells.json         unique / echo-touched
+│   ├── the-woven-chain-link.json      unique / wrought
+│   ├── everfull-flask.json            prized / wrought
+│   └── weaver-shears.json             prized / wrought
 ├── continents/
 │   └── aurelith.json    Main continent + regions
 ├── cities/
@@ -100,7 +117,10 @@ world/
 - **Deities:** the Chorus — Solvane, Luneth, Orbren, Veyra, Vaelmarr, Mornath, Ithyn, Cayren — worshipped differently by each species (same names, recast names, or rejected). Unique deities: Khord (dwarf), the Eldertree (elf), Akhmat (hollowborn). Minor deities: Glass-Thane (ash and ruin), Deep-Eye (the deep forest silence), Oath-Keeper (lawful succession), the-Remembered (forbidden knowledge), the-Veil-Thread (the thinning Veil), First-Heard (the song's return in year 812).
 - **Species:** humans (Crownlands), deep-folk (Dusk Reach), greenfolk (Dusk Reach), hollowborn (Burning Sands).
 - **Factions:** the Censer vs the Reeve's court is the central rivalry; the Hollow Mile feeds on both; the Rememberers outlast them all. See [factions/](factions/).
-- **Items & relics:** see [items/](items/) — forbidden texts, order regalia, working artifacts, and documents that factions kill for.
+- **Items & relics:** 30 artifacts in [items/](items/), classified by two-axis rarity:
+  - **Tier** (scarcity): `common` → `uncommon` → `rare` → `prized` → `unique`
+  - **Glimmer nature**: `none` (mundane) · `hedge` (coaxing craft, weak but real) · `echo-touched` (absorbed Glimmer from events/places) · `wrought` (deliberately worked, pre-Sundering)
+  - Magic is scarce: even a modest wrought survival is a fortune; the Censer lists prized-and-up.
 
 ## Next steps
 
