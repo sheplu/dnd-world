@@ -10,6 +10,14 @@ world/
 ├── history.json         Six ages, sub-eras, per-age year counts
 ├── cosmology.json       Creation myth, planes, magic, prophecies
 ├── magic.json           The Glimmer: mechanics, costs, traditions, law
+├── events/
+│   ├── the-divine-warring.json    First Stillness: the first quarrel and covenant
+│   ├── the-war-of-heavens-edge.json Age of Stone: the nine-century god-war
+│   ├── the-silent-war.json        Concord: the Weavers' civil war
+│   ├── the-sundering.json         The cataclysm year itself
+│   ├── the-great-collection.json  Silence: the continental purge
+│   ├── the-backfiring.json        Ashes: Solmere's fall and the Accords
+│   └── the-waking-and-ashfall.json Ashes: the current crisis (812 AA)
 ├── continents/
 │   └── aurelith.json    Main continent + regions
 ├── cities/
@@ -62,7 +70,7 @@ world/
 ## Quick orientation
 
 - **World:** Vaeloria — Age of Ashes, year 812 AA (per-age count).
-- **Timeline:** see [history.json](history.json) — First Stillness → Age of Stone → Concord of Weavers → the Sundering → Age of Silence → Age of Ashes.
+- **Timeline:** see [history.json](history.json) — First Stillness → Age of Stone → Concord of Weavers → the Sundering → Age of Silence → Age of Ashes. Major events per age: see [events/](events/).
 - **Continent:** Aurelith, five regions (Crownlands, Ashlands, Dusk Reach, Burning Sands, Bone Archipelago).
 - **Realms:** 13 political entities across the continent — see [realms/](realms/). Central tension: the Velkash Crown vs the Wealdmark on the river; the Censer's writ runs through every realm.
 - **Capital:** Velkash, on the Weavers' River.
