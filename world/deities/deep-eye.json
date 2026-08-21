@@ -1,16 +1,43 @@
 {
   "id": "deep-eye",
+  "type": "deity",
+  "world": "vaeloria",
   "name": "Deep-Eye",
-  "aspects": ["the deep forest", "ancient silence", "the untouched grove", "forgotten roots"],
+  "aspects": [
+    "the deep forest",
+    "ancient silence",
+    "the untouched grove",
+    "forgotten roots"
+  ],
   "gender": "neuter",
   "symbol": "a single moss-grown eye",
-  "clergy": "the Deep-Wardens, who guard the innermost groves where no stranger walks and the old song sleeps",
+  "clergy": "the Deepwatch, who guard the innermost groves where no stranger walks and the old song sleeps",
   "temperament": "patient, dreamless, unknowable",
   "attitude_to_magic": "The Glimmer wakens the forest; Deep-Eye sleeps beneath it. To wake him is to court the old war.",
   "worship_by_species": [
-    { "species": "human", "name": "Deep-Eye", "relation": "feared and avoided", "note": "Crownlands hunters tell children that wandering into the deep grove without a Guide is to invite the silence." },
-    { "species": "dwarf", "name": "the-Ancient-Keep", "relation": "same being, recast", "note": "The deep-folk agree: the places where the old song sleeps are not to be broken, for the mountain below knows." },
-    { "species": "elf", "name": "Deep-Eye", "relation": "revered", "note": "The greenfolk name no other guardian of the grove's heart; they leave offerings of silence at the grove-edge." },
-    { "species": "hollowborn", "name": "the-Silent-One", "relation": "same being, recast", "note": "The desert's silence is his domain; the Rememberers say he is the reason the old tongue must not be spoken aloud." }
+    {
+      "species": "human",
+      "name": "Deep-Eye",
+      "relation": "feared and avoided",
+      "note": "Crownlands hunters tell children that wandering into the deep grove without a Guide is to invite the silence."
+    },
+    {
+      "species": "dwarf",
+      "name": "the-Ancient-Keep",
+      "relation": "same being, recast",
+      "note": "The deep-folk agree: the places where the old song sleeps are not to be broken, for the mountain below knows."
+    },
+    {
+      "species": "elf",
+      "name": "Deep-Eye",
+      "relation": "revered",
+      "note": "The greenfolk name no other guardian of the grove's heart; they leave offerings of silence at the grove-edge."
+    },
+    {
+      "species": "hollowborn",
+      "name": "the-Silent-One",
+      "relation": "same being, recast",
+      "note": "The desert's silence is his domain; the Rememberers say he is the reason the old tongue must not be spoken aloud."
+    }
   ]
 }

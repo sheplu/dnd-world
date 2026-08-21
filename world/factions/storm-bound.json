@@ -33,7 +33,7 @@
   "relations": [
     { "faction": "reeves-court", "stance": "hired sword", "note": "Profitable, if occasionally humiliating for an order older than kingdoms." },
     { "faction": "the-censer", "stance": "cold distrust", "note": "The Censer once tried to circle-test a storm-pilot mid-voyage. The pilot survived; the Censer's agents did not." },
-    { "faction": "religious-orders", "stance": "kin orders", "note": "The Storm-Bound are Vaelmarr's clergy as much as any Halo's priests — and resent being left out of church councils." }
+    { "faction": "halos-priesthood", "stance": "excluded kin", "note": "The Storm-Bound are Vaelmarr's clergy as much as any Halo's priests — and resent being left out of church councils." }
   ],
   "adventure_hooks": [
     "Players hired to escort a grain convoy discover the cargo is Glimmerborn children being smuggled past Censer watchlists.",

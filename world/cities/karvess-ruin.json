@@ -3,6 +3,7 @@
   "name": "Karvess (Ruin)",
   "type": "ruin",
   "status": "lost",
+  "founding_polity": "karvess",
   "continent": "aurelith",
   "region": "the-ashlands",
   "destroyed": "1 Sun (spring) — vitrified by the Rent",

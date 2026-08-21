@@ -88,7 +88,7 @@
     {
       "id": "mornath",
       "name": "Mornath",
-      "aspects": ["death", "fate", "endings", "the Hollow"],
+      "aspects": ["death", "fate", "endings", "the Grey Court"],
       "gender": "neutral",
       "symbol": "a grey hourglass held sideways",
       "clergy": "Veil-keepers; funeral rites and last vows.",
@@ -153,7 +153,7 @@
       "aspects": ["the first tree", "the deepest grove", "Veyra's heart"],
       "gender": "neuter",
       "symbol": "a five-stemmed leaf over a single root",
-      "clergy": "the Root-Wardens, who guard the innermost grove where no stranger walks.",
+      "clergy": "the innermost circle of the Root-Wardens, who guard the grove where no stranger walks.",
       "temperament": "ancient, dreaming, watchful",
       "note": "The first tree of creation, given its own soul when Veyra poured herself into the green. The greenfolk worship it as the eldest living thing, distinct from — but born of — Veyra."
     },

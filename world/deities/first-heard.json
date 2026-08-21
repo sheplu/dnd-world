@@ -1,16 +1,43 @@
 {
   "id": "first-heard",
+  "type": "deity",
+  "world": "vaeloria",
   "name": "First-Heard",
-  "aspects": ["the song's return", "awakening", "year-812", "the-first-glimmer"],
+  "aspects": [
+    "the song's return",
+    "awakening",
+    "year-812",
+    "the-first-glimmer"
+  ],
   "gender": "neuter",
   "symbol": "a single note of music",
   "clergy": "the First-Heard, a newly formed sect within the Censer who believe the song's return is not a threat but a second chance",
   "temperament": "hopeful, reckless, transformative",
   "attitude_to_magic": "The Glimmer is the song made manifest; First-Heard believes it is not a curse but a call to a new age.",
   "worship_by_species": [
-    { "species": "human", "name": "First-Heard", "relation": "sect within the Censer", "note": "A minority faction among the Censer's order who believe the Year of Ashfall's Glimmer return is a second chance rather than a threat; they are suspected by the majority Censer hierarchy." },
-    { "species": "dwarf", "name": "the-Anvil-Ring", "relation": "same being, recast", "note": "The deep-folk hear the song as a physical vibration; the-Anvil-Ring is the vibration before the hammer falls." },
-    { "species": "elf", "name": "the-New-Leaf", "relation": "same being, recast", "note": "The greenfolk say the song's return is the forest's spring; the-New-Leaf is the first bud." },
-    { "species": "hollowborn", "name": "the-Desert-Song", "relation": "same being, recast", "note": "In the Burning Sands, the song is the Desert-Song; it calls the oases, and those who hear it are changed." }
+    {
+      "species": "human",
+      "name": "First-Heard",
+      "relation": "sect within the Censer",
+      "note": "A minority faction among the Censer's order who believe the Year of Ashfall's Glimmer return is a second chance rather than a threat; they are suspected by the majority Censer hierarchy."
+    },
+    {
+      "species": "dwarf",
+      "name": "the-Anvil-Ring",
+      "relation": "same being, recast",
+      "note": "The deep-folk hear the song as a physical vibration; the-Anvil-Ring is the vibration before the hammer falls."
+    },
+    {
+      "species": "elf",
+      "name": "the-New-Leaf",
+      "relation": "same being, recast",
+      "note": "The greenfolk say the song's return is the forest's spring; the-New-Leaf is the first bud."
+    },
+    {
+      "species": "hollowborn",
+      "name": "the-Desert-Song",
+      "relation": "same being, recast",
+      "note": "In the Burning Sands, the song is the Desert-Song; it calls the oases, and those who hear it are changed."
+    }
   ]
 }
