@@ -19,5 +19,10 @@
     "Players learn the seal-bearer's name matches a family in the Wealdmark — descendants who have kept an unopened letter for 1,700 years.",
     "A First-Heard scholar petitions to open the confession as evidence in the schism vote; the Nine refuse before hearing the argument.",
     "The confession's existence leaks; three factions converge on the archive the same night for three different reasons."
-  ]
+  ],
+  "rarity": {
+    "tier": "unique",
+    "glimmer": "none",
+    "note": "Its danger is entirely testimonial."
+  }
 }

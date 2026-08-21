@@ -19,5 +19,10 @@
     "A forged warrant players used turns out to be real — issued by someone inside the order who wants deniable agents.",
     "The Mile commissions players to recover a seized forgery-template before Censer analysts crack it.",
     "A client's warrant fails at the worst moment; tracing the bad batch leads up the Mile's chain toward the Ledger itself."
-  ]
+  ],
+  "rarity": {
+    "tier": "rare",
+    "glimmer": "none",
+    "note": "Manufactured class, not single pieces; Ledger-grade passes anything."
+  }
 }

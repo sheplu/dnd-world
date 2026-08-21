@@ -19,5 +19,10 @@
     "The fourth copy's vanished seller contacts players with an offer: the page free, if they swear to read it aloud at the Stone Crown's seal.",
     "Players acquire a page and must determine authenticity before the forger's other customers learn theirs failed.",
     "The Nine Ashes learn players hold a page; the offer is pardon, employment, and a quiet bonfire."
-  ]
+  ],
+  "rarity": {
+    "tier": "unique",
+    "glimmer": "wrought",
+    "note": "Inscribed workings; a true page answers when read aloud."
+  }
 }

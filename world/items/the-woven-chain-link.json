@@ -19,5 +19,10 @@
     "A Shard Cities buyer offers a fortune for the link 'for study'; the young Storm-Bound who sold access has vanished.",
     "Players are asked to carry the link to Hallord's sealed shaft — the two hum in harmony, and someone must learn why.",
     "During transport the link goes slack for one full day. The sea was calm everywhere, worldwide. Nobody reported it but the players noticed."
-  ]
+  ],
+  "rarity": {
+    "tier": "unique",
+    "glimmer": "wrought",
+    "note": "A single loop of the Bound Storms, still taut."
+  }
 }

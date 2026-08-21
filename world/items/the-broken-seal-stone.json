@@ -19,5 +19,10 @@
     "A repeal vote's first procedural act is whether litigants may avoid crossing the threshold — precedent law at its most absurd.",
     "The fracture line is found to match a crack in a Solmere City cobblestone spiral. Exactly.",
     "Someone steals one half during Re-set Week. The city cannot enter its own court until it returns."
-  ]
+  ],
+  "rarity": {
+    "tier": "unique",
+    "glimmer": "none",
+    "note": "Political power carved in stone; no Glimmer in it at all."
+  }
 }
