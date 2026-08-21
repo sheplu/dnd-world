@@ -1,0 +1,39 @@
+{
+  "id": "the-skeleton-courts",
+  "name": "The Skeleton Courts",
+  "type": "pirate-confederacy",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "region": "the-bone-archipelago",
+  "capital": null,
+  "seat": "the Drift Moot (an anchorage that moves; only the Storm-Bound claim to have charted it)",
+  "status": "active",
+  "summary": "The isles' answer to law: a confederacy of pirate crews, wreckers, and free harbors scattered across the Bone Archipelago's skeleton coasts. The Courts hold that no crown reaches past the horizon — and that what the sea takes, the sea pays for. They are the Storm-Bound's nemesis and, occasionally, their dance partners.",
+  "government": {
+    "title": "the Articles (signed by each crew)",
+    "current": "no single head; the Drift Moot speaks when quorum anchors",
+    "note": "Each crew signs its own Articles; the common law is the Wreck-Code: no drowning of sailors, shares witnessed, and parley held on neutral sand."
+  },
+  "population": [
+    { "species": "human", "share": "majority", "note": "runaways, press-broken sailors, debt-fleers" },
+    { "species": "dwarf", "share": "minority", "note": "renegade hull-wrights; their ships don't sink" },
+    { "species": "hollowborn", "share": "minority", "note": "silence-sign spotters; the best reef-readers alive" },
+    { "species": "elf", "share": "rare", "note": "exiles of the forbidden kind; unwelcome but feared" }
+  ],
+  "laws": "The Wreck-Code: no drowning, witnessed shares, parley on neutral sand, and no working of the Glimmer at sea (the Veiled Sea's singing has made even pirates careful). Censer writ is mocked openly; seized Censer cargo is auctioned at the Drift Moot.",
+  "relations": [
+    { "faction": "storm-bound", "stance": "nemesis and dance partner", "note": "They fight convoy actions by season and share rum by truce; each respects the other's dead." },
+    { "realm": "the-velkash-crown", "stance": "prey", "note": "Crown-chartered convoys pay the de facto 'horizon toll'." },
+    { "faction": "the-censer", "stance": "contemptuous", "note": "Court crews have burned Censer barges rather than ransom them." }
+  ],
+  "economy": ["prize-taking", "wrecking", "free harbor trade", "smuggling"],
+  "history_notes": [
+    "Older than any living code-book claims; the isles' shrines predate the Compact.",
+    "Since the Veiled Sea began 'singing', three Court crews have sailed past the horizon deliberately. None returned. Two more are fitting out."
+  ],
+  "adventure_hooks": [
+    "Players' ship is taken by the Courts; Wreck-Code parley gives them one night to prove worth better than hanging.",
+    "A Court crew offers players the Storm-Bound's secret chart of the Drift Moot — stolen, or planted?",
+    "The singing past the horizon has stopped. The Courts read it as an omen; the moot votes on sailing east in force."
+  ]
+}

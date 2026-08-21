@@ -15,10 +15,22 @@
       "name": "the Greying",
       "description": "Each working takes a note from the caster's own aliveness. Colors dim around them. Food loses taste. Their voice flattens; their footsteps go quiet. Long-term casters become easy to pick out in a crowd: too-still people in a world of noise.",
       "progression": [
-        { "stage": "faint", "sign": "food tastes of little; mirrors seem slightly dull" },
-        { "stage": "marked", "sign": "voice flattens; animals grow wary; candlelight bends toward them" },
-        { "stage": "deep", "sign": "footsteps silent; shadows lag a half-beat; the caster stops dreaming" },
-        { "stage": "hollow", "sign": "the caster barely registers to the senses — most at this stage walk into the Quiet 'of their own accord'" }
+        {
+          "stage": "faint",
+          "sign": "food tastes of little; mirrors seem slightly dull"
+        },
+        {
+          "stage": "marked",
+          "sign": "voice flattens; animals grow wary; candlelight bends toward them"
+        },
+        {
+          "stage": "deep",
+          "sign": "footsteps silent; shadows lag a half-beat; the caster stops dreaming"
+        },
+        {
+          "stage": "hollow",
+          "sign": "the caster barely registers to the senses — most at this stage walk into the Quiet 'of their own accord'"
+        }
       ],
       "reversal": "Unknown. Rest slows it; nothing documented has undone it. The First-Heard sect claims the Waking's young Glimmerborn grey slower — evidence, they say, that the song is healing."
     }
@@ -72,10 +84,66 @@
     "birth_records": "Moonwardens keep the birth-ledgers the Censer cross-checks against Weaver bloodlines. Some wardens falsify entries; others report them.",
     "signs_anyone_can_see": "The Greying's later stages are visible to any careful observer: too-quiet footsteps, dull mirrors, wariness of animals. Vigilance committees predate the Censer.",
     "legal_status_by_realm": [
-      { "realm": "the-crownlands", "law": "Edict of Silence (never repealed): written Old Weaver banned; Glimmerborn remanded to the Censer; certified cantrips witnessed by the Oath-Sept only", "note": "Solmere's fall (183 AA) created the Accords giving the Censer its modern warrant" },
-      { "realm": "the-dusk-reach-deep-holds", "law": "Outright ban; the Glimmer is 'a lie the earth never made'. Glimmerborn are cast out into the snow", "note": "No exceptions recorded in four millennia" },
-      { "realm": "the-greenwood", "law": "The Glimmer is a sickness on living things. A greenfolk who takes it suffers the first, forbidden exile", "note": "The Root-Wardens purge Glimmer-sickness from crops near the Quiet's edge" },
-      { "realm": "the-burning-sands", "law": "No formal ban; discretion is the law of the road", "note": "The sands' flickering Glimmer makes concealment easier; the Well-Sisters' only rule is do no harm to water" }
+      {
+        "realm": "the-velkash-crown",
+        "law": "Edict of Silence (never repealed): written Old Weaver banned; Glimmerborn remanded to the Censer; certified cantrips witnessed by the Oath-Sept only",
+        "note": "Solmere's fall (183 AA) created the Accords giving the Censer its modern warrant"
+      },
+      {
+        "realm": "the-sunken-holds",
+        "law": "Outright ban; the Glimmer is 'a lie the earth never made'. Glimmerborn are cast out into the snow",
+        "note": "No exceptions recorded in four millennia"
+      },
+      {
+        "realm": "the-greenwood-compact",
+        "law": "The Glimmer is a sickness on living things. A greenfolk who takes it suffers the first, forbidden exile",
+        "note": "The Root-Wardens purge Glimmer-sickness from crops near the Quiet's edge"
+      },
+      {
+        "realm": "the-well-league",
+        "law": "No formal ban; discretion is the law of the road",
+        "note": "The sands' flickering Glimmer makes concealment easier; the Well-Sisters' only rule is do no harm to water"
+      },
+      {
+        "realm": "the-wealdmark",
+        "law": "Mirrors the Crown's Edict of Silence in public; enforcement famously slower. Glimmerborn tend to emigrate before their names reach a watchlist.",
+        "note": "Sheltered Solmere's refugees after 183 AA and never returned them."
+      },
+      {
+        "realm": "the-septuary",
+        "law": "Certified cantrips witnessed by Oath-Sept clerks are the realm's one lawful niche — the loophole Censer wardens call 'the Sept's crack'.",
+        "note": "Perjury is the precinct's only capital crime."
+      },
+      {
+        "realm": "northmarch",
+        "law": "Crown law, lightly; pass-code governs tolls, weights, and mines. Glimmerborn are reported south per the Accords — when anyone remembers to.",
+        "note": "Deep-Shapers sealed a ringing shaft in a March mine; questions went unanswered."
+      },
+      {
+        "realm": "ashveil-free-town",
+        "law": "Charter law inside the walls (Warden Kell's word final); Censer writ at the Veiled Gate and cloister; Edict enforced on papers passing the toll.",
+        "note": "The dual wardenship makes it the only place both realms' laws apply at once."
+      },
+      {
+        "realm": "ash-baron-wilds",
+        "law": "No law but custom: crossing-toll sacred, water shared, Glimmerborn left alone. Censer wagons are fair salvage.",
+        "note": "The wilds remember Solmere's refugees kindly."
+      },
+      {
+        "realm": "the-shard-cities",
+        "law": "Dig-law governs claims and shares; the Edict is enforced at the docks and nowhere else — what is found below stays below until sold.",
+        "note": "Some Dig-Lords sell true texts to the Rememberers at 'misprint' prices."
+      },
+      {
+        "realm": "the-dhar-roads",
+        "law": "The code of the road: carriage oaths, water-sharing, sanctuary, dusk-candle truce. No magic law — road-code predates the Edict.",
+        "note": "Breaking road-code makes one 'off the road': no caravan will carry them again."
+      },
+      {
+        "realm": "the-skeleton-courts",
+        "law": "The Wreck-Code: no drowning, witnessed shares, parley on neutral sand — and no working of the Glimmer at sea.",
+        "note": "Seized Censer cargo is auctioned openly at the Drift Moot."
+      }
     ]
   },
   "the_quiet": {

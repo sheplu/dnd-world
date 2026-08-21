@@ -1,0 +1,40 @@
+{
+  "id": "the-septuary",
+  "name": "The Septuary",
+  "type": "temple-state",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "region": "the-crownlands",
+  "capital": null,
+  "seat": "the Mother Sept (a walled precinct on Velkash's White Step — the state is inside the capital)",
+  "status": "active",
+  "summary": "A state with almost no territory and enormous power: the Oath-Sept's walled precinct governs itself, certifies every major contract, betrothal, and succession in the Crownlands, and witnesses the realm's one lawful magical niche — certified cantrips. Its clerks are welcome everywhere and trusted nowhere.",
+  "government": {
+    "title": "First Clerk",
+    "current": "First Clerk Hesperin of the Long Ledger",
+    "note": "Chosen by seniority of service; the office has changed hands eleven times in forty years."
+  },
+  "population": [
+    { "species": "human", "share": "majority", "note": "clerks, notaries, seal-cutters" },
+    { "species": "dwarf", "share": "minority", "note": "seal-engravers; Deep Tongue contracts" },
+    { "species": "elf", "share": "rare" },
+    { "species": "hollowborn", "share": "rare", "note": "Hollow Sign notaries for southern trade" }
+  ],
+  "laws": "Inside the precinct walls: Oath-Keeper's law absolute — perjury is the only capital crime. Outside them: the Septuary claims no land and enforces nothing, which is why everyone lets it in.",
+  "relations": [
+    { "realm": "the-velkash-crown", "stance": "indispensable nuisance", "note": "The council funds the precinct and resents every seal." },
+    { "realm": "the-wealdmark", "stance": "leverage", "note": "Lineage certification is the Wealdmark's soft spot." },
+    { "faction": "the-censer", "stance": "procedural friction", "note": "Certified cantrips are lawful magic; Censer wardens call the loophole 'the Sept's crack'." },
+    { "faction": "the-hollow-mile", "stance": "predator and prey", "note": "Forged Septuary seals are the Mile's best-selling document after forged warrants." }
+  ],
+  "economy": ["certification fees", "seal-cutting", "archive services", "contract arbitration"],
+  "history_notes": [
+    "Chartered at the Crown Re-set (~120 AA) to end succession-by-sword among the rebuilt realms.",
+    "Has certified every High Reeve election since; no election it certified has ever been overturned."
+  ],
+  "adventure_hooks": [
+    "A forged Septuary seal surfaces on a Censer warrant; finding the forger means the Mile owes players a favor — or a corpse.",
+    "Players must get a deathbed contract certified overnight; the First Clerk sets an impossible price.",
+    "The Septuary's ledger vault holds a certified cantrip record that proves someone cast magic lawfully — on the night of a murder."
+  ]
+}

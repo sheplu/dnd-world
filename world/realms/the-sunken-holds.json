@@ -1,0 +1,75 @@
+{
+  "id": "the-sunken-holds",
+  "name": "The Sunken Holds",
+  "type": "clan-federation",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "region": "the-dusk-reach",
+  "capital": "hallord",
+  "status": "active",
+  "summary": "The deep-folk realm: a federation of clan-holds carved into the Stone Crown, arbitrated by the eldest hold. Fewer than twenty holds survived the Sundering; the federation is their answer to a broken world — law spoken and sworn, steel signed at the First Forge, doors kept shut on everything else.",
+  "government": {
+    "title": "Hall-Voice of Hallord (first among equals)",
+    "current": "Hall-Voice Borin Nine-Rings",
+    "note": "Each hold keeps its own Hall-voice; Hallord's arbitrates disputes between holds. No king has ever been crowned — the last attempt is a cautionary saga."
+  },
+  "population": [
+    {
+      "species": "dwarf",
+      "share": "majority"
+    },
+    {
+      "species": "human",
+      "share": "minority",
+      "note": "trade factors and stone-warden families"
+    },
+    {
+      "species": "elf",
+      "share": "rare",
+      "note": "root-treaty envoys"
+    },
+    {
+      "species": "hollowborn",
+      "share": "rare",
+      "note": "a single southern trade charter"
+    }
+  ],
+  "laws": "Spoken law sworn on the First Forge — nothing written. The Glimmer is 'a lie the earth never made': outright ban, no exceptions in four millennia. Glimmerborn are cast out into the snow.",
+  "relations": [
+    {
+      "realm": "the-greenwood-compact",
+      "stance": "ancient tension",
+      "note": "Root against shaft; the spring root-treaties hold an uneasy peace."
+    },
+    {
+      "realm": "northmarch",
+      "stance": "profitable neighbor",
+      "note": "Mining rights leased at the passes; both sides strictly honest about ore weights."
+    },
+    {
+      "realm": "the-velkash-crown",
+      "stance": "trading partners",
+      "note": "Steel south, grain north."
+    },
+    {
+      "faction": "deep-shapers",
+      "stance": "Deep-Shapers are kin",
+      "note": "The Shapers' recent shaft-sealings trouble the clans."
+    }
+  ],
+  "economy": [
+    "signed steel",
+    "stone-warden contracts",
+    "deep-lore brokerage",
+    "sealed vaults"
+  ],
+  "history_notes": [
+    "Predates the Concord; survived the Sundering behind closed doors.",
+    "The Humming Shaft sealed three years ago remains the federation's loudest silence."
+  ],
+  "adventure_hooks": [
+    "A hold wants the Humming Shaft unsealed against Hall-Voice Borin's refusal; players are the neutral hands.",
+    "A surface-born dwarf is found Glimmerborn — the law says exile, the clan says mercy, and players witness the vote.",
+    "Root-treaty negotiations stall over a grove grown into a vault gallery; both sides hire players as surveyors."
+  ]
+}

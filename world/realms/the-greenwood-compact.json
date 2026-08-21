@@ -1,0 +1,71 @@
+{
+  "id": "the-greenwood-compact",
+  "name": "The Greenwood Compact",
+  "type": "grove-realm",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "region": "the-dusk-reach",
+  "capital": null,
+  "seat": "the innermost grove (location unwritten; strangers do not return from attempts)",
+  "status": "active",
+  "summary": "The greenfolk realm: the whole Greenwood constituted as a single ancient treaty — the Compact of Five Roots, sworn with Veyra in the Age of Stone. The Root-Wardens speak for the forest; the forest, slowly, speaks for itself. The Compact has held for ~2,700 years and is fraying.",
+  "government": {
+    "title": "Root-Wardens (council)",
+    "current": "the eldest circle, number undisclosed",
+    "note": "No single head. Decisions take seasons; vows take generations. The Wardens' vow of non-interference in mortal wars has held 800 years and is under strain."
+  },
+  "population": [
+    {
+      "species": "elf",
+      "share": "majority"
+    },
+    {
+      "species": "human",
+      "share": "rare",
+      "note": "treaty-traders at grove-edges only"
+    },
+    {
+      "species": "dwarf",
+      "share": "rare",
+      "note": "root-treaty envoys"
+    },
+    {
+      "species": "hollowborn",
+      "share": "rare",
+      "note": "silence-speakers, welcomed oddly warmly"
+    }
+  ],
+  "laws": "The Compact of Five Roots is the constitution: the green stands while the world stands; harmers of green answer to it. The Glimmer is 'the sickness' — a greenfolk who takes it suffers the first, forbidden exile.",
+  "relations": [
+    {
+      "realm": "the-sunken-holds",
+      "stance": "ancient tension",
+      "note": "Root against shaft, managed by treaty."
+    },
+    {
+      "realm": "the-wealdmark",
+      "stance": "orchard treaty",
+      "note": "Greenfolk tend Wealdmark orchards; loggers stay out of the Greenwood."
+    },
+    {
+      "faction": "verdant-kin",
+      "stance": "Verdant kin are its hands",
+      "note": "Field-priests serve human farmland; grove-priests serve the realm."
+    }
+  ],
+  "economy": [
+    "greenwood lore",
+    "healing",
+    "silent trade",
+    "treaty arbitration"
+  ],
+  "history_notes": [
+    "Constituted ~1,100 AS with Veyra's vow — the oldest living treaty on Aurelith.",
+    "Glimmer-sickness in crops near the Quiet's edge has the Wardens asking questions of the Eldertree that it does not answer."
+  ],
+  "adventure_hooks": [
+    "A Warden breaks non-interference to beg players' help against something eating the deep grove.",
+    "Players witness a Glimmerborn greenfolk's exile — and are asked to guide the exile somewhere safe.",
+    "The Compact's founding terms mention a fifth root that is not a tree; finding what it meant reopens the treaty."
+  ]
+}

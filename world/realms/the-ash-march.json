@@ -1,0 +1,39 @@
+{
+  "id": "the-ash-march",
+  "name": "The Ash March",
+  "type": "disputed-march",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "region": "the-ashlands",
+  "capital": null,
+  "seat": null,
+  "status": "disputed",
+  "summary": "Not a country — a claim. The Velkash Crown's charters say the Ashlands are Crown territory; the Ashlands' actual inhabitants (ash-farmers, Glass-Keepers, barons of the salvage wilds) have other ideas, and the Censer enforces its own writ regardless of maps. The March exists so that someone can be taxed for it. No one has been.",
+  "government": {
+    "title": "March-Warden (nominal)",
+    "current": "vacant since 809 AA",
+    "note": "The last March-Warden resigned after a year of collecting zero taxes and three assassination attempts."
+  },
+  "population": [
+    { "species": "human", "share": "majority", "note": "ash-farmers and salvage families" },
+    { "species": "dwarf", "share": "minority", "note": "stone-wardens maintaining the crossing" },
+    { "species": "hollowborn", "share": "minority", "note": "caravan hands on the southern routes" },
+    { "species": "elf", "share": "rare", "note": "Verdant kin reading the ash-line; never resident" }
+  ],
+  "laws": "Censer writ applies de facto (circle-tests, seizures); Crown law applies on paper; ash-baron 'law' applies wherever both are absent.",
+  "relations": [
+    { "realm": "the-velkash-crown", "stance": "negligent claimant", "note": "Provides roads and nothing else." },
+    { "realm": "ashveil-free-town", "stance": "island of order", "note": "The Free Town is the only governed ground in the March." },
+    { "realm": "ash-baron-wilds", "stance": "unruly interior", "note": "The barons pay toll at the crossing and tribute to no one." }
+  ],
+  "economy": ["ash-glass salvage", "subsistence farming", "smuggling"],
+  "history_notes": [
+    "Every realm that has claimed the Ashlands has surrendered the claim within a generation — except the Crown, which cannot afford to admit its map is wrong.",
+    "The Quiet's advance redraws the March's southern border yearly, in nobody's favor."
+  ],
+  "adventure_hooks": [
+    "Players are offered the vacant March-Warden title — salary in land grants, payable in the Ashlands.",
+    "A Censer seizure convoy is ambushed by ash-barons; both sides hire players to recover the seized books first.",
+    "An ash-farming village petitions for Crown protection; delivering the petition means surviving the wilds."
+  ]
+}
