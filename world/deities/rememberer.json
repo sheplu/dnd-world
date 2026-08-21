@@ -1,16 +1,43 @@
 {
   "id": "the-remembered",
+  "type": "deity",
+  "world": "vaeloria",
   "name": "the-Remembered",
-  "aspects": ["memory", "forbidden knowledge", "the old tongue", "the-song-that-dared"],
+  "aspects": [
+    "memory",
+    "forbidden knowledge",
+    "the old tongue",
+    "the-song-that-dared"
+  ],
   "gender": "neuter",
   "symbol": "a sealed book",
   "clergy": "the Rememberers' inner council; those who copy Old Weaver in secret and live by the sword",
   "temperament": "obsessive, kind, dangerous",
   "attitude_to_magic": "The Glimmer is the song made audible; the-Remembered is the silence that made it forbidden.",
   "worship_by_species": [
-    { "species": "human", "name": "the-Remembered", "relation": "secret cult, heretical", "note": "The Crownlands Reeve's court persecutes his worshipers; the Censer hunts them as the source of Old Weaver copies." },
-    { "species": "dwarf", "name": "the-Deep-Memory", "relation": "same being, recast", "note": "The deep-folk know that every hold has its memory-stone; the-Remembered is the collective memory of the earth." },
-    { "species": "elf", "name": "the-Whisperer", "relation": "feared", "note": "The greenfolk name the old tongue's keeper the Whisperer; to speak his name is to invite the Grey Peace's end." },
-    { "species": "hollowborn", "name": "the-Under-Singer", "relation": "same being, recast", "note": "The Rememberers of the Hollow Mile are his priests; he is the reason they risk the Edict of Silence." }
+    {
+      "species": "human",
+      "name": "the-Remembered",
+      "relation": "secret cult, heretical",
+      "note": "The Crownlands Reeve's court persecutes his worshipers; the Censer hunts them as the source of Old Weaver copies."
+    },
+    {
+      "species": "dwarf",
+      "name": "the-Deep-Memory",
+      "relation": "same being, recast",
+      "note": "The deep-folk know that every hold has its memory-stone; the-Remembered is the collective memory of the earth."
+    },
+    {
+      "species": "elf",
+      "name": "the-Whisperer",
+      "relation": "feared",
+      "note": "The greenfolk name the old tongue's keeper the Whisperer; to speak his name is to invite the Grey Peace's end."
+    },
+    {
+      "species": "hollowborn",
+      "name": "the-Under-Singer",
+      "relation": "same being, recast",
+      "note": "The Rememberers of the Hollow Mile are his priests; he is the reason they risk the Edict of Silence."
+    }
   ]
 }

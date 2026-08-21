@@ -42,6 +42,8 @@ world/
 - Every entity has an `id` used as the cross-reference key.
 - References to other entities use their `id` (e.g. `"cities": ["velkash"]`).
 - Lore lives in JSON; rich prose goes in companion `.md` files beside the JSON when needed.
+- **Lost settlements** carry `"status": "lost"` and a `destroyed` field, and document `sites` rather than districts (see `cities/karvess-ruin.json`).
+- **Collection files** (`factions/extinct-orders.json`, `factions/religious-orders.json`) wrap multiple entities under an `orders` array; the inner ids are valid cross-reference targets.
 
 ## Quick orientation
 

@@ -1,16 +1,43 @@
 {
   "id": "oath-keeper",
+  "type": "deity",
+  "world": "vaeloria",
   "name": "Oath-Keeper",
-  "aspects": ["succession", "royal law", "minor vows", "the quietus"],
+  "aspects": [
+    "succession",
+    "royal law",
+    "minor vows",
+    "the quietus"
+  ],
   "gender": "female",
   "symbol": "a scale balanced by a sword",
   "clergy": "the Oath-Sept, minor septs of the Crownlands that tend the law without Solvane's grandeur",
   "temperament": "stern, precise, bound by the letter",
   "attitude_to_magic": "Magic is a breach of the quietus; Oath-Keeper's clerks are the only ones licensed to witness certified cantrips for royal disputes.",
   "worship_by_species": [
-    { "species": "human", "name": "Oath-Keeper", "relation": "minor deity of lawful succession", "note": "Crownlands septs officiate minor royal betrothals and land disputes; the Reeve's court tolerates but does not endorse." },
-    { "species": "dwarf", "name": "rejected", "relation": "not named", "note": "The deep-folk have their own hold-marshal; they recognize no power above the Hold-voice." },
-    { "species": "elf", "name": "the-Second-Silence", "relation": "same being, recast", "note": "The greenfolk name the quiet between the seasons; Oath-Keeper is that pause, not the great Solvane." },
-    { "species": "hollowborn", "name": "the-Binding-Still", "relation": "same being, recast", "note": "The desert's still places between dunes are his domain; travelers who linger too long under his gaze find their oaths magically enforced." }
+    {
+      "species": "human",
+      "name": "Oath-Keeper",
+      "relation": "minor deity of lawful succession",
+      "note": "Crownlands septs officiate minor royal betrothals and land disputes; the Reeve's court tolerates but does not endorse."
+    },
+    {
+      "species": "dwarf",
+      "name": "rejected",
+      "relation": "not named",
+      "note": "The deep-folk have their own hold-marshal; they recognize no power above the Hold-voice."
+    },
+    {
+      "species": "elf",
+      "name": "the-Second-Silence",
+      "relation": "same being, recast",
+      "note": "The greenfolk name the quiet between the seasons; Oath-Keeper is that pause, not the great Solvane."
+    },
+    {
+      "species": "hollowborn",
+      "name": "the-Binding-Still",
+      "relation": "same being, recast",
+      "note": "The desert's still places between dunes are his domain; travelers who linger too long under his gaze find their oaths magically enforced."
+    }
   ]
 }

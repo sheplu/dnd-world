@@ -1,16 +1,43 @@
 {
   "id": "glass-thane",
+  "type": "deity",
+  "world": "vaeloria",
   "name": "Glass-Thane",
-  "aspects": ["glass", "ruin", "shattered cities", "the fallen Concord"],
+  "aspects": [
+    "glass",
+    "ruin",
+    "shattered cities",
+    "the fallen Concord"
+  ],
   "gender": "masculine",
   "symbol": "a cracked mirror",
   "clergy": "the Glass-Keepers, who tend the half-excavated mouths of the buried Concord cities and warn travelers against disturbing the glass",
   "temperament": "cold, observant, relentless",
   "attitude_to_magic": "The Glimmer is the force that turned the cities to glass; the Glass-Thane is the first to feel its return.",
   "worship_by_species": [
-    { "species": "human", "name": "Glass-Thane", "relation": "feared as a omen of the Veil's return", "note": "Crownlands septons warn that worshiping Glass-Thane is akin to courting the Quiet." },
-    { "species": "dwarf", "name": "the-Shattered-Anvil", "relation": "same being, recast", "note": "The deep-folk see him as the Anvil upon which the old world was broken; his glass is their metal's rival." },
-    { "species": "elf", "name": "rejected", "relation": "not named", "note": "The greenfolk refuse to name him; they say the forest outlives the glass." },
-    { "species": "hollowborn", "name": "the-Mirror-King", "relation": "same being, recast", "note": "In the desert, the glass that scours the dunes is his breath; oasis-worshipers leave polished shards as tribute." }
+    {
+      "species": "human",
+      "name": "Glass-Thane",
+      "relation": "feared as a omen of the Veil's return",
+      "note": "Crownlands septons warn that worshiping Glass-Thane is akin to courting the Quiet."
+    },
+    {
+      "species": "dwarf",
+      "name": "the-Shattered-Anvil",
+      "relation": "same being, recast",
+      "note": "The deep-folk see him as the Anvil upon which the old world was broken; his glass is their metal's rival."
+    },
+    {
+      "species": "elf",
+      "name": "rejected",
+      "relation": "not named",
+      "note": "The greenfolk refuse to name him; they say the forest outlives the glass."
+    },
+    {
+      "species": "hollowborn",
+      "name": "the-Mirror-King",
+      "relation": "same being, recast",
+      "note": "In the desert, the glass that scours the dunes is his breath; oasis-worshipers leave polished shards as tribute."
+    }
   ]
 }
