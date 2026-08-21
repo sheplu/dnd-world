@@ -1,0 +1,12 @@
+{
+  "name": "dnd-world",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Vaeloria — original, trademark-free heroic fantasy setting for roleplaying campaigns.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "validate": "node tools/validate.js"
+  }
+}
