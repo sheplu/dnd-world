@@ -1,0 +1,23 @@
+{
+  "id": "bridge-stone",
+  "name": "A Bridge-Stone",
+  "type": "item",
+  "category": "relic-fragment",
+  "world": "vaeloria",
+  "status": "prized, handful known",
+  "rarity": { "tier": "prized", "glimmer": "wrought", "note": "True wrought survival; the binding still holds." },
+  "summary": "Cut stones from Velkash's original woven bridges — raised at the Concord's height, failed in the Sundering, quarried for the city's rebuilding. A few stones kept their thread of binding: warm to the touch on one face, silent, and utterly unwilling to fall. A bridge-stone placed across a gap will hold a loaded cart where engineering says it cannot. Masons study them for lifetimes and learn only humility.",
+  "origin": "~150 CoW — Velkash on the Silk; the bridges were woven, not built",
+  "current_whereabouts": "Three set as threshold-stones in Velkash (by ancient right); two in private collections; one missing since the Toll War.",
+  "properties": [
+    "Warm on the bound face, cold beneath",
+    "Holds any load across any gap it can span — the binding does not care about physics",
+    "Will not bind to new mortar: it accepts no partner but its old bridge"
+  ],
+  "keepers": "Velkash's three are civic treasures; collectors' stones are Septuary-certified heirlooms; the Censer lists them 'contained' with visible reluctance.",
+  "value_or_danger": "A fortune. As an engineering sample: worth a realm's bridges.",
+  "adventure_hooks": [
+    "The Toll-War-missing stone is found serving as a Skeleton Courts' anchor-stone — it has been holding a pier in place for sixty years and removing it drowns the harbor.",
+    "Players must move a threshold bridge-stone to save a collapsing archive shelf; the stone agrees to be moved for the first time in history."
+  ]
+}

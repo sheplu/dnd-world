@@ -1,0 +1,23 @@
+{
+  "id": "hollow-sign-slate",
+  "name": "Hollow Sign Slate",
+  "type": "item",
+  "category": "trade-good",
+  "world": "vaeloria",
+  "status": "common, everywhere",
+  "rarity": { "tier": "common", "glimmer": "none", "note": "Everyday goods; no Glimmer in it at all." },
+  "summary": "A palm-sized slate of fired desert clay, strung on a cord, used for signing Hollow Sign where speech won't serve. Every market from Velkash to the Shard Cities sells them; every factor over forty carries one worn smooth. The clay mix matters — cheap slates crumble, good ones take signs that can be read back years later.",
+  "origin": "Burning Sands; spread north with the Salt Roads (~300 AA)",
+  "current_whereabouts": "Ubiquitous across Aurelith's markets and caravans.",
+  "properties": [
+    "Good slate holds a signed record that can be re-read like writing — the Edict has never decided if that counts",
+    "Standard sign-set covers prices, weights, water-quality, and 'meet me past the third stall'",
+    "A slate's wear-pattern identifies its owner as surely as a signature"
+  ],
+  "keepers": "Whoever trades. The Mile uses them too — untraceable messages wipe clean.",
+  "value_or_danger": "A bit or two. A slate with someone else's old signs on it: occasionally priceless.",
+  "adventure_hooks": [
+    "A dead courier's slate bears a sign neither the players nor any Hollow Sign reader recognizes — a private code worth killing for.",
+    "The Edict's enforcers raid a market claiming slates are 'writing'; the Well-Sisters' response is a masterclass in polite menace."
+  ]
+}

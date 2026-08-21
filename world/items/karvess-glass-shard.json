@@ -1,0 +1,23 @@
+{
+  "id": "karvess-glass-shard",
+  "name": "A Karvess Glass Shard",
+  "type": "item",
+  "category": "relic-fragment",
+  "world": "vaeloria",
+  "status": "rare, illegal to carry",
+  "rarity": { "tier": "prized", "glimmer": "echo-touched", "note": "True echo-material from the Sundering itself; Censer-listed." },
+  "summary": "A shard of the glass that was once Karvess — a person, a fountain, or a tower, no one can tell from a fragment. It hums against the teeth and gives shared dreams to those who keep it close: always the same dream, always the city's last morning. Possession is a crime under Censer writ; possession of a *face* shard is something worse than crime.",
+  "origin": "1 Sun (spring) — vitrified in the Rent's first hour",
+  "current_whereabouts": "Dozens of shards in private hands despite the writ; the Glass-Keepers recover what they can.",
+  "properties": [
+    "Hums the towers' note, faintly — the same tone heard at Hallord's shaft and past the Veiled Sea",
+    "Shared dreams among those who sleep within arm's reach of it",
+    "Face shards dream in the first person"
+  ],
+  "keepers": "Glass-Keepers confiscate; collectors pay; the Mile brokers both.",
+  "value_or_danger": "Two hundred crowns for plain shard. A face shard: not purchasable — only inheritable, and only by accident.",
+  "adventure_hooks": [
+    "Players' shared dreams begin diverging: each sees the same morning from a different witness's eyes. The shards are comparing notes.",
+    "A face shard's dream-person completes an action they never finished in life — and the shard cracks."
+  ]
+}

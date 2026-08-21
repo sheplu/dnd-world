@@ -1,0 +1,23 @@
+{
+  "id": "oath-anchor-stone",
+  "name": "Oath-Anchor Stones",
+  "type": "item",
+  "category": "charm",
+  "world": "vaeloria",
+  "status": "uncommon, sea-trade",
+  "rarity": { "tier": "uncommon", "glimmer": "hedge", "note": "Hedge-craft of the wave-oath tradition: real, small, and taken seriously." },
+  "summary": "Palm-sized stones from the Bone Archipelago's skeleton coasts, used to anchor serious promises: both parties hold the stone in salt water and speak the terms. A promise kept leaves the stone warm; a promise broken leaves it cold forever, and cold stones are shown around. Not magic enough for the Censer's lists, not mundane enough to lie about — the space between is where trade lives.",
+  "origin": "Storm-Bound tradition, older than the order; adopted by harbor-traders everywhere",
+  "current_whereabouts": "Harbor counting-houses, ship strongboxes, and the pockets of people who intend to keep their word.",
+  "properties": [
+    "Warm when its sworn terms are being kept by all parties; cold when any is broken",
+    "One stone, one oath — re-swearing on the same stone muddies both readings",
+    "Skeleton-coast stone only; inland rock holds nothing"
+  ],
+  "keepers": "Storm-Bound brokers certify genuine anchors; the Skeleton Courts swear theirs on stolen ones out of spite.",
+  "value_or_danger": "Five shards honest. As evidence in contract court: whatever the dispute is worth.",
+  "adventure_hooks": [
+    "A charter-stone goes cold mid-voyage with everyone aboard keeping their word — something else signed it too.",
+    "Players find a cold stone from an oath sworn fifty years ago; finding who broke it settles a fortune."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "storm-relay-shard",
+  "name": "Storm Relay Shards",
+  "type": "item",
+  "category": "relic-fragment",
+  "world": "vaeloria",
+  "status": "rare, scattered",
+  "rarity": { "tier": "rare", "glimmer": "echo-touched", "note": "Echo of the largest working ever performed; fragments only." },
+  "summary": "Fragments of the nineteen Relay Stones where nine hundred weavers stood to chain the hurricanes. Broken by weather and pilgrim-hammers over fourteen centuries, the shards still remember their word — hold, begin, or the illegible last one. A shard held in rising wind whispers its stone's word against the palm. Sailors pay for 'hold' shards; nobody pays for the other kind.",
+  "origin": "~700 CoW — the Bound Storms' chaining relay; stones broken gradually since",
+  "current_whereabouts": "Scattered across southern coasts; the Storm-Bound collect them when found.",
+  "properties": [
+    "'Hold' shards: whisper their word in wind; prized as storm-warning",
+    "'Begin' shards: whisper once a season, always on the same day — the day the chaining started",
+    "The illegible word's shard (only one known): whispers nothing, but dogs refuse to ride in the same boat"
+  ],
+  "keepers": "Storm-Bound tide-moots pool found shards; the Mooring Deep's chart marks where each was found.",
+  "value_or_danger": "Twenty crowns for 'hold'. The last stone's shard: not for sale at any price yet offered.",
+  "adventure_hooks": [
+    "A 'begin' shard starts whispering daily instead of yearly. The arithmetic of that is very bad.",
+    "Players find the second illegible-word shard. The two, placed together, complete a word."
+  ]
+}

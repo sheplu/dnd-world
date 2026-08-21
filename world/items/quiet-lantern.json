@@ -1,0 +1,23 @@
+{
+  "id": "quiet-lantern",
+  "name": "A Quiet Lantern",
+  "type": "item",
+  "category": "tool",
+  "world": "vaeloria",
+  "status": "rare, warden-favored",
+  "rarity": { "tier": "rare", "glimmer": "hedge", "note": "Hedge-craft refined by a century of Ashveil practice." },
+  "summary": "A shuttered lantern whose candle-flame leans — visibly, steadily — toward any Glimmer worked within the last few hours, like a plant toward light. Wardens carry them on patrols; investigators use them to find where magic was done after everyone has gone. The hedge-craft is in the wick, braided with ash-glass fiber and sworn at each lighting.",
+  "origin": "Ashveil Cross tradition; the braiding pattern is Kell's predecessor's invention",
+  "current_whereabouts": "Warden kits in the Ashlands and Crownlands; perhaps thirty working lanterns total.",
+  "properties": [
+    "Flame leans toward workings up to six hours old; strength of lean suggests recency",
+    "Useless near the Quiet itself (the flame simply stands straight, which is its own signal)",
+    "The wick must be re-sworn monthly or it becomes an ordinary lantern"
+  ],
+  "keepers": "Censer wardens and Veil-Wardens both; the two orders' lanterns are identical, which neither enjoys.",
+  "value_or_danger": "Thirty crowns. In an investigation: everything.",
+  "adventure_hooks": [
+    "A lantern leans toward a spot where no one admits casting — and the lean points *away* from where everyone assumed.",
+    "Players must light one inside Solmere's treaty line without crossing it: the flame does something no one has documented."
+  ]
+}

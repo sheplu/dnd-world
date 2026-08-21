@@ -1,0 +1,22 @@
+{
+  "id": "sella-dellets-ring",
+  "name": "Sella Dellet's Ring",
+  "type": "item",
+  "category": "relic",
+  "world": "vaeloria",
+  "status": "unique, archive-held",
+  "rarity": { "tier": "unique", "glimmer": "none", "note": "Entirely mundane; entirely unbearable." },
+  "summary": "A plain silver ring surrendered to the Censer with the Glimmerborn heir of House Dellet in ~460 Si — 'Dellet's choice' made metal. It is catalogued as a minor effect and stored accordingly, which is to say carelessly, because no one can bear to steal it. The ring's inner band bears a private inscription: 'I will find you when it is safe.' Sella was never recorded again.",
+  "origin": "~460 Si — surrendered at House Dellet's sealing",
+  "current_whereabouts": "The Censer archive, miscatalogued among confiscated jewelry since the Great Collection.",
+  "properties": [
+    "No enchantment, no echo — just silver, an inscription, and what it means",
+    "The Dellet estate's eastern wall (now the Censer Quarter) has one stone that is warm on cold nights; no record connects this to anything"
+  ],
+  "keepers": "The Censer archive, unknowingly; whoever miscatalogued it spared it from destruction by making it boring.",
+  "value_or_danger": "Nothing to anyone but a Dellet — or someone who believes Sella kept her word.",
+  "adventure_hooks": [
+    "Players find the ring while researching something else entirely. The inscription's promise is either 1,300 years unkept — or recently kept.",
+    "A Stilleven flower-leaver at Solmere's treaty posts wears gloves. Under them: ring-marks."
+  ]
+}

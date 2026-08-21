@@ -1,0 +1,23 @@
+{
+  "id": "road-knot-charm",
+  "name": "Road Knot-Charms",
+  "type": "item",
+  "category": "charm",
+  "world": "vaeloria",
+  "status": "common, caravan-made",
+  "rarity": { "tier": "common", "glimmer": "hedge", "note": "Hedge-craft: weak, real about half the time, and priced accordingly." },
+  "summary": "Knotted cords sold at every caravan-master's tent: a knot for safe crossing, a knot for dry feet, a knot against bad company. Tied by Road-Singers and caravan grandmothers using hedge-craft — a spoken bargain with the echo, coaxed into cord. Most do nothing. Some work exactly once. Nobody can tell which until it matters.",
+  "origin": "As old as roads; the current styles date to the Salt Roads era (~300 AA)",
+  "current_whereabouts": "Every road, wrist, and saddle-pack on Aurelith.",
+  "properties": [
+    "A working knot unties itself at the moment of its purpose — that's how you know it was real",
+    "Placebo knots stay tied forever, which their owners find reassuring anyway",
+    "Cutting another traveler's knot uninvited is road-code's pettiest capital offense"
+  ],
+  "keepers": "Everyone; the Road-Singers' grandmothers hold the genuinely reliable patterns.",
+  "value_or_danger": "A bit each. The one that works is worth whatever it saves.",
+  "adventure_hooks": [
+    "A player's crossing-knot unties at the exact moment an ambush springs — someone paid for a working charm on their behalf. Who?",
+    "A grandmother offers to tie 'the old knot' whose purpose she will not name; the price is a true story told to her fire."
+  ]
+}

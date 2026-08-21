@@ -1,0 +1,23 @@
+{
+  "id": "everfull-flask",
+  "name": "An Everfull Flask",
+  "type": "item",
+  "category": "tool-wrought",
+  "world": "vaeloria",
+  "status": "prized, seven known",
+  "rarity": { "tier": "prized", "glimmer": "wrought", "note": "True wrought survival; modest power, absolute scarcity." },
+  "summary": "Small Concord flasks, palm-sized, that always hold one more drink of whatever they last held — water stays water, wine stays wine, and one flask in a Wealdmark cellar has held the same cup of cider for eight hundred years. They were lunch-boxes once. Now each is named, insured, and fought over, because a flask that always holds clean water is worth a caravan's ransom anywhere past the last well.",
+  "origin": "Concord of Weavers — common household ware, pre-Sundering; the working was mass-produced then",
+  "current_whereabouts": "Seven known: two Well-Sister wells, one Storm-Bound strongbox, one Reeve's court evidence-vault, three private.",
+  "properties": [
+    "Always holds exactly one more drink of its last contents",
+    "Emptied fully — poured to the last drop — it forgets and must be refilled once to begin again",
+    "Sour liquid sours permanently; the flasks teach their keepers sobriety"
+  ],
+  "keepers": "As above; the Censer lists them as 'contained' but has never seized one — every keeper has lawful papers, mostly Septuary-certified inheritance.",
+  "value_or_danger": "A caravan's ransom. In a drought year: whatever the buyer has, plus what he'll owe.",
+  "adventure_hooks": [
+    "An eighth flask surfaces claiming to hold 'the same cider as the Wealdmark one' — impossible, unless both were filled from the same barrel before the Sundering.",
+    "Players escort an empty flask across the deep dunes to be filled at Akhmat's Tears: the League wants to know if the goddess's water remembers."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "deep-forge-coal",
+  "name": "Deep-Forge Coal",
+  "type": "item",
+  "category": "relic",
+  "world": "vaeloria",
+  "status": "unique stock, gift-only",
+  "rarity": { "tier": "unique", "glimmer": "echo-touched", "note": "A handful of pieces exist; each is a named gift with a recorded lineage." },
+  "summary": "Lumps of charcoal from the First Forge's original lighting — Orbren's own forge-heat, banked for four thousand years. A piece burns once, underwater if need be, and while it burns no oath spoken beside it can be broken quietly: lies taste of smoke to the speaker. The clans give them rarely, to seal treaties and to arm truth-finders; eleven pieces are recorded, six remain unburned.",
+  "origin": "~415 AS — the First Forge's first fire, Hallord",
+  "current_whereabouts": "Five in clan vaults, one held in trust by the Septuary from a treaty both parties forgot.",
+  "properties": [
+    "Burns once, even submerged — the flame is grey and gives no heat, only light enough to read by",
+    "While it burns, lies taste of smoke to the liar; truths taste of nothing",
+    "Cannot be extinguished early; it burns until its purpose is spent, which it decides"
+  ],
+  "keepers": "The clans; the Septuary's forgotten-trust piece is the only one outside deep-folk hands.",
+  "value_or_danger": "Not for sale. The clans' question is always 'what will you burn it for', never 'what will you pay'.",
+  "adventure_hooks": [
+    "Players witness a piece burned over a treaty signing — and watch a signatory taste smoke on his own oath.",
+    "The Septuary's trust-piece must be returned or claimed before the charter that created it lapses this year."
+  ]
+}
