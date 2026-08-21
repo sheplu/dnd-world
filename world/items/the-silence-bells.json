@@ -1,0 +1,23 @@
+{
+  "id": "the-silence-bells",
+  "name": "The Silence-Bells",
+  "type": "item",
+  "category": "working-artifact",
+  "world": "vaeloria",
+  "status": "active, installed",
+  "summary": "Forty-one bronze bells lining the Veiled Gate at Ashveil Cross, cast from melted Concord coin by the town's founders. They hang motionless in wind and storm alike — until the Quiet stirs, when they swing without sound. Warden Kell's private tally of silent-rings is the continent's best data on the scar's growth, and the bells have never once rung aloud. Nobody knows what would happen if they did.",
+  "origin": "~50–100 AA, when the King's Road crossing was chartered; bronze from Concord coin hoards",
+  "current_whereabouts": "Along the mile of paved road through the Quiet's edge, Ashveil Cross.",
+  "properties": [
+    "Swing without sound when the Quiet moves — the only instrument that consistently detects its advance",
+    "Deaf to everything else: storms, caravans, shouting children leave them still",
+    "Local custom forbids ringing any bell within a mile of the Gate 'in case it teaches them'"
+  ],
+  "keepers": "Warden Kell maintains them; the stone-wardens re-hang each bell yearly; nobody has ever tolled one deliberately.",
+  "value_or_danger": "To the Crown and Censer: priceless data. To whoever makes one ring: unknown, which is the danger.",
+  "adventure_hooks": [
+    "All forty-one rang last night — silently, together, for an hour. Kell needs witnesses who will say so publicly.",
+    "Players are asked to retrieve a bell stolen from the Vitrified Square in Karvess: rung once, it might answer the towers.",
+    "A bell-founder claims he can recast a cracked bell using Quiet-side bronze; the Censer wants him stopped, the barons want him funded."
+  ]
+}

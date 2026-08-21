@@ -1,0 +1,23 @@
+{
+  "id": "song-unbinding-pages",
+  "name": "The Song Unbinding Pages",
+  "type": "item",
+  "category": "forbidden-text",
+  "world": "vaeloria",
+  "status": "scattered",
+  "summary": "Fragments of the inscription that ended the golden age. The Song Unbinding was written down — the High Concord kept a master copy, the Unbinding faction kept working texts, and both were seized, burned, copied, and forged in the 800 years since. Genuine pages are indistinguishable from masterful forgeries except by reading them aloud: a true page answers.",
+  "origin": "Inscribed ~1,100–1,201 CoW by the Unbinding faction; stolen by High Concord hardliners ~1,185 CoW",
+  "current_whereabouts": "Unknown in total. The Censer archive claims the master copy; the Rememberers' Chain holds fragments; one page surfaced in the Hollow Mile in 812 AA and sold for a king's ransom to a buyer now dead.",
+  "properties": [
+    "A genuine page read aloud produces a faint answering tone from nearby Glimmer-touched materials",
+    "Reading a full passage aloud is said to thin the Veil locally — unverified, and nobody qualified is willing to test",
+    "Forgeries fail silently; this is how three buyers died — they tested their purchases"
+  ],
+  "keepers": "The Censer hunts every page; the Rememberers hide what they hold; the Mile sells whatever it can fake; the First-Heard sect wants pages read safely, under controlled conditions, before someone reads one badly.",
+  "value_or_danger": "A genuine page: a king's ransom or a death sentence, depending who sees you hold it. The knowledge itself is the capital crime.",
+  "adventure_hooks": [
+    "The fourth copy's vanished seller contacts players with an offer: the page free, if they swear to read it aloud at the Stone Crown's seal.",
+    "Players acquire a page and must determine authenticity before the forger's other customers learn theirs failed.",
+    "The Nine Ashes learn players hold a page; the offer is pardon, employment, and a quiet bonfire."
+  ]
+}

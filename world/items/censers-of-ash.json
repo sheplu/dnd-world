@@ -1,0 +1,23 @@
+{
+  "id": "censers-of-ash",
+  "name": "The Censers of Ash",
+  "type": "item",
+  "category": "regalia",
+  "world": "vaeloria",
+  "status": "active, order-held",
+  "summary": "The order's namesake: every sworn Censer bearer carries a censer filled with ash from the Colleges of the Weave, burned in the Sundering's aftermath. The ash is not symbolic — incense-bearers claim it remembers smoke, and that a censer swung near working magic shows a grey flame no one else can see. New members are inducted with ash from their predecessor's censer; the original Colleges' supply was rationed across eight centuries and is now nearly spent.",
+  "origin": "1 Sun (winter) — the First Censer's oath in Velkash's broken thread-quarter",
+  "current_whereabouts": "Carried by every sworn member; the mother-censers (nine of them, one per Ash) rest in the archive-quarter's oath-vault.",
+  "properties": [
+    "Grey flame visible only to the sworn when Glimmer-workings burn nearby — the order's oldest detection method",
+    "Induction transfers a pinch of ash; each censer's lineage is traceable back through bearers to 1 Sun",
+    "The remaining original ash would fill, at most, three censers"
+  ],
+  "keepers": "The Nine Ashes hold the mother-censers; running out of original ash is the order's quietest institutional crisis.",
+  "value_or_danger": "To the order: irreplaceable identity. To everyone else: proof that the Censer's authority is a finite resource.",
+  "adventure_hooks": [
+    "A censer is stolen — the first theft in order history. Inside job or Mile forgery run?",
+    "A First-Heard member refuses induction ash, proposing new ash 'from what we burn next'. The schism turns ritual.",
+    "Players are hired to authenticate a claimed pre-Sundering relic: a censer of College ash older than the order itself."
+  ]
+}

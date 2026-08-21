@@ -25,6 +25,19 @@ world/
 │   ├── the-river-toll-war.json    Ashes: the largest mortal war since the Sundering
 │   ├── the-backfiring.json        Ashes: Solmere's fall and the Accords
 │   └── the-waking-and-ashfall.json Ashes: the current crisis (812 AA)
+├── items/
+│   ├── song-unbinding-pages.json  The most hunted objects on Aurelith
+│   ├── the-last-legal-page.json   The one lawful Old Weaver page
+│   ├── censers-of-ash.json        The Censer order's namesake regalia
+│   ├── the-oath-rings.json        Deep-folk living genealogy, iron rings
+│   ├── the-broken-seal-stone.json The Edict's authorless law, split in two
+│   ├── concord-glass-forks.json   Circle-test tuning-forks, irreplaceable
+│   ├── the-silence-bells.json     Ashveil's bells that swing without sound
+│   ├── the-woven-chain-link.json  A loop of chained hurricane, still taut
+│   ├── kells-tally.json           41 years of Quiet data in sealed tubes
+│   ├── beleths-confession.json    The sealed mercy in the archive vault
+│   ├── forged-warrants.json       The Mile's crown export
+│   └── the-last-bolt-of-white-silk.json Lost relic of the Concord's craft
 ├── continents/
 │   └── aurelith.json    Main continent + regions
 ├── cities/
@@ -87,6 +100,7 @@ world/
 - **Deities:** the Chorus — Solvane, Luneth, Orbren, Veyra, Vaelmarr, Mornath, Ithyn, Cayren — worshipped differently by each species (same names, recast names, or rejected). Unique deities: Khord (dwarf), the Eldertree (elf), Akhmat (hollowborn). Minor deities: Glass-Thane (ash and ruin), Deep-Eye (the deep forest silence), Oath-Keeper (lawful succession), the-Remembered (forbidden knowledge), the-Veil-Thread (the thinning Veil), First-Heard (the song's return in year 812).
 - **Species:** humans (Crownlands), deep-folk (Dusk Reach), greenfolk (Dusk Reach), hollowborn (Burning Sands).
 - **Factions:** the Censer vs the Reeve's court is the central rivalry; the Hollow Mile feeds on both; the Rememberers outlast them all. See [factions/](factions/).
+- **Items & relics:** see [items/](items/) — forbidden texts, order regalia, working artifacts, and documents that factions kill for.
 
 ## Next steps
 

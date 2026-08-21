@@ -1,0 +1,23 @@
+{
+  "id": "kells-tally",
+  "name": "Kell's Tally",
+  "type": "item",
+  "category": "document",
+  "world": "vaeloria",
+  "status": "active, growing",
+  "summary": "Forty-one years of silence-bell records from Ashveil Cross: every silent-ring, date, duration, and weather, kept in sealed tubes by Warden Kell and her predecessor. It is the continent's only long-series measurement of the Quiet's behavior — better data than anything the Veil-Wardens or Censer possess, which is exactly why both want it and why Kell has released neither.",
+  "origin": "~771 AA onward; maintained continuously through two wardenships",
+  "current_whereabouts": "The tally-house at Ashveil Cross — a reinforced room with its own well, because Kell does not trust either of her paymasters' archives.",
+  "properties": [
+    "Shows the Quiet's advance is not steady: it moves in bursts that correlate with nothing visible",
+    "Records three 'all-bells' events before this year's — each followed within a season by a Glimmerborn birth nearby",
+    "Written in Kell's personal shorthand; only she and her late predecessor read it fluently"
+  ],
+  "keepers": "Warden Otta Kell. The Veil-Wardens would trade much for copies; the Censer forbids their release; the Reeve's court pretends not to know they exist.",
+  "value_or_danger": "The data itself is harmless. Whoever controls it controls what the continent knows about the Quiet — and when.",
+  "adventure_hooks": [
+    "Kell offers players sealed duplicates for escort to the Veil-Wardens — without either paymaster learning.",
+    "A tube is found opened and resealed, one year's records subtly altered. Only two people could have; one is dead.",
+    "Kell's shorthand proves to be Old Weaver notation adapted for numbers — she has been writing forbidden language for forty-one years without knowing."
+  ]
+}

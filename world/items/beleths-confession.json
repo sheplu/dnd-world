@@ -1,0 +1,23 @@
+{
+  "id": "beleths-confession",
+  "name": "Beleth's Confession",
+  "type": "item",
+  "category": "document",
+  "world": "vaeloria",
+  "status": "sealed, lost-in-plain-sight",
+  "summary": "The deathbed confession of the last repentant Whisperer — one of Ithyn's twelve original students — sealed in the Censer archive's deepest vault around 25 Si. She died in Censer service as a founding warden, and her confession is the only eyewitness account of Ithyn's teaching from someone who heard it whole. What she confessed to is not recorded anywhere outside the vault. The order's own histories call it 'the sealed mercy' and refuse all comment.",
+  "origin": "~25 Si; sealed by order of the First Censer's second generation",
+  "current_whereabouts": "The archive-quarter's deepest vault, Velkash — beyond even the Nine Ashes' routine access.",
+  "properties": [
+    "Only eyewitness testimony of Ithyn's actual words from a student who did not go mad, die, or walk into the Quiet",
+    "Sealed under terms no current member has read: the seal-bearer is named on the outside, and the name means nothing to anyone now",
+    "Order law requires it be opened only when 'the Quiet asks a question' — a condition never defined"
+  ],
+  "keepers": "The Censer archive; the named seal-bearer's identity is the vault's real lock.",
+  "value_or_danger": "Potentially: the truth about what Ithyn actually taught — whether the Unbinding was ever meant to do what it did.",
+  "adventure_hooks": [
+    "Players learn the seal-bearer's name matches a family in the Wealdmark — descendants who have kept an unopened letter for 1,700 years.",
+    "A First-Heard scholar petitions to open the confession as evidence in the schism vote; the Nine refuse before hearing the argument.",
+    "The confession's existence leaks; three factions converge on the archive the same night for three different reasons."
+  ]
+}

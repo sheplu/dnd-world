@@ -1,0 +1,23 @@
+{
+  "id": "the-broken-seal-stone",
+  "name": "The Broken Seal-Stone",
+  "type": "item",
+  "category": "regalia",
+  "world": "vaeloria",
+  "status": "embedded, public",
+  "summary": "The halves of the first Reeve's seal-stone, deliberately broken at the Edict of Silence's proclamation so the law would bear no one's name. The halves are set into the White Step's threshold, and everyone entering the court crosses between them. Stepping on either half is poor luck and worse manners; stepping over both without touching ground is considered an omen of judgments to come.",
+  "origin": "~80 Si — broken at the Edict's proclamation",
+  "current_whereabouts": "The White Step threshold, Velkash.",
+  "properties": [
+    "The seal's face is split exactly through its motto; each half bears half a sentence that reads differently alone",
+    "Court clerks swear their oaths standing between the halves",
+    "Eight centuries of feet have polished the halves mirror-bright; the fracture line has not worn"
+  ],
+  "keepers": "No one — deliberately. The city maintains it; no faction owns it.",
+  "value_or_danger": "Symbolic dynamite: whoever moves the stone claims the Edict's legacy, for good or ill.",
+  "adventure_hooks": [
+    "A repeal vote's first procedural act is whether litigants may avoid crossing the threshold — precedent law at its most absurd.",
+    "The fracture line is found to match a crack in a Solmere City cobblestone spiral. Exactly.",
+    "Someone steals one half during Re-set Week. The city cannot enter its own court until it returns."
+  ]
+}
