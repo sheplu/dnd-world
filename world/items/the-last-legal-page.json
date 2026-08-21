@@ -1,0 +1,23 @@
+{
+  "id": "the-last-legal-page",
+  "name": "The Last Legal Page",
+  "type": "item",
+  "category": "forbidden-text",
+  "world": "vaeloria",
+  "status": "archived, lawful",
+  "summary": "One page of Old Weaver remains lawful in the Crownlands: the Edict of Silence quotes a line of it when defining what is banned. It hangs sealed in the Septuary's vault — the law's own citation of the crime. Scholars who have studied its glosses note that the quoted line translates to 'that which is hidden is not lost,' and that the full sentence continues past where the Edict stops quoting.",
+  "origin": "Pre-Edict; incorporated by reference into the Edict of Silence (~80 Si)",
+  "current_whereabouts": "The Septuary's archive vault, Velkash precinct — displayed once per decade for legal continuity, read never.",
+  "properties": [
+    "Lawful to possess precisely because the law itself quotes it",
+    "The quoted line's continuation is the page's real content — and the reason reading it aloud has been forbidden by Septuary regulation rather than Crown law",
+    "Written in a hand that matches no other surviving Old Weaver document"
+  ],
+  "keepers": "The First Clerk of the Septuary holds the key; the Censer formally requests its surrender every decade and is formally refused every decade — the refusal is itself part of the charter balance.",
+  "value_or_danger": "Priceless as precedent: whoever controls the page's interpretation controls what the Edict means.",
+  "adventure_hooks": [
+    "A repeal vote hinges on the page's full sentence; both sides need players to reach the vault first.",
+    "The page's unknown hand matches a fragment in the Rememberers' Chain — two halves of one original.",
+    "During a decennial display, the page is found altered: one word changed. The vault was not breached."
+  ]
+}

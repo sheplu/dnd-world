@@ -1,0 +1,23 @@
+{
+  "id": "the-woven-chain-link",
+  "name": "The Woven Chain-Link",
+  "type": "item",
+  "category": "working-artifact",
+  "world": "vaeloria",
+  "status": "single specimen, unclaimed",
+  "summary": "A single link of woven wind — one loop of the chains that held the Veiled Sea's hurricanes for a century after the Bound Storms. It washed ashore near Storm-Bound waters after 1,400 years, still taut, still humming faintly against anyone who grips it. Cutting it would free something somewhere; the link is the only physical proof that weather was ever merchandise.",
+  "origin": "~700 CoW — the Bound Storms' chaining relay; lost when the chains were quietly unbound ~730 CoW",
+  "current_whereabouts": "In the keeping of the Elder Wave's successor at the last tide-moot — held in a barrel of the salt water it was sworn beside.",
+  "properties": [
+    "Taut without anchor: no force tested has slackened it",
+    "Hums against the palm in rising wind anywhere on the continent — a storm-warning older than storms",
+    "Cutting it is theoretically possible with signed First Forge steel; what happens afterward is not covered by any saga"
+  ],
+  "keepers": "The Storm-Bound hold it as evidence and penance; their elders forbid studying it further, which younger members ignore.",
+  "value_or_danger": "To scholars: proof of the Concord's greatest working. To the desperate: a weapon that is also a promise of catastrophe.",
+  "adventure_hooks": [
+    "A Shard Cities buyer offers a fortune for the link 'for study'; the young Storm-Bound who sold access has vanished.",
+    "Players are asked to carry the link to Hallord's sealed shaft — the two hum in harmony, and someone must learn why.",
+    "During transport the link goes slack for one full day. The sea was calm everywhere, worldwide. Nobody reported it but the players noticed."
+  ]
+}

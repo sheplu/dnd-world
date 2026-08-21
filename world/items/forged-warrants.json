@@ -1,0 +1,23 @@
+{
+  "id": "forged-warrants",
+  "name": "Forged Censer Warrants",
+  "type": "item",
+  "category": "document",
+  "world": "vaeloria",
+  "status": "active product, illegal",
+  "summary": "The Hollow Mile's best-selling document: forged Censer seizure and passage warrants, good enough to fool every watch-house on Aurelith and most junior wardens. The Mile's forgers work from genuine templates captured over eight centuries of raids; the best — 'Ledger-grade' — have passed inspection at the archive-quarter itself. A warrant is the only legal fiction that opens Censer doors, which makes it the black market's crown export.",
+  "origin": "~200 Si onward; craft refined through every purge since",
+  "current_whereabouts": "Wherever prohibition meets commerce: caravans, expeditions, rescue attempts, and one in every three smuggling holds.",
+  "properties": [
+    "Grades run from watch-house-passable to Ledger-grade (archive-quarter-passable)",
+    "Genuine warrants carry a cinder-press mark from the oath-vault; Ledger-grade forgeries replicate the smell",
+    "Possession is presumptive evidence of intent — unless you are using it, in which case it is evidence of nothing at all"
+  ],
+  "keepers": "The Mile's forger-cells; the Ledger takes its cut. The Censer's anti-forgery office employs more analysts than any other division — and buys forgeries discreetly to study them.",
+  "value_or_danger": "Watch-house grade: a month's wages. Ledger-grade: a fortune, or a noose.",
+  "adventure_hooks": [
+    "A forged warrant players used turns out to be real — issued by someone inside the order who wants deniable agents.",
+    "The Mile commissions players to recover a seized forgery-template before Censer analysts crack it.",
+    "A client's warrant fails at the worst moment; tracing the bad batch leads up the Mile's chain toward the Ledger itself."
+  ]
+}

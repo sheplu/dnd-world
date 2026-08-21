@@ -1,0 +1,23 @@
+{
+  "id": "concord-glass-forks",
+  "name": "The Concord Glass Forks",
+  "type": "item",
+  "category": "working-artifact",
+  "world": "vaeloria",
+  "status": "active, Censer-held",
+  "summary": "Tuning-forks of woven glass from the Concord's colleges, used in every circle-test on Aurelith. Struck inside a warded circle, the fork sounds a note that living Glimmer answers — a shimmer around anyone carrying the echo. There are perhaps sixty forks left; each is numbered, tracked, and irreplaceable. The glass was made before the Sundering and no furnace since can work it.",
+  "origin": "Concord of Weavers — college workshops, pre-1,201 CoW",
+  "current_whereabouts": "Distributed to warden-circles across the realms; the reserve rests in the archive-quarter.",
+  "properties": [
+    "The note is felt in the teeth before it is heard",
+    "A Glimmerborn's answering shimmer intensifies with proximity to their talent — wardens claim they can rank suspects by degree of shine",
+    "Struck outside a warded circle, the fork answers everything faintly: wards, relics, old wounds in the world"
+  ],
+  "keepers": "Censer wardens; quota pressure means forks are struck more often than ever, and wear is real — three have cracked in the last decade.",
+  "value_or_danger": "Each fork is worth an army to the Mile and a heresy trial to whoever loses one.",
+  "adventure_hooks": [
+    "A cracked fork is sold in the Mile; its false-positive readings could mark half a district as Glimmerborn.",
+    "Players must steal a fork to prove a circle-test fraud — the same fork that condemned their client.",
+    "A fork rings itself at night in the evidence-vault, pointing steadily east."
+  ]
+}

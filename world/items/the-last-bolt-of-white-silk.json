@@ -1,0 +1,23 @@
+{
+  "id": "the-last-bolt-of-white-silk",
+  "name": "The Last Bolt of White Silk",
+  "type": "item",
+  "category": "relic",
+  "world": "vaeloria",
+  "status": "lost — possibly never existed",
+  "summary": "The white silk of the Concord was lost twice: the thread-quarter burned in the Sundering's autumn, and again in the Toll War's Silk Fire (~597 AA). Legend insists a single bolt survived the first fire and was hidden before the second — woven, not spun, its threads 'the river taught'. Every weaver's guild in the Crownlands claims a grandmother who touched it; no loom since has produced anything like it. If it exists, it is the last working of Concord craft that requires no caster.",
+  "origin": "Concord of Weavers — Velkash's thread-quarter at its height (~150 CoW onward)",
+  "current_whereabouts": "Unknown. Claimed: a Wealdmark archive, a Mile vault, a Greenwood grove-shrine, and the bottom of the Weavers' River. All four claims are mutually exclusive and equally sincere.",
+  "properties": [
+    "Said to hold dye like memory holds faces — colors appear on it that were true once",
+    "Cannot be cut by shears; folds only along lines it agrees to",
+    "A hand's-breadth would fund an expedition; a full bolt could buy a realm's debt"
+  ],
+  "keepers": "None confirmed. The Velkash weavers' guilds maintain a joint reward for verified sighting — unclaimed for 215 years.",
+  "value_or_danger": "Beyond price as relic; dangerous as symbol — whoever displays it claims the Concord's mantle.",
+  "adventure_hooks": [
+    "All four claimants' evidence checks out. Players must find which tradition is copying which.",
+    "A bolt surfaces in a Mile auction with provenance papers from three different centuries.",
+    "The Thread district's oldest loom, retired and sacred, weaves three inches of white overnight. Nobody touched it."
+  ]
+}

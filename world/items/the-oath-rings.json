@@ -1,0 +1,23 @@
+{
+  "id": "the-oath-rings",
+  "name": "The Oath-Rings",
+  "type": "item",
+  "category": "regalia",
+  "world": "vaeloria",
+  "status": "active, clan-held",
+  "summary": "The deep-folk's identity worn on the body: iron rings bound into the beard, each marking clan, craft, age, oath, grief, war, mastery, or silence. Rings are added at life-milestones and never removed — a living genealogy. When a bearer dies, the rings return to Hallord's Ring-Vault, whose lock opens only to a unanimous clan council. Ten thousand rings hang there, each one a completed life.",
+  "origin": "Age of Stone — the practice dates to the Deep-Forging's first generation (~410–450 AS)",
+  "current_whereabouts": "Worn by the living; the Ring-Vault in Hallord holds the dead's.",
+  "properties": [
+    "Each ring type is struck differently: clan rings by the clan, craft rings at the First Forge, silence rings by no visible hand",
+    "A bearer's full set reads as biography to anyone fluent in ring-lore",
+    "Stealing a dead dwarf's rings is the deepest theft imaginable; wearing them is beyond sacrilege"
+  ],
+  "keepers": "Hallord's Door-Keepers guard the vault; the unanimous-council lock has opened eleven times in recorded memory.",
+  "value_or_danger": "Beyond price to the clans. A forged ring discovered destroys a family's standing for generations.",
+  "adventure_hooks": [
+    "A ring in the vault bears a craft-mark no forge claims — and it was added after its bearer's burial.",
+    "Players find a complete ring-set on a body in the Ashlands: the owner walked into the Quiet during the Sundering. Returning them means opening the vault for the twelfth time.",
+    "A young dwarf offers players her first oath-ring to hold as collateral; the clan wants to know why."
+  ]
+}
