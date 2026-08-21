@@ -1,0 +1,94 @@
+{
+  "id": "religious-orders",
+  "name": "Religious Orders",
+  "type": "faction-collection",
+  "world": "vaeloria",
+  "status": "active",
+  "summary": "The clergy of the Chorus and the minor deities. Each order serves its god's aspects; none commands universal worship since the Sundering. Orders are listed with their deity, temperament, and current concerns in year 812 AA.",
+  "orders": [
+    {
+      "id": "halos-priesthood",
+      "name": "The Halo Priesthood",
+      "deity": "solvane",
+      "summary": "Judges, oath-keepers, and temple-wardens of the ringed sun. They swear magistrates into office and witness coronations.",
+      "current_concern": "The Year of Ashfall has filled the Halos with refugees praying for justice; the priesthood quietly debates whether Solvane's silence is judgment or absence."
+    },
+    {
+      "id": "moonwardens",
+      "name": "The Moonwardens",
+      "deity": "luneth",
+      "summary": "Keepers of calendars, debts, and birthings. Every town's ledger dates from its Moonwarden's arrival.",
+      "current_concern": "Birth-records are the Censer's chief hunting tool — and the Moonwardens keep them. Some wardens have begun to falsify entries; others report them."
+    },
+    {
+      "id": "deep-shapers",
+      "name": "The Deep-Shapers",
+      "deity": "orbren",
+      "summary": "Orbren's priests: artisans, miners, masons. The only order whose deity every species names the same.",
+      "current_concern": "The deep-folk holds report the Stone Crown 'ringing' — the same note the Storm-Bound hear at sea. The Shapers have sealed three shafts and said nothing."
+    },
+    {
+      "id": "verdant-kin",
+      "name": "The Verdant Kin",
+      "deity": "veyra",
+      "summary": "Druids of the old greenwood and field-priests of the harvest. Human kin serve farmland; greenfolk kin serve the Greenwood proper.",
+      "current_concern": "Glimmer-sickness appears in crops near the Quiet's edge. The Kin purge what they can and beg the Root-Wardens for guidance that does not come."
+    },
+    {
+      "id": "veil-keepers",
+      "name": "The Veil-Keepers",
+      "deity": "mornath",
+      "summary": "Funeral rites and last vows. The Stilleven vigil is theirs; so is the duty of naming the dead when no one else will.",
+      "current_concern": "More bodies than names since Ashfall. And one grave in the Crownlands that will not stay filled."
+    },
+    {
+      "id": "road-singers",
+      "name": "The Road-Singers",
+      "deity": "cayren",
+      "summary": "Jesters, gamblers, guides, and the unofficial postal service of Aurelith. Welcome everywhere, trusted nowhere.",
+      "current_concern": "A Road-Singer ballad about the Year of Ashfall is spreading faster than any song should — it contains details no singer could know."
+    },
+    {
+      "id": "glass-keepers",
+      "name": "The Glass-Keepers",
+      "deity": "glass-thane",
+      "summary": "Tenders of the buried Concord cities' mouths in the Ashlands and the desert glass. Small, grim, and unwelcome everywhere official.",
+      "current_concern": "The glass is ringing too. The Keepers have begun marking new cracks on maps already dense with them."
+    },
+    {
+      "id": "deep-wardens",
+      "name": "The Deep-Wardens",
+      "deity": "deep-eye",
+      "summary": "Guardians of the innermost groves where the old song sleeps. Greenfolk-only; strangers who enter do not return changed so much as returned.",
+      "current_concern": "Something is waking in the deepest grove. The Wardens have not told the Root-Wardens — or anyone."
+    },
+    {
+      "id": "oath-sept",
+      "name": "The Oath-Sept",
+      "deity": "oath-keeper",
+      "summary": "Minor clerks of lawful succession, betrothal, and land disputes in the Crownlands. Tolerated by the court, ignored by the Halos.",
+      "current_concern": "Three council seats fall due next election. The Sept's ledgers show two candidates' lineages contain convenient impossibilities."
+    },
+    {
+      "id": "veil-wardens",
+      "name": "The Veil-Wardens",
+      "deity": "veil-thread",
+      "summary": "Scholars who map the Quiet's advance for the Reeve's court. The Censer denies their existence; the court funds them anyway.",
+      "current_concern": "Their newest map shows the Quiet advancing toward Velkash's aquifer. The court has sat on the report for a month."
+    },
+    {
+      "id": "first-heard-sect",
+      "name": "The First-Heard Sect",
+      "deity": "first-heard",
+      "summary": "A heresy within the Censer itself: incense-bearers who believe the returning Glimmer is a second chance. Young, growing, and watched.",
+      "current_concern": "The Nine Ashes vote on the sect's purge within the season. Someone inside the sect has begun leaking archive locations to the Rememberers."
+    },
+    {
+      "id": "well-sisters",
+      "name": "The Well-Sisters",
+      "deity": "akhmat",
+      "summary": "Keepers of the deep wells and spring-oases of the Burning Sands. The desert's quiet arbiters; poisoning a well is the one crime they punish themselves.",
+      "current_concern": "A well turned to salt last month — the first in living memory. The Sisters do not believe Akhmat did it."
+    }
+  ]
+}

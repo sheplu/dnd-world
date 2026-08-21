@@ -1,0 +1,43 @@
+{
+  "id": "storm-bound",
+  "name": "The Storm-Bound",
+  "type": "faction",
+  "world": "vaeloria",
+  "status": "active",
+  "founded": "Age of Stone (as Vaelmarr's warband); refounded ~50 AA",
+  "summary": "Vaelmarr's sworn: sailors, soldiers, and storm-pilots bound by wave-oaths. The oldest surviving martial order on Aurelith — older than the Concord, scattered by the Sundering, and refounded from three shipwrecked crews during the Rebuilding. They claim no king and reeve but honor charters for coin.",
+  "history": [
+    { "age": "age-of-stone", "year": "~1,800", "event": "Origins: coastal tribes swear the first wave-oaths to Vaelmarr — warriors who fight the sea's fury rather than flee it. The order predates writing." },
+    { "age": "concord-of-weavers", "year": "~700", "event": "The Bound Storms humiliate the order: Weavers chain the Veiled Sea's hurricanes and sell the calm. Storm-Bound oaths lose their meaning; the order declines into a drinking brotherhood." },
+    { "age": "the-sundering", "year": "1 (summer)", "event": "Scattered: the unchained storms return with the Madness. Half the order drowns keeping refugee ships off the rocks; the other half is never heard from again." },
+    { "age": "age-of-ashes", "year": "~50", "event": "Refounding: three wrecked crews wash ashore in the Bone Archipelago, swear new wave-oaths on driftwood, and row home. The modern order dates itself from this oath." },
+    { "age": "age-of-ashes", "year": "~300", "event": "The Salt Roads charter: the Reeve's court hires Storm-Bound convoys for the southern trade. The order becomes the sea's post office, escort, and undertaker." },
+    { "age": "age-of-ashes", "year": "812 (current)", "event": "Ships report the Veiled Sea 'singing' past the horizon. The order's elders are silent on what it means; three storm-pilots have resigned their oaths rather than sail there again." }
+  ],
+  "structure": {
+    "leadership": "the Elder Wave — the longest-oathed member still seaworthy",
+    "ranks": ["oath-sworn", "wave-brother/sister", "storm-pilot", "Elder Wave"],
+    "headquarters": "no fixed hall; the order gathers at spring tide-moots on the Bone Archipelago",
+    "membership": "~2,000 sworn across the Veiled Sea routes"
+  },
+  "goals": [
+    "Keep the sea-lanes open and the drowned honored",
+    "Never again let magic chain a storm",
+    "Learn what sings beyond the horizon"
+  ],
+  "methods": [
+    "Wave-oaths: binding contracts sworn on salt water, broken only by death",
+    "Convoy charters sold to courts and caravans alike",
+    "The tide-moot: annual gathering where oaths are renewed and grudges settled"
+  ],
+  "relations": [
+    { "faction": "reeves-court", "stance": "hired sword", "note": "Profitable, if occasionally humiliating for an order older than kingdoms." },
+    { "faction": "the-censer", "stance": "cold distrust", "note": "The Censer once tried to circle-test a storm-pilot mid-voyage. The pilot survived; the Censer's agents did not." },
+    { "faction": "religious-orders", "stance": "kin orders", "note": "The Storm-Bound are Vaelmarr's clergy as much as any Halo's priests — and resent being left out of church councils." }
+  ],
+  "adventure_hooks": [
+    "Players hired to escort a grain convoy discover the cargo is Glimmerborn children being smuggled past Censer watchlists.",
+    "A resigned storm-pilot sells the location where the sea sings — then turns up drowned on dry land.",
+    "The tide-moot votes on whether to break the Reeve's charter over the Karvess expedition; players' testimony decides it."
+  ]
+}

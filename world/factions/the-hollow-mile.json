@@ -1,0 +1,41 @@
+{
+  "id": "the-hollow-mile",
+  "name": "The Hollow Mile",
+  "type": "faction",
+  "world": "vaeloria",
+  "status": "active",
+  "founded": "~200 Si (after the Censer's first continental purge)",
+  "summary": "Velkash's underworld and the continent's black market for everything the Censer takes: banned books, Glimmer-touched relics, forged papers, and silence itself. Named for the mile of tunnels beneath Velkash's bridges. Every purge makes it richer; every raid makes it deeper.",
+  "history": [
+    { "age": "age-of-silence", "year": "~200", "event": "Born of seizure: when the Censer's first continental purge fills its wagons, the overflow — forgeries, duplicates, outright lies — finds buyers in Velkash's under-bridges. The Mile is born as a fence's paradise." },
+    { "age": "age-of-silence", "year": "~310", "event": "The Great Collection backfires: the Censer seizes every Old Weaver text it can find, and the Mile becomes the only place a copy can be bought — at ten times the price. The Rememberers learn to sell here." },
+    { "age": "age-of-silence", "year": "~490", "event": "The Grey Peace: with few Glimmerborn left to hunt, the Censer's purges slow, and the Mile diversifies into gambling, smuggling, and the quiet trade in everything else." },
+    { "age": "age-of-ashes", "year": "~500", "event": "The Rememberers' Return: scholars emerge from the Mile with genuine Old Weaver texts. The court protects them; the Censer hunts them; the Mile takes a cut from both sides." },
+    { "age": "age-of-ashes", "year": "812 (current)", "event": "A page of the Song Unbinding sells in the Mile for a king's ransom. It may be genuine. Three buyers are dead already, and the seller has vanished." }
+  ],
+  "structure": {
+    "leadership": "no single head — the Mile is ruled by the Ledger, an anonymous council of fences who meet behind changing masks",
+    "territory": "the Hollow Mile: tunnels beneath Velkash's bridges; safehouses in every major city",
+    "membership": "unknown; anyone who sells, buys, or stays silent is 'of the Mile' until they aren't"
+  },
+  "goals": [
+    "Profit from every prohibition",
+    "Keep no ledger that could ever be seized",
+    "Outlast the Censer — the one institution older than the trade itself"
+  ],
+  "methods": [
+    "Forged Censer warrants (the Mile's best-selling document)",
+    "Tunnel-couriers who never surface twice in the same district",
+    "Mutual blackmail as contract law"
+  ],
+  "relations": [
+    { "faction": "the-censer", "stance": "prey and parasite", "note": "Each needs the other to justify its existence." },
+    { "faction": "reeves-court", "stance": "tolerated corruption", "note": "Half the watch is on the payroll; the other half is for sale." },
+    { "faction": "the-rememberers", "stance": "uneasy partners", "note": "The Mile moves the Rememberers' texts and never asks what they say. Mostly." }
+  ],
+  "adventure_hooks": [
+    "Players must buy a forged warrant from the Mile to enter the Censer Quarter — and discover the forger knows their real names.",
+    "A Mile fence offers the genuine page of the Song Unbinding at half price if players steal back his kidnapped daughter.",
+    "The Ledger summons the players: someone has been selling texts that implicate the Mile in the Year of Ashfall."
+  ]
+}

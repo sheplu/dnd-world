@@ -1,0 +1,42 @@
+{
+  "id": "reeves-court",
+  "name": "The Reeve's Court",
+  "type": "faction",
+  "world": "vaeloria",
+  "status": "active",
+  "founded": "~120 AA (the Crown Re-set)",
+  "summary": "The civil authority of Velkash and, by extension, the Crownlands. The High Reeve is elected every ten years by the salt-and-harvest council — grain magnates, silk-weavers, and shipwrights. The court is the Censer's great rival: it holds the law, the coin, and the people, while the Censer holds only fear.",
+  "history": [
+    { "age": "age-of-silence", "year": "~80", "event": "Prehistory: the first Reeve of Velkash issues the Edict of Silence, banning the written Old Weaver. The office is born as an instrument of fear — a junior partner to the rising Censer." },
+    { "age": "age-of-ashes", "year": "~120", "event": "The Crown Re-set: Velkash's White Step is rebuilt and the salt-and-harvest council established. The court renames itself capital of the Crownlands and begins to slip the Censer's leash." },
+    { "age": "age-of-ashes", "year": "~300", "event": "The Salt Roads: the court strikes the first coins since the Sundering and opens southern trade. Coin becomes the court's weapon against Censer influence." },
+    { "age": "age-of-ashes", "year": "~500", "event": "The Rememberers' Return: scholars emerge from the Hollow Mile with Old Weaver texts. The court protects them purely to spite the Censer — a power play that backfires when the texts begin to circulate." },
+    { "age": "age-of-ashes", "year": "812 (current)", "event": "Reeve Aldara of the White Step wants an expedition to the Ruin of Karvess; the Censer forbids it. The council is split, the Year of Ashfall has spooked the grain magnates, and the court's authority is tested." }
+  ],
+  "structure": {
+    "leadership": "High Reeve Aldara of the White Step (elected, ~4 years remaining)",
+    "council": "the salt-and-harvest council: grain magnates, silk-weavers, shipwrights, well-sisters",
+    "headquarters": "the White Step, Velkash",
+    "membership": "the council of ~40, plus courts, tax-farmers, and the city watch"
+  },
+  "goals": [
+    "Keep the Crownlands fed, taxed, and trading",
+    "Break the Censer's veto over expeditions and scholarship",
+    "Survive the Year of Ashfall without panic or famine"
+  ],
+  "methods": [
+    "Coin, tariffs, and the grain dole",
+    "Legal charters that quietly override Censer warrants",
+    "Patronage of scholars useful enough to protect"
+  ],
+  "relations": [
+    { "faction": "the-censer", "stance": "uneasy rivals", "note": "Neither can destroy the other without destroying the peace both profit from." },
+    { "faction": "the-hollow-mile", "stance": "tolerated corruption", "note": "The Mile bribes half the watch; the other half takes its cut from the bribes." },
+    { "faction": "storm-bound", "stance": "hired sword", "note": "The court charters Storm-Bound convoys on the Veiled Sea routes." }
+  ],
+  "adventure_hooks": [
+    "The Reeve secretly commissions players for the Karvess expedition the Censer forbade.",
+    "A council seat falls vacant; the Censer backs a candidate who will sign purge writs without review.",
+    "Ashfall-poisoned grain is blamed on hollowborn caravans; the court must find truth before a pogrom starts."
+  ]
+}
