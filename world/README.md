@@ -12,10 +12,17 @@ world/
 ├── magic.json           The Glimmer: mechanics, costs, traditions, law
 ├── events/
 │   ├── the-divine-warring.json    First Stillness: the first quarrel and covenant
+│   ├── the-deep-forging.json      Age of Stone: Orbren teaches the hammer
 │   ├── the-war-of-heavens-edge.json Age of Stone: the nine-century god-war
+│   ├── the-greenwood-compact.json Age of Stone: Veyra's vow, the oldest treaty
+│   ├── the-bound-storms.json      Concord: storms chained — magic learns fear
 │   ├── the-silent-war.json        Concord: the Weavers' civil war
 │   ├── the-sundering.json         The cataclysm year itself
+│   ├── the-edict-of-silence.json  Silence: writing banned for 800 years
 │   ├── the-great-collection.json  Silence: the continental purge
+│   ├── the-crown-re-set.json      Ashes: Velkash rebuilds the political order
+│   ├── the-salt-roads.json        Ashes: the continent reconnects through trade
+│   ├── the-river-toll-war.json    Ashes: the largest mortal war since the Sundering
 │   ├── the-backfiring.json        Ashes: Solmere's fall and the Accords
 │   └── the-waking-and-ashfall.json Ashes: the current crisis (812 AA)
 ├── continents/

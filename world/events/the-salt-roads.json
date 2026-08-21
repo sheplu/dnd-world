@@ -1,0 +1,43 @@
+{
+  "id": "the-salt-roads",
+  "name": "The Opening of the Salt Roads",
+  "type": "event",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "age": "age-of-ashes",
+  "years": "~300 AA (first crossing); the network complete by ~350 AA",
+  "scale": "continental — economic reconnection",
+  "summary": "Three hundred years after the Sundering, a hollowborn caravan did the unthinkable: it crossed the Burning Sands' deep dunes to the Crownlands and came back. Within a generation, the salt roads ran from the Glass Reach to Velkash's gates — the first trade network to span the continent since the Falling Kingdoms. Coins were struck for the first time since the catastrophe; Hollow Sign became the language of every market; and the desert, which had been the world's edge, became its crossroads.",
+  "participants": [
+    { "kind": "faction", "name": "the-dhar-roads", "side": "the openers", "note": "the first sworn caravans; their code of the road predates and outlasts every treaty" },
+    { "kind": "realm", "name": "the-well-league", "side": "the wells", "note": "water-law made the routes possible at all" },
+    { "kind": "realm", "name": "the-velkash-crown", "side": "the mint", "note": "struck the first coins since the Sundering to pay for southern goods" },
+    { "kind": "faction", "name": "the-hollow-mile", "side": "the quiet partner", "note": "southern texts moved north in sealed crates from the beginning" }
+  ],
+  "course_of_events": [
+    { "phase": "The First Crossing", "when": "~297–300 AA", "what": "Seventeen hollowborn families swear the first road-oath and walk the deep dunes against every surviving map's advice. Eleven arrive at the Crownlands' southern edge with salt, glass, and stories. Three of the eleven names are still borne by Road caravans today." },
+    { "phase": "The Water Bargain", "when": "~300–310 AA", "what": "Routes need wells; wells need law. The Well-League's councils and the caravan code bind into the arrangement that still holds: carriage for water, silence for shelter." },
+    { "phase": "The First Coins", "when": "~315 AA", "what": "Barter breaks down under volume; the Crown strikes the first coins since the Sundering — crowns bearing the Broken Moat, deliberately unglamorous. Counterfeiters are prosecuted as traitors, setting monetary law for centuries." },
+    { "phase": "The Sign Spreads", "when": "~320–350 AA", "what": "Hollow Sign — silent, precise, unforgeable by noise — becomes every market's second tongue from the docks of Velkash to the Shard Cities. For the first time since the Edict, a new way of recording meaning spreads instead of dies." },
+    { "phase": "The Network Complete", "when": "~350 AA", "what": "Northern silk meets southern glass reliably, season on season. The Grey Peace's comfortable forgetting has an economic engine now — and the Rememberers' texts begin moving north in sealed crates, one toll receipt at a time." }
+  ],
+  "key_places": [
+    { "name": "The Seventeen Stones", "description": "Mile-markers along the first route, one per founding family, each carved with a name and a well-sign. Caravans still touch each stone passing; skipping one is bad luck worth stopping for.", "status": "active shrine-road" },
+    { "name": "The Mint Gate", "description": "Velkash's southern gate where the first coins were struck and where all coin dies are still changed under witness. Its arch bears scales, not arms.", "status": "active institution" },
+    { "name": "The Sign Market", "description": "Any market square where Hollow Sign is traded openly — there are forty-one across the continent, and they recognize each other with a lantern-code.", "status": "network of places" },
+    { "name": "The Deep Dune Crossing", "description": "The route's one unengineered stretch: no wells, no stones, three days between water. Every caravan adds its dead's names to a cairn at the far side. The cairn is now larger than the dune it stands on.", "status": "graveyard landmark" }
+  ],
+  "consequences": [
+    "Economic reconnection: the continent trades as one entity for the first time since the Sundering.",
+    "Coinage returns; monetary law becomes crown law.",
+    "Hollow Sign spreads as the continent's trade-tongue — the Edict banned writing, not signing.",
+    "Southern goods fund northern scholarship; forbidden texts ride north in legal crates.",
+    "The desert becomes central: realms that ignored the sands now depend on them."
+  ],
+  "remembrance": "Crossing-Day is kept by caravans and market-towns alike: seventeen cups poured, the eldest merchant signs 'safe road' over the door. The Deep Dune cairn receives one stone per traveler per crossing — it grows by tons each year.",
+  "adventure_hooks": [
+    "A seventeenth-family descendant claims ancestral right to name a new route; proving the bloodline runs through records both the Mile and the Septuary hold.",
+    "Someone is forging the Mint Gate's witness-seals on high-value shipments; the trail crosses three realms and one pirate harbor.",
+    "The Deep Dune cairn's newest stones bear names nobody recognizes — carved in a hand that matches no living family's sign."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "the-crown-re-set",
+  "name": "The Crown Re-set",
+  "type": "event",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "age": "age-of-ashes",
+  "years": "~120 AA (the Re-set); charters through ~200 AA",
+  "scale": "political rebirth — continental institutional order",
+  "summary": "Seven hundred years after the Sundering, Velkash decided to be a capital again. The White Step was rebuilt on its grey foundations, the salt-and-harvest council constituted, and — in the era's defining move — the city invited every rebuilt realm to charter itself against Velkash's legal forms rather than fight over scraps. The charters of Northmarch, the Septuary, and the Free Town system all descend from this generation. The Age of Ashes stopped being a aftermath and became an order.",
+  "participants": [
+    { "kind": "realm", "name": "the-velkash-crown", "side": "the rebuilder", "note": "traded hegemony for legality — the bargain that made it dominant" },
+    { "kind": "realm", "name": "northmarch", "side": "first chartered", "note": "accepted the pass-charter in exchange for grain guarantees" },
+    { "kind": "faction", "name": "the-septuary", "side": "chartered into power", "note": "given certification monopoly as neutral referee" },
+    { "kind": "faction", "name": "the-censer", "side": "uninvited", "note": "notably absent from the charters — the Accords would come later, and harder" }
+  ],
+  "course_of_events": [
+    { "phase": "The Grey Foundations", "when": "~100–118 AA", "what": "Velkash's ruins are cleared; the White Step's old foundations left visible by design. The surviving merchant families convene a 'provisional market court' that quietly becomes a government." },
+    { "phase": "The Council Constituted", "when": "~120 AA", "what": "The salt-and-harvest council is formalized: forty seats, ten-year reeveships, election by assessed contribution. The first High Reeve is chosen by acclamation and immediately does the unexpected — invites other realms to charter." },
+    { "phase": "The Chartering", "when": "~120–200 AA", "what": "Northmarch takes the pass-charter; the Septuary its certification monopoly; Ashveil its dual-wardenship precedent. Each charter binds the signer to Crown courts while guaranteeing local law — empire by paperwork." },
+    { "phase": "The Capital Named", "when": "~125 AA", "what": "Velkash names itself capital of the Crownlands 'once more' — a phrase doing enormous work, since no such crownlands had existed for seven centuries. Nobody contests it loudly enough to matter." }
+  ],
+  "key_places": [
+    { "name": "The Grey Foundation Line", "description": "Where rebuilt White Step meets old: a deliberate seam of pre-Sundering stone left exposed. New oaths are sworn with a hand on the grey line.", "status": "architectural memorial" },
+    { "name": "The Forty Chairs", "description": "The council chamber's seats, each carved from a different ruined realm's salvaged stone. Members sit in their predecessors' rubble — intended as humility, functioning as inheritance.", "status": "active chamber" },
+    { "name": "Charter Stone Row", "description": "A colonnade where each chartered realm's terms are cut in stone duplicates. The row was designed to extend; two spaces remain empty, facing each other.", "status": "unfinished by design" }
+  ],
+  "consequences": [
+    "The realms system: local law under common courts becomes the continent's political architecture.",
+    "Velkash achieves dominance without conquest — the pattern every later rival resents.",
+    "The Septuary's certification monopoly begins here.",
+    "The Censer's exclusion from the charters sets up the Accords confrontation of 184 AA."
+  ],
+  "remembrance": "Re-set Day is a festival of contracts: debts are renegotiated, apprentices bound, leases signed — the whole city makes promises in one week. The saying goes: 'on Re-set Day even the Mile pays rent.'",
+  "adventure_hooks": [
+    "The two empty Charter Stone spaces: who declined, and why do both refusal letters read like they were written by the same hand?",
+    "A realm produces an older charter claiming precedence; authenticating it means the Septuary ruling against its own founding document.",
+    "During Re-set Week, someone swears a false oath on the Grey Foundation Line — and the stone, which has heard eight centuries of vows, cracks."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "the-bound-storms",
+  "name": "The Bound Storms",
+  "type": "event",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "age": "concord-of-weavers",
+  "years": "~700 CoW (the working); consequences run a century",
+  "scale": "continental — cultural and political transformation",
+  "summary": "The working that taught the world to fear magic. The Colleges of the Weave, seeking to end the Veiled Sea's hurricane seasons, chained the storms themselves and sold the calm. For a generation the sea-lanes were safe and the Concord's prestige was absolute. Then the bills came due: weather failed inland, the Storm-Bound order was broken in all but name, and common folk coined the word that has followed magic ever since. The High Concord was founded in the aftermath to ensure no one ever did it again — which lasted until the Silent War proved they hadn't learned.",
+  "participants": [
+    { "kind": "faction", "name": "colleges-of-the-weave", "side": "the chainers", "note": "seven colleges jointly; their proudest group-working" },
+    { "kind": "deity", "name": "vaelmarr", "side": "the robbed", "note": "his storms, bound without leave; his silence afterward was noted by every temple" },
+    { "kind": "faction", "name": "storm-bound", "side": "the broken", "note": "wave-oaths lost meaning when storms became merchandise; the order declined into a drinking brotherhood" },
+    { "kind": "species", "name": "common folk of two seaboards", "side": "the witnesses", "note": "safe shipping, then failing rains; they learned both halves of magic's price" }
+  ],
+  "course_of_events": [
+    { "phase": "The Proposal", "when": "~690 CoW", "what": "Hurricane seasons have drowned three trade fleets in a decade. The Colleges propose binding the storms at source — 'not killing weather, only teaching it manners'. Vaelmarr's temples refuse to bless it; the Colleges proceed without them." },
+    { "phase": "The Chaining", "when": "~700 CoW", "what": "Nine hundred weavers work in relay across a season. The hurricanes are lashed into chains of woven wind and moored beyond the horizon. The calm is immediate, total, and for sale." },
+    { "phase": "The Calm Years", "when": "~700–715 CoW", "what": "Trade booms; insurance is invented; the Concord's reach doubles. Weavers are celebrated as saviors. Somewhere inland, rain begins arriving late." },
+    { "phase": "The Bill", "when": "~715–730 CoW", "what": "Bound storms must be fed: the workings draw moisture from the continental interior. Crops fail in three provinces far from any coast. The Colleges deny causation for eleven years, then quietly unbind two chains. The rains return. So does a hurricane — unchained and furious." },
+    { "phase": "The Reckoning", "when": "~730–750 CoW", "what": "The freed hurricane takes a port city's harbor quarter. Common folk coin the whisper: fear. The moderates form the High Concord with power to sanction or forbid any working. The Storm-Bound swear their oaths mean nothing now and begin their long decline." }
+  ],
+  "key_places": [
+    { "name": "The Mooring Deep", "description": "Where the chained storms were anchored past the horizon — a stretch of sea the Storm-Bound still refuse to sail. Charts mark it with an old sigil meaning 'owed'.", "status": "avoided waters" },
+    { "name": "The Drowned Harbor Quarter", "description": "The port taken by the freed hurricane, left unrepaired as warning. Its drowned streets are visible at spring low tides; salvors are prosecuted as grave-robbers.", "status": "memorial ruin" },
+    { "name": "The Late-Rain Provinces", "description": "Three interior provinces whose rains arrived late for a generation. Their harvest calendars still run six weeks offset from everyone else's — farmers adjust, but remember.", "status": "agricultural scar" },
+    { "name": "The Relay Stones", "description": "Nineteen standing stones across the southern coasts where the chaining weavers stood in relay. Each bears a worn word: beginning, hold, hold, hold... The last stone's word is illegible.", "status": "standing stones" }
+  ],
+  "consequences": [
+    "'Fear' enters the language as magic's common name — the Sundering only confirmed it.",
+    "The High Concord is founded: containment becomes institutional doctrine.",
+    "The Storm-Bound decline for 500 years, until the Sundering's unchained storms scatter them entirely.",
+    "Vaelmarr's temples separate from Concord civic life — a rift never formally healed.",
+    "Precedent established: large workings have distant victims. Nobody who mattered listened."
+  ],
+  "remembrance": "Sailors still pour a cup to the Mooring Deep 'for what is owed'. The Storm-Bound tell the tale every tide-moot: not as grievance but as arithmetic. And in every market where charms are sold, the oldest vendors still say: 'bound things feed.'",
+  "adventure_hooks": [
+    "A chain-link washes ashore — woven wind, still taut after 1,400 years. Cutting it would free something, somewhere.",
+    "The Storm-Bound ask players to witness the Mooring Deep from a distance: something there has started pulling back.",
+    "A College vault's ledger surfaces listing exactly what the storms were fed — and which provinces paid."
+  ]
+}

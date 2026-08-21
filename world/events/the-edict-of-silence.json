@@ -1,0 +1,41 @@
+{
+  "id": "the-edict-of-silence",
+  "name": "The Edict of Silence",
+  "type": "event",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "age": "age-of-silence",
+  "years": "~80 Si (proclaimed); enforced ever since",
+  "scale": "continental law — cultural transformation",
+  "summary": "Eighty years after the world screamed, the first Reeve of Velkash decreed that the old tongue — Old Weaver, the language in which the song was written and worked — could no longer be lawfully written at all. The penalty was a year of silence: mouth sewn or simple exile, by whim. What began as Velkash municipal panic became the continent's longest-standing law. Every archive burned, every Rememberer cell formed, every forged warrant sold traces back to this sentence.",
+  "participants": [
+    { "kind": "faction", "name": "reeves-court", "side": "the author", "note": "the first Reeve; the court's founding act was an act of fear" },
+    { "kind": "faction", "name": "the-censer", "side": "the enforcer-in-waiting", "note": "young order gained its first legal instrument — and its taste for warrants" },
+    { "kind": "faction", "name": "the-rememberers", "side": "the answer", "note": "scattered acolytes became organized cells within a generation of the Edict" },
+    { "kind": "species", "name": "scribes and readers of Aurelith", "side": "the silenced", "note": "tongue-scarred exiles became the Edict's walking warnings" }
+  ],
+  "course_of_events": [
+    { "phase": "The Panic Years", "when": "1–~79 Si", "what": "The Falling Kingdoms' refugees fill Velkash; Old Weaver graffiti appears on temple walls reading phrases nobody will translate. Two magistrates die after confiscating the same tablet. The city wants someone to make it stop." },
+    { "phase": "The Proclamation", "when": "~80 Si", "what": "The Edict: written Old Weaver is banned — possession, copying, teaching. Spoken use is merely disreputable. The penalty for writing: a year of silence, 'sewn or sent'. The Reeve's own seal-stone is broken in half at the proclamation, so the law bears no one's name." },
+    { "phase": "The First Enforcement", "when": "~80–100 Si", "what": "Bonfires in three cities. The tongue-scarred walk the roads — exiled scribes who chose sewing over leaving, or vice versa. The Censer learns how much it likes warrants." },
+    { "phase": "The Counter-Invention", "when": "~100–150 Si", "what": "Banning writing teaches memorization: the Chain of Memory's methods are invented by people with everything to lose. Banning text creates scarcity: prices rise under the bridges. The Edict manufactures both of its future enemies." },
+    { "phase": "The Permanence", "when": "~150 Si onward", "what": "Every later realm adopts the Edict in chartering — it ships with the legal code like a curse in the walls. Repeal is proposed four times in eight centuries. Four times the vote fails without debate." }
+  ],
+  "key_places": [
+    { "name": "The Broken Seal-Stone", "description": "The halves of the first Reeve's seal, set into the White Step's threshold where all must cross them entering court. Stepping between the halves is considered poor luck and worse manners.", "status": "embedded relic" },
+    { "name": "The Sewers' Road", "description": "The exile route taken by those who refused the needle: north through the Wealdmark toward the Dusk Reach. Waystones along it bear carved mouths — open, or sewn.", "status": "road, still walked" },
+    { "name": "The Last Legal Page", "description": "One page of Old Weaver remains lawful: the Edict's own text quotes a line of it, defining what is banned. It hangs in the Septuary's vault. Scholars note the quoted line translates to 'that which is hidden is not lost.'", "status": "archived irony" }
+  ],
+  "consequences": [
+    "Knowledge of the song becomes contraband — the Rememberers, the Mile, and eight centuries of smuggling follow.",
+    "Memorization replaces paper as the safe archive; the Chain of Memory is born.",
+    "Tongue-scars become a recognized caste across three realms.",
+    "The Censer gains its template: fear, legalized, outlives every emergency that justified it."
+  ],
+  "remembrance": "Nobody commemorates a ban. But 'to have a tongue' means 'to hold forbidden knowledge' in Mile slang, and mothers in three realms still hush children singing rhymes too old for them.",
+  "adventure_hooks": [
+    "A repeal vote finally has votes — if certain archives testify about what the Edict actually prevented. Both sides hire players as couriers.",
+    "Players meet a tongue-scarred exile who can still write Old Weaver beautifully — with her left hand, which was never sworn.",
+    "The Last Legal Page's quoted line is found translated in a Concord-era glossary. The full sentence continues past where the Edict stops quoting."
+  ]
+}
