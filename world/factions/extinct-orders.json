@@ -31,7 +31,7 @@
       "summary": "The Weavers' ruling conclave, formed to contain the song after hubris became policy. It contained nothing, but its wardens survived to swear the Censer's oath.",
       "history": [
         { "year": "~700 CoW", "event": "Formed by moderates horrified by the Bound Storms; given power to sanction or forbid any working." },
-        { "year": "900–1,100 CoW", "event": "Refuses Ithyn's push to bind the whole song; her exile splits the Concord's soul." },
+        { "year": "900–1,100 CoW", "event": "Refuses Ithyn's push to bind the whole song; Ithyn's exile splits the Concord's soul." },
         { "year": "1,100–1,201 CoW", "event": "Leads the Silent War against the Unbinding faction — and wins every battle while losing the world." },
         { "year": "1,187 CoW", "event": "Its own hardliners speak the Song Unbinding at the Stone Crown, believing controlled unbinding safer than Ithyn's heirs' chaos." },
         { "year": "1 Sun (winter)", "event": "Survivors dissolve the Concord and swear the First Censer's oath in Velkash's broken thread-quarter." }
@@ -58,14 +58,14 @@
     {
       "id": "first-whisperers",
       "name": "The First Whisperers",
-      "era": "concord-of-weavers (900–1,100 CoW)",
+      "era": "concord-of-weavers – age-of-silence (900 CoW – ~25 Si)",
       "founded": "~900 CoW",
-      "ended": "~1,100 CoW — absorbed or purged",
-      "summary": "Ithyn's first dozen students, taught the Unbinding before her exile. Some repented into the High Concord's service; some founded the Unbinding; one is said to have walked into the Quiet alive and on purpose.",
+      "ended": "~25 Si — absorbed or purged",
+      "summary": "Ithyn's first dozen students, taught the Unbinding before Ithyn's exile. Some repented into the High Concord's service; some founded the Unbinding; one is said to have walked into the Quiet alive and on purpose.",
       "history": [
         { "year": "~900 CoW", "event": "Ithyn teaches twelve acolytes the whole song, believing knowledge shared cannot be hoarded." },
-        { "year": "~950 CoW", "event": "Her exile scatters them: four repent and join the Concord's wardens, seven found the Unbinding, one — Beleth the Quiet-Walker — vanishes toward the Ashlands." },
-        { "year": "~1,100 CoW", "event": "The last repentant Whisperer dies in Censer service, her confession sealed in the archive's deepest vault." }
+        { "year": "~950 CoW", "event": "Ithyn's exile scatters them: four repent and join the Concord's wardens, seven found the Unbinding, one — Beleth the Quiet-Walker — vanishes toward the Ashlands." },
+        { "year": "~25 Si", "event": "The last repentant Whisperer — a founding warden of the First Censer — dies in service; the confession is sealed in the archive's deepest vault." }
       ],
       "legacy": "Beleth's fate is unwritten history. If she lived, her descendants — mortal or otherwise — would be 2,000 years old and remember everything.",
       "evolved_into": ["the-unbinding", "the-censer"]
@@ -73,12 +73,12 @@
     {
       "id": "the-nine-hearths",
       "name": "The Nine Hearths",
-      "era": "age-of-stone (~1,900–3,000 AS)",
-      "founded": "~1,900 AS, at the First Battle of the Sky",
+      "era": "age-of-stone (~2,100–3,000 AS)",
+      "founded": "~2,100 AS, at the First Battle of the Sky",
       "ended": "~50 CoW — dissolved voluntarily",
       "summary": "The mortal alliance of the god-war: nine river-tribes who swore mutual shelter while immortal armies burned the sky. The only authority that functioned through the War of Heaven's Edge.",
       "history": [
-        { "year": "~1,900 AS", "event": "At the First Battle of the Sky, nine hearth-fires are lit in one vale; each tribe vows shelter to any who flee the divine war, friend or stranger." },
+        { "year": "~2,100 AS", "event": "At the First Battle of the Sky, nine hearth-fires are lit in one vale; each tribe vows shelter to any who flee the divine war, friend or stranger." },
         { "year": "~2,100–3,000 AS", "event": "Keep neutral ways and refugee roads through the war; bury the dead of both immortal armies in shared ground no god may claim." },
         { "year": "3,000 AS", "event": "Survive the Withdrawal as the continent's only working authority — roads kept, granaries sealed, oaths intact." },
         { "year": "~1–50 CoW", "event": "As the Weavers rise, hearth authority fades. The last moot dissolves the Compact voluntarily, gifting its refugee roads to the new kingdoms." }
