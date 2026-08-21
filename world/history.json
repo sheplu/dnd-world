@@ -12,12 +12,42 @@
       "duration": "uncounted (mythic)",
       "summary": "Before the world. Solvane strikes the dark, Luneth draws the shadow, and the Chorus sings creation into being. Time has no meaning here; the sages call it 'the long breath before the first word.'",
       "sub_eras": [
-        { "id": "the-song", "name": "The Song", "years": "uncounted", "note": "The Chorus pours itself into light, seed, stone, and storm. The plane of the Veil is woven as a membrane between the world and the divine." },
-        { "id": "the-shaping", "name": "The Shaping", "years": "uncounted", "note": "Land settles, seas gather, the first mountains take their stance. The Chorus marks the world with seven 'true places' where the song runs strongest." }
+        {
+          "id": "the-song",
+          "name": "The Song",
+          "years": "uncounted",
+          "note": "The Chorus pours itself into light, seed, stone, and storm. The plane of the Veil is woven as a membrane between the world and the divine."
+        },
+        {
+          "id": "the-shaping",
+          "name": "The Shaping",
+          "years": "uncounted",
+          "note": "Land settles, seas gather, the first mountains take their stance. The Chorus marks the world with seven 'true places' where the song runs strongest."
+        },
+        {
+          "id": "the-divine-warring",
+          "name": "The Divine Warring",
+          "years": "uncounted",
+          "note": "Even in creation, the gods disputed. Solvane claimed the sun was his alone; Luneth insisted the moon was a shared secret. Their quarrel wounded the song, and the first wound in the Veil was made — not by malice, but by pride."
+        },
+        {
+          "id": "the-settling",
+          "name": "The Settling",
+          "years": "uncounted",
+          "note": "The quarrel ended when the Chorus agreed that no single god would dominate. The seven true places were marked as neutral ground, where all voices could be heard."
+        }
       ],
       "events": [
-        { "year": "uncounted", "title": "The First Word", "description": "Solvane names the day; the world answers." },
-        { "year": "uncounted", "title": "The Seven True Places", "description": "The Chorus crowns seven sites where the song is strongest. All are lost to memory — and to the map." }
+        {
+          "year": "uncounted",
+          "title": "The First Word",
+          "description": "Solvane names the day; the world answers."
+        },
+        {
+          "year": "uncounted",
+          "title": "The Seven True Places",
+          "description": "The Chorus crowns seven sites where the song is strongest. All are lost to memory — and to the map."
+        }
       ],
       "lore_hooks": [
         "The 'seven true places' of the Shaping are a treasure map older than any kingdom. Do they still hum with the song?",
@@ -31,14 +61,62 @@
       "duration": "~3,000 years",
       "summary": "The gods walk among mortals. Deep-kingdoms carve the Stone Crown, the Greenwood grows old and wise, and the first songs of folk are sung in the shadow of the gods.",
       "sub_eras": [
-        { "id": "first-kindling", "name": "The First Kindling", "years": "1–900", "note": "Mortal fires lit; the first tribes, the first graves, the first altars. Orbren teaches the deep-folk the hammer." },
-        { "id": "long-forging", "name": "The Long Forging", "years": "900–3,000", "note": "Dwarven holdfasts under the Stone Crown, elven groves of the Greenwood, human river-towns. The gods are known, near, and asked for counsel." }
+        {
+          "id": "first-kindling",
+          "name": "The First Kindling",
+          "years": "1–900",
+          "note": "Mortal fires lit; the first tribes, the first graves, the first altars. Orbren teaches the deep-folk the hammer."
+        },
+        {
+          "id": "long-forging",
+          "name": "The Long Forging",
+          "years": "900–3,000",
+          "note": "Dwarven holdfasts under the Stone Crown, elven groves of the Greenwood, human river-towns. The gods are known, near, and asked for counsel."
+        },
+        {
+          "id": "the-divine-warring",
+          "name": "The War of Heaven's Edge",
+          "years": "2,100–3,000",
+          "note": "The gods quarrel over the world they shaped. Solvane demands absolute worship; Luneth refuses, keeping her cycles independent. The war lasts centuries, and the Veil tears in seven places — the seven true places become battlefields. Mortals die by the million, caught between immortal armies."
+        },
+        {
+          "id": "the-sunset-of-gods",
+          "name": "The Gods' Withdrawal",
+          "years": "3,000",
+          "note": "The war ends not with a treaty but with a withdrawal. The gods stop walking the earth. Some say Solvane was slain by Luneth's whisper; others say Luneth hid the moon to deny Solvane his audience. Whatever the truth, the Veil thickens as the gods pull back."
+        }
       ],
       "events": [
-        { "year": "1", "title": "First Kindling", "description": "The hearth of the first tribe is lit on the Thresher's Vale and never allowed to die." },
-        { "year": "~410", "title": "The Deep-Forging", "description": "Orbren's hammer falls on the Stone Crown; the Sunken Halls are begun." },
-        { "year": "~1,100", "title": "The Greenwood Compact", "description": "The elven groves swear the Compact of Five Roots with Veyra, binding the green to stand while the world stands." },
-        { "year": "~2,600", "title": "The Last Walk", "description": "The gods walk openly among mortals for the final time. None knows why they withdrew; only that the Veil closed softly behind them." }
+        {
+          "year": "1",
+          "title": "First Kindling",
+          "description": "The hearth of the first tribe is lit on the Thresher's Vale and never allowed to die."
+        },
+        {
+          "year": "~410",
+          "title": "The Deep-Forging",
+          "description": "Orbren's hammer falls on the Stone Crown; the Sunken Halls are begun."
+        },
+        {
+          "year": "~1,100",
+          "title": "The Greenwood Compact",
+          "description": "The elven groves swear the Compact of Five Roots with Veyra, binding the green to stand while the world stands."
+        },
+        {
+          "year": "~2,100",
+          "title": "The First Battle of the Sky",
+          "description": "Solvane and Luneth's war reaches the Stone Crown. The battle shatters the high altar; the Veil rips. Mortal mages are the first to feel the Quiet's cold wind."
+        },
+        {
+          "year": "~2,500",
+          "title": "The Last Walk",
+          "description": "The gods walk openly among mortals for the final time. The War of Heaven's Edge wounds the world so deeply that the Veil never fully closes again."
+        },
+        {
+          "year": "3,000",
+          "title": "The Gods' Withdrawal",
+          "description": "The war ends. The gods cease walking the earth. The Veil begins its slow thicket — and humanity, dwarf-kind, and greenfolk must survive on their own."
+        }
       ],
       "lore_hooks": [
         "The Sunken Halls predate the Concord — if something moved in before the Weavers, what was it?",
@@ -52,15 +130,72 @@
       "duration": "~1,200 years",
       "summary": "The golden age of high magic. Mortal weavers learn to bind the song of creation into their own hands. Cities of glass and white stone rise; the Weavers' River is turned to silk. It is beautiful, and it is the seed of ruin.",
       "sub_eras": [
-        { "id": "the-binding", "name": "The Binding", "years": "1–700", "note": "The first Weavers learn the song from the ruins of the Seven True Places. Magic is a craft, taught in the Colleges of the Weave. The age is gentle and golden." },
-        { "id": "golden-yearning", "name": "The Golden Yearning", "years": "700–1,200", "note": "Hubris. The Weavers grow proud; they crack open the Quiet's cousin-pits, bind storms, and finally attempt to un-ravel the Veil and see the Chorus face to face." }
+        {
+          "id": "the-binding",
+          "name": "The Binding",
+          "years": "1–700",
+          "note": "The first Weavers learn the song from the ruins of the Seven True Places. Magic is a craft, taught in the Colleges of the Weave. The age is gentle and golden."
+        },
+        {
+          "id": "golden-yearning",
+          "name": "The Golden Yearning",
+          "years": "700–1,200",
+          "note": "Hubris. The Weavers grow proud; they crack open the Quiet's cousin-pits, bind storms, and finally attempt to un-ravel the Veil and see the Chorus face to face."
+        },
+        {
+          "id": "the-schism",
+          "name": "The Schism of Ithyn",
+          "years": "900–1,100",
+          "note": "Ithyn pushes the Weavers too far, urging them to bind the whole song, not threads. The Collegium refuses. Ithyn departs, but not before teaching a dozen acolytes the Unbinding. These become the first Whisperers, and the first heresies."
+        },
+        {
+          "id": "the-silent-war",
+          "name": "The Silent War",
+          "years": "1,100–1,200",
+          "note": "The Weavers split: the High Concord wants to contain the song; the Unbinding wants to set it free. Wars are fought with woven spells, not swords. The Veil thins further. The Censer is born from the wreckage, not just from fear but from the need to guard against the Unbinding."
+        }
       ],
       "events": [
-        { "year": "1", "title": "The First Thread", "description": "A Weaver named Ith-belen hears the song in a flooded ruin and binds it to her voice. The Concord is founded in a decade." },
-        { "year": "~150", "title": "Velkash on the Silk", "description": "The white city is raised on the Weavers' River bend; the thread-quarter dyes the water silver. Its bridges are woven, not built." },
-        { "year": "~700", "title": "The Bound Storms", "description": "Weavers lash the Veiled Sea's hurricanes into chains and sell the calm. It is the first working that makes common folk whisper 'fear'." },
-        { "year": "1,187", "title": "The Unraveling Begins", "description": "The High Concord gathers at the Seven True Place under the Stone Crown and speaks the first words of the Song Unbinding. The Veil thins. The Chorus is silent. They do not stop." },
-        { "year": "1,201", "title": "The Sundering", "description": "The Song Unbinding is completed. The Veil tears along a north-east to south-west seam. The world screams in one voice; cities of glass fall; the Quiet opens." }
+        {
+          "year": "1",
+          "title": "The First Thread",
+          "description": "A Weaver named Ith-belen hears the song in a flooded ruin and binds it to her voice. The Concord is founded in a decade."
+        },
+        {
+          "year": "~150",
+          "title": "Velkash on the Silk",
+          "description": "The white city is raised on the Weavers' River bend; the thread-quarter dyes the water silver. Its bridges are woven, not built."
+        },
+        {
+          "year": "~700",
+          "title": "The Bound Storms",
+          "description": "Weavers lash the Veiled Sea's hurricanes into chains and sell the calm. It is the first working that makes common folk whisper 'fear'."
+        },
+        {
+          "year": "1,187",
+          "title": "The Unraveling Begins",
+          "description": "The High Concord gathers at the Seven True Place under the Stone Crown and speaks the first words of the Song Unbinding. The Veil thins. The Chorus is silent. They do not stop."
+        },
+        {
+          "year": "1,201",
+          "title": "The Sundering",
+          "description": "The Song Unbinding is completed. The Veil tears along a north-east to south-west seam. The world screams in one voice; cities of glass fall; the Quiet opens."
+        },
+        {
+          "year": "~950",
+          "title": "Ithyn's Exile",
+          "description": "Ithyn leaves the Collegium. 'The song is not yours to bind,' she says. 'It is not yours to loose either.' Her acolytes flee — some join the Censer, some go into hiding, some become the first Rememberers of the Hollow Mile."
+        },
+        {
+          "year": "~1,187",
+          "title": "The Unraveling Begins",
+          "description": "The High Concord gathers at the Seven True Place under the Stone Crown and speaks the first words of the Song Unbinding. The Veil thins. The Chorus is silent. They do not stop."
+        },
+        {
+          "year": "1,201",
+          "title": "The Sundering",
+          "description": "The Song Unbinding is completed. The Veil tears along a north-east to south-west seam. The world screams in one voice; cities of glass fall; the Quiet opens."
+        }
       ],
       "lore_hooks": [
         "The Colleges of the Weave were not all destroyed. Some sealed themselves against the Sundering and may still hold Weavers — or something wearing them.",
@@ -74,13 +209,77 @@
       "duration": "1 year (the Year of Madness)",
       "summary": "One year, recorded in terror. The song shatters; magic turns wild or dies; the Quiet opens; kingdoms crumble in months. It is the fixed point from which all current reckoning flows.",
       "sub_eras": [
-        { "id": "the-breaking", "name": "The Breaking", "years": "1–1", "note": "Twelve months of cascading ruin. The Glimmer flares then fades; the White Step of Velkash turns grey overnight; the deserts run with glass." }
+        {
+          "id": "the-breaking",
+          "name": "The Breaking",
+          "years": "1–1",
+          "note": "Twelve months of cascading ruin. The Glimmer flares then fades; the White Step of Velkash turns grey overnight; the deserts run with glass."
+        },
+        {
+          "id": "the-breaking",
+          "name": "The Breaking",
+          "years": "1–1",
+          "note": "Twelve months of cascading ruin. The Glimmer flares then fades; the White Step of Velkash turns grey overnight; the deserts run with glass."
+        },
+        {
+          "id": "the-divine-withdrawal",
+          "name": "The Divine Withdrawal",
+          "years": "1–1",
+          "note": "The Last Walk's echo: the gods do not return. The war's ending left them distant, offended, or silenced. The Quiet is partly their doing — a wound they made, or a wall they raised."
+        },
+        {
+          "id": "the-world-breaks",
+          "name": "The World Breaks",
+          "years": "1–1",
+          "note": "Three distinct phases: spring (the Rent), summer (the Madness), autumn (the Falling Kingdoms), winter (the First Censer). Not a natural disaster — a divine surgery, and the scarring is the Quiet."
+        }
       ],
       "events": [
-        { "year": "1 (spring)", "title": "The Rent", "description": "The Quiet tears open from the Stone Crown to the Burning Sands. Where it passes, magic dies and sound follows — villages report the world going mute for days." },
-        { "year": "1 (summer)", "title": "The Madness", "description": "Weavers everywhere are struck by visions of the un-sung song. A third die, a third go mad, a third go silent and walk into the Quiet." },
-        { "year": "1 (autumn)", "title": "The Falling Kingdoms", "description": "The great kingdoms of the Concord collapse within weeks. The glass cities shatter; refugees flee toward the edges of the world." },
-        { "year": "1 (winter)", "title": "The First Censer", "description": "Survivors of the High Concord gather in Velkash's broken thread-quarter and swear to contain the Glimmer forever. The Censer order is born from shame and fear." }
+        {
+          "year": "1 (spring)",
+          "title": "The Rent",
+          "description": "The Quiet tears open from the Stone Crown to the Burning Sands. Where it passes, magic dies and sound follows — villages report the world going mute for days."
+        },
+        {
+          "year": "1 (summer)",
+          "title": "The Madness",
+          "description": "Weavers everywhere are struck by visions of the un-sung song. A third die, a third go mad, a third go silent and walk into the Quiet."
+        },
+        {
+          "year": "1 (autumn)",
+          "title": "The Falling Kingdoms",
+          "description": "The great kingdoms of the Concord collapse within weeks. The glass cities shatter; refugees flee toward the edges of the world."
+        },
+        {
+          "year": "1 (winter)",
+          "title": "The First Censer",
+          "description": "Survivors of the High Concord gather in Velkash's broken thread-quarter and swear to contain the Glimmer forever. The Censer order is born from shame and fear."
+        },
+        {
+          "year": "1 (spring)",
+          "title": "The Rent",
+          "description": "The Quiet tears open from the Stone Crown to the Burning Sands. Where it passes, magic dies and sound follows — villages report the world going mute for days."
+        },
+        {
+          "year": "1 (summer)",
+          "title": "The Madness",
+          "description": "Weavers everywhere are struck by visions of the un-sung song. A third die, a third go mad, a third go silent and walk into the Quiet."
+        },
+        {
+          "year": "1 (autumn)",
+          "title": "The Falling Kingdoms",
+          "description": "The great kingdoms of the Concord collapse within weeks. The glass cities shatter; refugees flee toward the edges of the world."
+        },
+        {
+          "year": "1 (winter)",
+          "title": "The First Censer",
+          "description": "Survivors of the High Concord gather in Velkash's broken thread-quarter and swear to contain the Glimmer forever. The Censer order is born from shame and fear."
+        },
+        {
+          "year": "1 (winter-end)",
+          "title": "The Last God Walks",
+          "description": "The final god — Mornath — departs. The Veil is at its thinnest. The first silence is observed across the world."
+        }
       ],
       "lore_hooks": [
         "Those who 'went silent' and walked into the Quiet are still out there — some say they are the only ones who remember the whole song.",
@@ -94,14 +293,89 @@
       "duration": "~500 years",
       "summary": "The long dark. Kingdoms fall and are not rebuilt; the Quiet spreads; the Glimmer is hunted. Writing the old language is made a crime. The world forgets the song on purpose.",
       "sub_eras": [
-        { "id": "falling-kingdoms", "name": "The Falling Kingdoms", "years": "1–250", "note": "Collapse and fear. Plague, famine, and silence. The white roads are pulled up for firewood. The Chorus is not answered when prayed to." },
-        { "id": "censers-rise", "name": "The Censer's Rise", "years": "250–500", "note": "Out of the chaos the Censer becomes the law. Glimmerborn are taken at birth; the order builds its walled quarter; Ithyn's cult goes underground and is branded heretical." }
+        {
+          "id": "falling-kingdoms",
+          "name": "The Falling Kingdoms",
+          "years": "1–250",
+          "note": "Collapse and fear. Plague, famine, and silence. The white roads are pulled up for firewood. The Chorus is not answered when prayed to."
+        },
+        {
+          "id": "censers-rise",
+          "name": "The Censer's Rise",
+          "years": "250–500",
+          "note": "Out of the chaos the Censer becomes the law. Glimmerborn are taken at birth; the order builds its walled quarter; Ithyn's cult goes underground and is branded heretical."
+        },
+        {
+          "id": "falling-kingdoms",
+          "name": "The Falling Kingdoms",
+          "years": "1–150",
+          "note": "Collapse and fear. Plague, famine, and silence. The white roads are pulled up for firewood. The Chorus is not answered when prayed to. The Censer begins its first grabs of power."
+        },
+        {
+          "id": "the-censer-rise",
+          "name": "The Censer's Rise",
+          "years": "150–350",
+          "note": "Out of the chaos the Censer becomes the law. Glimmerborn are taken at birth; the order builds its walled quarter; Ithyn's cult goes underground and is branded heretical. The first Edict of Silence. The Rememberers of the Hollow Mile dig in."
+        },
+        {
+          "id": "the-remembering",
+          "name": "The Remembering",
+          "years": "350–450",
+          "note": "A fragile era where some old ways survive in secret. The Censer's power peaks; the Grey Peace begins. The Rememberers trade in Old Weaver — a capital crime."
+        },
+        {
+          "id": "the-grey-peace",
+          "name": "The Grey Peace",
+          "years": "450–500",
+          "note": "The world, exhausted, settles into a grey quiet. Few Glimmerborn remain; fewer are found. The song is a rumor. The Censer is an institution; the Reeve's court is a rival. The Rememberers go deeper underground."
+        }
       ],
       "events": [
-        { "year": "1", "title": "The Burning of the Thread", "description": "Velkash's thread-quarter burns — either accident or purge, the records disagree. The white silk of the old age is lost." },
-        { "year": "~80", "title": "The Edict of Silence", "description": "The first Reeve of Velkash decrees that the old tongue, Old Weaver, may not be written. The penalty is a year of silence — mouth sewn or simple exile, by whim." },
-        { "year": "~310", "title": "The Great Collection", "description": "The Censer's first continental purge of Glimmerborn and forbidden books. The Hollow Mile is born as a black market for everything they take." },
-        { "year": "~490", "title": "The Grey Peace", "description": "The world, exhausted, settles into a grey quiet. Few Glimmerborn remain; fewer are found. The song is a rumor." }
+        {
+          "year": "1",
+          "title": "The Burning of the Thread",
+          "description": "Velkash's thread-quarter burns — either accident or purge, the records disagree. The white silk of the old age is lost."
+        },
+        {
+          "year": "~80",
+          "title": "The Edict of Silence",
+          "description": "The first Reeve of Velkash decrees that the old tongue, Old Weaver, may not be written. The penalty is a year of silence — mouth sewn or simple exile, by whim."
+        },
+        {
+          "year": "~310",
+          "title": "The Great Collection",
+          "description": "The Censer's first continental purge of Glimmerborn and forbidden books. The Hollow Mile is born as a black market for everything they take."
+        },
+        {
+          "year": "~490",
+          "title": "The Grey Peace",
+          "description": "The world, exhausted, settles into a grey quiet. Few Glimmerborn remain; fewer are found. The song is a rumor."
+        },
+        {
+          "year": "1",
+          "title": "The Burning of the Thread",
+          "description": "Velkash's thread-quarter burns — either accident or purge, the records disagree. The white silk of the old age is lost."
+        },
+        {
+          "year": "~80",
+          "title": "The Edict of Silence",
+          "description": "The first Reeve of Velkash decrees that the old tongue, Old Weaver, may not be written. The penalty is a year of silence — mouth sewn or exile, by whim."
+        },
+        {
+          "year": "~200",
+          "title": "The Censer's First Continental Purge",
+          "description": "The Censer's first grabs of Glimmerborn and forbidden books across the continent. The Hollow Mile is born as a black market for everything they take."
+        },
+        {
+          "year": "~310",
+          "title": "The Great Collection",
+          "description": "The Censer's agents seize every Old Weaver text they can find. The Rememberers' underground network is forged — they are the only ones who still copy the forbidden language."
+        },
+        {
+          "year": "~490",
+          "title": "The Grey Peace",
+          "description": "The world, exhausted, settles into a grey quiet. Few Glimmerborn remain; fewer are found. The song is a rumor. The Censer is an institution; the Reeve's court is a rival. The Rememberers go deeper underground."
+        }
       ],
       "lore_hooks": [
         "The Censer's archives hold more than books — a wing is said to hold 'the silent ones' from the Sundering, in no state to be called prisoners.",
@@ -115,15 +389,89 @@
       "duration": "812 years (ongoing)",
       "summary": "The current age: slow rebuilding over a buried glory. Kingdoms return, trade revives, the Censer holds the law — but the Veil is thinning again, the Quiet is stirring, and the Glimmer is waking. Heroic age in waiting.",
       "sub_eras": [
-        { "id": "the-rebuilding", "name": "The Rebuilding", "years": "1–300", "note": "Realms re-form around the river-valleys; Velkash regains its crown. Stone, salt, and silk replace song." },
-        { "id": "grey-peace", "name": "The Grey Peace", "years": "300–700", "note": "Four centuries of near-stability. The Censer is a fixture; Glimmerborn are rare enough to be legend. A comfortable, forgetful peace." },
-        { "id": "thinning-veil", "name": "The Thinning Veil", "years": "700–812", "note": "Trouble: the Quiet grows by hands' widths each year, Mistshroud fogs linger, and the Censer's hunts have doubled. Something is relearning the song." }
+        {
+          "id": "the-rebuilding",
+          "name": "The Rebuilding",
+          "years": "1–300",
+          "note": "Realms re-form around the river-valleys; Velkash regains its crown. Stone, salt, and silk replace song."
+        },
+        {
+          "id": "grey-peace",
+          "name": "The Grey Peace",
+          "years": "300–700",
+          "note": "Four centuries of near-stability. The Censer is a fixture; Glimmerborn are rare enough to be legend. A comfortable, forgetful peace."
+        },
+        {
+          "id": "thinning-veil",
+          "name": "The Thinning Veil",
+          "years": "700–812",
+          "note": "Trouble: the Quiet grows by hands' widths each year, Mistshroud fogs linger, and the Censer's hunts have doubled. Something is relearning the song."
+        },
+        {
+          "id": "the-rebuilding",
+          "name": "The Rebuilding",
+          "years": "1–300",
+          "note": "Realms re-form around the river-valleys; Velkash regains its crown. Stone, salt, and silk replace song. The Censer's power is challenged by the Reeve's court; the Hollow Mile grows; the Storm-Bound return from the Veiled Sea."
+        },
+        {
+          "id": "grey-peace",
+          "name": "The Grey Peace",
+          "years": "300–700",
+          "note": "Four centuries of near-stability. The Censer is a fixture; Glimmerborn are rare enough to be legend. A comfortable, forgetful peace. The Rememberers are myth. The salt roads from the Burning Sands are opened."
+        },
+        {
+          "id": "the-thinning-veil",
+          "name": "The Thinning Veil",
+          "years": "700–812",
+          "note": "Trouble: the Quiet grows by hands' widths each year, Mistshroud fogs linger, and the Censer's hunts have doubled. Something is relearning the song. The Grey Peace is ending. Old rivalries — Censer vs Reeve, Rememberers vs Censer, Storm-Bound vs settled — flare again."
+        }
       ],
       "events": [
-        { "year": "~120", "title": "The Crown Re-set", "description": "Velkash's White Step is rebuilt and the Reeve's council established; the city names itself the capital of the Crownlands once more." },
-        { "year": "~300", "title": "The Salt Roads", "description": "Caravans from the Burning Sands open the southern trade; the Hollow Sign spreads north. The first coins since the Sundering are struck." },
-        { "year": "~700", "title": "The Waking", "description": "The first Glimmerborn in a century is found in a Dusk Reach village. The Censer takes her. Before the year is out, three more appear. The fear returns." },
-        { "year": "812 (current)", "title": "The Year of Ashfall", "description": "Ash from an un-named mountain dusts the Crownlands on Goldharvest. The Quiet advances a hand's width. In the Hollow Mile, a page of the Song Unbinding sells for a king's ransom. It may be genuine." }
+        {
+          "year": "~120",
+          "title": "The Crown Re-set",
+          "description": "Velkash's White Step is rebuilt and the Reeve's council established; the city names itself the capital of the Crownlands once more."
+        },
+        {
+          "year": "~300",
+          "title": "The Salt Roads",
+          "description": "Caravans from the Burning Sands open the southern trade; the Hollow Sign spreads north. The first coins since the Sundering are struck."
+        },
+        {
+          "year": "~700",
+          "title": "The Waking",
+          "description": "The first Glimmerborn in a century is found in a Dusk Reach village. The Censer takes her. Before the year is out, three more appear. The fear returns."
+        },
+        {
+          "year": "812 (current)",
+          "title": "The Year of Ashfall",
+          "description": "Ash from an un-named mountain dusts the Crownlands on Goldharvest. The Quiet advances a hand's width. In the Hollow Mile, a page of the Song Unbinding sells for a king's ransom. It may be genuine."
+        },
+        {
+          "year": "~120",
+          "title": "The Crown Re-set",
+          "description": "Velkash's White Step is rebuilt and the Reeve's council established; the city names itself the capital of the Crownlands once more."
+        },
+        {
+          "year": "~300",
+          "title": "The Salt Roads",
+          "description": "Caravans from the Burning Sands open the southern trade; the Hollow Sign spreads north. The first coins since the Sundering are struck."
+        },
+        {
+          "year": "~500",
+          "title": "The Rememberers' Return",
+          "description": "A group of scholars emerges from the Hollow Mile with a copy of Old Weaver. The Censer hunts them; the Reeve's court protects them — a power play."
+        },
+        {
+          "year": "~700",
+          "title": "The Waking",
+          "description": "The first Glimmerborn in a century is found in a Dusk Reach village. The Censer takes her. Before the year is out, three more appear. The fear returns. The Grey Peace ends."
+        },
+        {
+          "year": "812 (current)",
+          "title": "The Year of Ashfall",
+          "description": "Ash from an un-named mountain dusts the Crownlands on Goldharvest. The Quiet advances a hand's width. In the Hollow Mile, a page of the Song Unbinding sells for a king's ransom. It may be genuine. The Thinning Veil is in full swing."
+        }
       ],
       "lore_hooks": [
         "The 'Ruin of Karvess' in the Ashlands is the largest Concord ruin standing. The Censer forbids expeditions. The Reeve wants one mounted. The players may be it.",
