@@ -6,6 +6,7 @@
   "region": "the-crownlands",
   "realm": "the-velkash-crown",
   "summary": "The crown of the Crownlands: a walled capital of white stone and steep bridges, built on the bend of the Weavers' River where it widens to a lake.",
+  "map": { "shape": "point", "coords": [[38, 48]] },
   "role": "capital",
   "ruler": {
     "title": "High Reeve",

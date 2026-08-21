@@ -1,0 +1,26 @@
+{
+  "id": "the-threshers-vale",
+  "name": "The Thresher's Vale",
+  "type": "vale",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-crownlands"],
+  "summary": "The bread-basket vale of the Crownlands: long, open, and golden half the year, watered by a Weavers' River side-arm. The first tribe's hearth — the First Kindling — was lit here in the First Stillness and has never gone out; Solmere was founded on its south bank, within sight of it.",
+  "geography": {
+    "character": "open grain-vale, threshing-floors, windbreak elms, shrine-hearths at crossroads",
+    "notable_sites": [
+      { "name": "The First Kindling", "note": "The hearth of the first tribe, tended by rotation among the vale's farmholds. It has been lit since the divine covenant; letting it die is the one crime with no statute, because none was ever needed." }
+    ]
+  },
+  "adjacent_to": ["the-weavers-river", "the-kings-road"],
+  "nearby_settlements": ["velkash", "solmere-city"],
+  "lore_notes": [
+    "Solmere City rose on the vale's south bank in the Age of Ashes — licensed hedge-craft, taxed and inspected — until the Backfiring silenced it. The vale's folk still do not farm the south bank.",
+    "Tax day across most realms falls in Goldharvest; the vale's grain sets the price everyone else resents."
+  ],
+  "adventure_hooks": [
+    "The First Kindling gutters for the first time in living memory; the keepers send for outsiders because whoever relights it must have no enemies.",
+    "A silent bell rings on the south bank where nothing stands anymore."
+  ],
+  "map": { "shape": "poly", "coords": [[32,54],[40,52],[42,58],[34,60]] }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "the-oasis-of-hollow-wells",
+  "name": "The Oasis of Hollow Wells",
+  "type": "oasis",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-burning-sands"],
+  "summary": "The greatest oasis of the Burning Sands and the southern terminus of the salt roads' western branch: a ring of deep wells around which the city of Hollow Wells grew. The water is older than any charter and colder than the sand has any right to allow.",
+  "geography": {
+    "character": "palm-ring basin, chain of stone wellheads, cistern-streets shaded in sailcloth",
+    "notable_sites": [
+      { "name": "The Chain Wells", "note": "The innermost circle of wells, linked by an ancient chain-and-windlass system; drawing order is law." }
+    ]
+  },
+  "adjacent_to": ["the-salt-roads", "the-deep-dunes", "the-glass-reach"],
+  "nearby_settlements": ["hollow-wells"],
+  "lore_notes": [
+    "'Water comes from League wells' — the Well-League's councils and the caravan code bind carriage to water here, the arrangement that still holds.",
+    "Hollowborn names are taken from the oasis or the road; half the desert answers to 'Wells' or 'Stone' in some form."
+  ],
+  "adventure_hooks": [
+    "A new well is sunk without League sanction and strikes something that sings back up the rope.",
+    "The windlass chain on the innermost well is found unlinked — impossible without hands."
+  ],
+  "map": { "shape": "point", "coords": [[46,74]] }
+}

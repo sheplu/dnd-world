@@ -8,6 +8,7 @@
   "region": "the-ashlands",
   "destroyed": "1 Sun (spring) — vitrified by the Rent",
   "summary": "The greatest ruin on Aurelith: an entire Concord city of woven glass turned to glass again in a single hour when the Rent passed beneath it. Towers, fountains, and ten thousand people preserved mid-motion, translucent and humming. The Censer forbids all expeditions. The Reeve wants one mounted.",
+  "map": { "shape": "point", "coords": [[64, 38]] },
   "original_role": "capital of the Glass Kingdom (see factions/extinct-orders.json)",
   "current_state": {
     "access": "illegal by Censer writ; approachable only across forty miles of ash-farm and scrub",

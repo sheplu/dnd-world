@@ -4,6 +4,7 @@
   "world": "vaeloria",
   "type": "continent",
   "summary": "The cradle of the mortal realms. One great landmass of varied climes, split by the scar of the Quiet, ringed by cold seas and one burning desert.",
+  "map": { "shape": "poly", "coords": [[24,14],[44,8],[60,8],[72,14],[76,26],[74,40],[76,54],[74,68],[70,86],[52,94],[30,90],[20,80],[18,58],[20,38]] },
   "regions": [
     {
       "id": "the-crownlands",
@@ -13,7 +14,8 @@
       "cities": ["velkash"],
       "lost_settlements": ["solmere-city"],
       "realms": ["the-velkash-crown", "the-wealdmark", "the-septuary"],
-      "key_features": ["the King's Road", "the Thresher's Vale", "the Broken Moat"]
+      "key_features": ["the-weavers-river", "the-kings-road", "the-threshers-vale"],
+      "map": { "shape": "poly", "coords": [[20,36],[44,32],[52,40],[54,50],[46,62],[34,66],[22,62],[18,46]] }
     },
     {
       "id": "the-ashlands",
@@ -23,7 +25,8 @@
       "cities": ["ashveil-cross"],
       "lost_settlements": ["karvess-ruin"],
       "realms": ["ashveil-free-town", "the-ash-march", "ash-baron-wilds"],
-      "key_features": ["the Quiet", "the Ruin of Karvess", "Ashveil Cross"]
+      "key_features": ["the-quiet-scar", "the-kings-road", "the-white-roads"],
+      "map": { "shape": "poly", "coords": [[56,34],[70,30],[74,40],[72,54],[64,66],[54,64],[50,50],[52,40]] }
     },
     {
       "id": "the-dusk-reach",
@@ -33,7 +36,8 @@
       "cities": ["hallord"],
       "lost_settlements": ["hearthvale"],
       "realms": ["the-sunken-holds", "the-greenwood-compact", "northmarch"],
-      "key_features": ["the Stone Crown mountains", "the Greenwood", "the Sunken Halls"]
+      "key_features": ["the-stone-crown", "the-greenwood", "greyspire-pass"],
+      "map": { "shape": "poly", "coords": [[30,12],[60,10],[70,16],[66,28],[58,34],[42,32],[30,26]] }
     },
     {
       "id": "the-burning-sands",
@@ -43,7 +47,8 @@
       "cities": ["hollow-wells"],
       "lost_settlements": [],
       "realms": ["the-well-league", "the-shard-cities", "the-dhar-roads"],
-      "key_features": ["the Glass Reach", "the Oasis of Hollow Wells", "the Sand-Drowned"]
+      "key_features": ["the-glass-reach", "the-oasis-of-hollow-wells", "the-deep-dunes", "the-salt-roads"],
+      "map": { "shape": "poly", "coords": [[24,68],[46,64],[64,68],[72,74],[68,88],[50,92],[32,88],[22,78]] }
     },
     {
       "id": "the-bone-archipelago",
@@ -53,7 +58,16 @@
       "cities": [],
       "lost_settlements": [],
       "realms": ["the-skeleton-courts"],
-      "key_features": ["the Drift Moot", "the wreck-shrines", "Greyspire's sister light"]
+      "key_features": ["the-wreck-shrines"],
+      "map": {
+        "shape": "multiline",
+        "coords": [
+          [[76,24],[82,20],[86,26],[80,30]],
+          [[84,36],[90,32],[94,40],[88,44],[84,42]],
+          [[78,48],[84,46],[86,54],[78,56]],
+          [[88,50],[94,48],[96,56],[90,58]]
+        ]
+      }
     }
   ],
   "neighbors": [

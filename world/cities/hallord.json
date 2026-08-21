@@ -6,6 +6,7 @@
   "region": "the-dusk-reach",
   "realm": "the-sunken-holds",
   "summary": "The oldest of the Sunken Halls and the arbiter of deep-folk clans. Carved into the Stone Crown's root before the Concord, Hallord has never fallen, never opened its lowest door, and never — in 4,000 years — written down a law. All law is spoken, remembered, and sworn on the First Forge.",
+  "map": { "shape": "point", "coords": [[50, 24]] },
   "role": "eldest hold; arbitrator of the clans",
   "ruler": {
     "title": "Hall-Voice",

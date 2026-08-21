@@ -1,0 +1,29 @@
+{
+  "id": "the-quiet-scar",
+  "name": "The Quiet (the Scar)",
+  "type": "scar-anomaly",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-dusk-reach", "the-ashlands", "the-burning-sands"],
+  "summary": "The physical wound left by the Sundering: a visible scar of cracked earth and silver mist running northeast to southwest across Aurelith, from the Stone Crown's foothills to the desert's edge. Within it the Glimmer does not answer — and something listens in the silence. See cosmology: the plane called the Quiet.",
+  "geography": {
+    "character": "a band of cracked grey earth and low silver mist, from a stone's throw wide at its narrowest to a mile at the weals",
+    "course": "Stone Crown foothills → down through the Ashlands heart → Ashveil Cross (the only sanctioned crossing) → thinning tail into the northern Burning Sands",
+    "edge_behavior": "The Quiet's edge wanders. Farms post watchers with bells; when the bells ring soundlessly, everyone walks backward away from it.",
+    "crossings": [
+      { "name": "The Veiled Gate", "settlement": "ashveil-cross", "note": "The single sanctioned crossing: dawn passage, single file, veils drawn." }
+    ]
+  },
+  "adjacent_to": ["the-stone-crown", "the-kings-road", "the-glass-reach"],
+  "nearby_settlements": ["ashveil-cross", "karvess-ruin"],
+  "lore_notes": [
+    "The cosmological wound is catalogued in planes (cosmology.json); this entry is where it lies on the land.",
+    "Karvess was vitrified by the Rent — the scar's one great tantrum since the Sundering — and glass still weathers off the ruin into the wind.",
+    "Ashlands villages 'pay the Quiet in prayer and silence'; the custom predates the Censer and outlasts every law about it."
+  ],
+  "adventure_hooks": [
+    "The scar's edge moves three miles overnight near a village that now stands inside it; the Warden of the Cross needs witnesses who can walk in and walk back.",
+    "Something is ringing silence-bells along the scar in a pattern; the Rememberers think it is a sentence."
+  ],
+  "map": { "shape": "line", "coords": [[57,24],[57,33],[56,44],[51,57],[45,70],[41,80]] }
+}

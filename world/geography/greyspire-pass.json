@@ -1,0 +1,29 @@
+{
+  "id": "greyspire-pass",
+  "name": "Greyspire Pass",
+  "type": "pass",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-dusk-reach"],
+  "summary": "The one practical way through or around the Stone Crown's southern shoulder: a long valley of pass-forts ending at Greyspire itself, the fortress-seat of Northmarch. Whoever keeps the pass keeps the bargains between crown, mountain, and forest.",
+  "geography": {
+    "character": "fortified valley road: toll-stations, mine-heads, watch-towers at bowshot intervals",
+    "notable_sites": [
+      { "name": "Greyspire", "note": "The pass-fortress at the valley mouth — seat of Earl Maren. Its light never goes out; the March considers that policy, not superstition." }
+    ],
+    "crossings": [
+      { "name": "The Iron Toll-Station", "note": "Weights sworn on iron scales; disputes settled by re-weighing, never by argument." }
+    ]
+  },
+  "adjacent_to": ["the-stone-crown", "the-greenwood", "the-weavers-river", "the-kings-road"],
+  "nearby_settlements": ["hallord"],
+  "lore_notes": [
+    "The King's Road ends against the pass from the south; beyond it, mountain tracks belong to the March and the deep-folk by separate ancient custom.",
+    "Ore goes down, grain goes up, and the ledger is the true treaty between Northmarch and the Sunken Holds."
+  ],
+  "adventure_hooks": [
+    "Silver shipments vanish between toll-stations — inside work or something listening under the snow?",
+    "A Warden-Earl dies without heir while three parties hold competing charters to the pass."
+  ],
+  "map": { "shape": "point", "coords": [[46,29]] }
+}

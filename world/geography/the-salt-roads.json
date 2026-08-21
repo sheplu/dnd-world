@@ -1,0 +1,34 @@
+{
+  "id": "the-salt-roads",
+  "name": "The Salt Roads",
+  "type": "trade-route",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-burning-sands", "the-crownlands"],
+  "summary": "The caravan routes that reconnected Aurelith after the Sundering: glass and salt north from the Glass Reach, grain and steel south from the Crown, all through the oasis of Hollow Wells. Governed on the ground by the Dhar Roads' code of the road — carriage for water, silence for shelter.",
+  "geography": {
+    "character": "marked caravan routes: well-stations a day apart, cairn-signs, dusk-candle posts",
+    "route": "The Glass Reach → Hollow Wells (the great oasis hub) → northern sands → the Crownlands markets at Velkash",
+    "notable_sites": [
+      { "name": "The Seventeen Stones", "note": "Mile-markers along the first route, one per founding family, each carved with a name and a well-sign. Caravans still touch each stone passing; skipping one is bad luck worth stopping for." },
+      { "name": "The Deep Dune Cairn", "note": "The southern route-marker; its newest stones bear names nobody recognizes." }
+    ]
+  },
+  "adjacent_to": ["the-glass-reach", "the-deep-dunes", "the-oasis-of-hollow-wells", "the-kings-road"],
+  "nearby_settlements": ["hollow-wells", "velkash"],
+  "lore_notes": [
+    "'The Opening of the Salt Roads' is the event that ended the Age of Ashes isolation; every realm's charter law descends from the bargains struck at its wells.",
+    "Sealed crates travel these routes into the Hollow Mile's hands; the code of the road forbids opening them, and everyone profits by not knowing."
+  ],
+  "adventure_hooks": [
+    "A well-station goes silent mid-season; the next caravan hires outriders before daring the stretch.",
+    "A seventeenth-family descendant claims ancestral right to open a new route; proving it runs through records both the Mile and the Septuary hold."
+  ],
+  "map": {
+    "shape": "multiline",
+    "coords": [
+      [[46,74],[42,64],[40,56],[38,48]],
+      [[46,74],[54,76],[62,78]]
+    ]
+  }
+}

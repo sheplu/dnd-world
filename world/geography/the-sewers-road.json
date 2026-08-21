@@ -1,0 +1,27 @@
+{
+  "id": "the-sewers-road",
+  "name": "The Sewers' Road",
+  "type": "road",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-crownlands", "the-dusk-reach"],
+  "summary": "The exile route: the road walked by those who refused the Edict's needle-tongue punishment and chose silence in a foreign tongue instead. It runs from Velkash north through the Wealdmark toward the Dusk Reach. Its waystones bear carved mouths — some open, some sewn shut.",
+  "geography": {
+    "character": "footpath and cart-track, unmarked on official charts, kept by custom rather than law",
+    "route": "Velkash's north gate → Wealdmark river-farms → forest-edge sanctuaries → the Dusk Reach",
+    "crossings": [
+      { "name": "The Open-Mouth Stones", "note": "Waystones where refugees left messages for those behind them; the sewn-mouth stones mark where informers were buried." }
+    ]
+  },
+  "adjacent_to": ["the-weavers-river", "the-white-roads", "the-greenwood"],
+  "nearby_settlements": ["velkash", "hearthvale"],
+  "lore_notes": [
+    "Dating to the Edict of Silence (Age of Silence), the road is still walked — by Rememberers' couriers, by deserters, and by people who simply cannot stay.",
+    "The Wealdmark's farms along it never ask names; the code of the road there is older than any charter."
+  ],
+  "adventure_hooks": [
+    "A new sewn-mouth stone appears with fresh carving; nobody has been reported dead, which is worse.",
+    "Players are asked to walk the road backward — carrying someone out of the Dusk Reach who cannot be seen leaving it."
+  ],
+  "map": { "shape": "line", "coords": [[38,48],[30,52],[26,54],[28,46],[32,40]] }
+}

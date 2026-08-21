@@ -7,6 +7,7 @@
   "region": "the-crownlands",
   "destroyed": "183 AA — the Backfiring",
   "summary": "The capital of the Bright Kingdom, undone by its own harvest-blessing. A civic working tore a pocket of Quiet beneath the city; now it stands a day's walk from Velkash, perfect and silent, inside a treaty line no one crosses. Every Censer argument ends with 'remember Solmere.'",
+  "map": { "shape": "point", "coords": [[36, 56]] },
   "original_role": "capital of Solmere, the Bright Kingdom (see factions/extinct-orders.json)",
   "current_state": {
     "access": "forbidden by the Accords of 184 AA; the treaty line is marked by white posts and Censer watchtowers",

@@ -1,0 +1,31 @@
+{
+  "id": "the-stone-crown",
+  "name": "The Stone Crown",
+  "type": "mountain-range",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-dusk-reach"],
+  "summary": "The great northern range: nine summits ringed like a circlet, home of the deep-folk holds and the headwaters of the Weavers' River. The Sundering struck it first — Orbren's hammer-fall, the sagas say — and the range has been settling, groaning, and keeping secrets ever since.",
+  "geography": {
+    "character": "granite massif, glacier-fed valleys, passes held by fortress and custom",
+    "peaks": [
+      { "name": "The Hammerhead", "note": "Highest summit; struck first by the Sundering, its scar-face visible from the Greenwood on clear days." },
+      { "name": "The Circlet", "note": "The ring of nine around the high vale; each clan claims one crown-stone." }
+    ],
+    "notable_sites": [
+      { "name": "The True Place", "note": "The deep sanctum where the High Concord gathered and where hardliners still speak forbidden words into the dark." }
+    ]
+  },
+  "adjacent_to": ["the-greenwood", "greyspire-pass", "the-weavers-river", "the-sunken-halls", "the-quiet-scar"],
+  "nearby_settlements": ["hallord", "hearthvale"],
+  "lore_notes": [
+    "'The Quiet tears open from the Stone Crown' — the scar begins in these foothills and runs southwest across the world.",
+    "Northmarch exists because somebody must hold the passes between the Crownlands and this range — and because the ore is good.",
+    "Line analysis of prophecy fragments 'points somewhere east of the Stone Crown'; pilgrim-scholars keep arriving with shovels and bad maps."
+  ],
+  "adventure_hooks": [
+    "A clan hires outsiders to carry a sealed case to the Hammerhead's scar-face and bury it — at a specific hour, without reading the case.",
+    "The mountain settles two inches overnight and every seer within a hundred miles wakes at the same moment."
+  ],
+  "map": { "shape": "poly", "coords": [[34,12],[56,10],[66,16],[60,26],[50,30],[38,24]] }
+}

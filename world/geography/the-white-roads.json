@@ -1,0 +1,34 @@
+{
+  "id": "the-white-roads",
+  "name": "The White Roads",
+  "type": "ruin-road",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-crownlands", "the-ashlands"],
+  "summary": "Remnants of the Concord's white paved roads, which once ran continent-wide. Pulled up for firewood during the Falling Kingdoms; purge convoys later used the stumps as route-markers. Sections survive in the Wealdmark and the Ashlands — and walking them at dusk is considered either luck or an invitation.",
+  "geography": {
+    "character": "bone-pale paving stones, stump-lines where the road was quarried away, mile-markers carved with Weaver script (illegal to copy)",
+    "notable_sections": [
+      { "name": "The Wealdmark Stumps", "note": "The best surviving stretch: a full mile of stumped roadbed through orchard country." },
+      { "name": "The Ashland Causeway", "note": "A raised white section crossing ash-marsh; it predates the Quiet and refuses to sink." }
+    ]
+  },
+  "adjacent_to": ["the-kings-road", "the-sewers-road", "the-quiet-scar"],
+  "nearby_settlements": [],
+  "lore_notes": [
+    "Reading the mile-marker script aloud is forbidden by Septuary regulation rather than Crown law — an oddity that has never been explained.",
+    "Salvage crews prize the paving: Concord stone takes no weather and rings true under a hammer."
+  ],
+  "adventure_hooks": [
+    "A causeway section that was broken for a century is found repaired overnight.",
+    "A stump-line leads somewhere new this season — the old road is showing a detour around something."
+  ],
+  "map": {
+    "shape": "multiline",
+    "coords": [
+      [[26,44],[32,46]],
+      [[24,54],[28,58]],
+      [[44,60],[50,62]]
+    ]
+  }
+}

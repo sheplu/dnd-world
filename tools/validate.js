@@ -84,6 +84,7 @@ function buildRegistries(docs) {
     items: new Set(),
     regions: new Set(),
     ages: new Set(),
+    geography: new Set(), // includes index-file inner ids (waters, landmasses, rumors)
   };
 
   for (const f of filesUnder("cities")) {
@@ -101,6 +102,19 @@ function buildRegistries(docs) {
   for (const f of filesUnder("items")) {
     const d = docs.get(rel(f));
     if (d && d.id) reg.items.add(d.id);
+  }
+  for (const f of filesUnder("geography")) {
+    const d = docs.get(rel(f));
+    if (!d) continue;
+    if (Array.isArray(d.waters)) {
+      // Index file: register the document id plus every inner id it declares.
+      if (d.id) reg.geography.add(d.id);
+      for (const w of d.waters) if (w.id) reg.geography.add(w.id);
+      for (const l of d.charted_landmasses || []) if (l.id) reg.geography.add(l.id);
+      for (const r of d.uncharted_rumors || []) if (r.id) reg.geography.add(r.id);
+    } else if (d.id) {
+      reg.geography.add(d.id);
+    }
   }
   for (const f of filesUnder("factions")) {
     const d = docs.get(rel(f));
@@ -154,6 +168,30 @@ const SCHEMAS = {
 const LIVING_CITY_REQUIRED = ["id", "name", "type", "continent", "region", "realm", "summary"];
 const LOST_CITY_REQUIRED = ["id", "name", "type", "status", "destroyed", "region", "summary"];
 
+const GEOGRAPHY_REQUIRED = ["id", "name", "type", "world", "regions", "summary", "map"];
+const MAP_SHAPES = new Set(["point", "points", "line", "multiline", "poly"]);
+
+/** Validate a map block; returns an error string or null. */
+function mapError(src, map) {
+  if (!map) return null;
+  if (!MAP_SHAPES.has(map.shape)) return `${src}: unknown map shape '${map.shape}'`;
+  if (!Array.isArray(map.coords)) return `${src}: map.coords missing`;
+  const flat = map.shape === "multiline" ? map.coords : [map.coords];
+  for (const part of flat) {
+    if (!Array.isArray(part)) return `${src}: malformed coords segment`;
+    for (const pt of part) {
+      if (
+        !Array.isArray(pt) || pt.length !== 2 ||
+        !Number.isFinite(pt[0]) || !Number.isFinite(pt[1])
+      ) return `${src}: coordinate '${JSON.stringify(pt)}' is not [x,y]`;
+      if (pt[0] < 0 || pt[0] > 100 || pt[1] < 0 || pt[1] > 100) {
+        return `${src}: coordinate ${JSON.stringify(pt)} outside 0-100 grid`;
+      }
+    }
+  }
+  return null;
+}
+
 const TIERS = new Set(["common", "uncommon", "rare", "prized", "unique"]);
 const GLIMMERS = new Set(["none", "hedge", "echo-touched", "wrought"]);
 
@@ -179,6 +217,26 @@ function checkSchemas(docs, reg) {
     if (!lost && !("landmarks" in d) && !("districts" in d)) {
       warn(`${rel(f)}: living settlement without districts/landmarks`);
     }
+    const me = mapError(rel(f), d.map);
+    if (me) err(me);
+  }
+
+  // geography features
+  for (const f of filesUnder("geography")) {
+    const d = docs.get(rel(f));
+    if (!d) continue;
+    if (Array.isArray(d.waters)) {
+      // Index file: validate inner map blocks only.
+      for (const w of [...(d.waters || []), ...(d.charted_landmasses || [])]) {
+        const me = mapError(`${rel(f)}/${w.id}`, w.map);
+        if (me) err(me);
+      }
+      continue;
+    }
+    const miss = missingFields(d, GEOGRAPHY_REQUIRED);
+    if (miss.length) err(`${rel(f)}: missing fields ${JSON.stringify(miss)}`);
+    const me = mapError(rel(f), d.map);
+    if (me) err(me);
   }
 
   // realms
@@ -246,7 +304,7 @@ function checkSchemas(docs, reg) {
 
 function allIds(reg) {
   const out = new Set();
-  for (const k of ["species", "realms", "factions", "deities", "events", "items", "regions", "ages"]) {
+  for (const k of ["species", "realms", "factions", "deities", "events", "items", "regions", "ages", "geography"]) {
     for (const v of reg[k]) out.add(v);
   }
   for (const cid of reg.cities.keys()) out.add(cid);
@@ -279,6 +337,28 @@ function checkReferences(docs, reg) {
     }
     for (const rl of r.realms || []) {
       if (!reg.realms.has(rl)) err(`aurelith region '${rid}': unknown realm '${rl}'`);
+    }
+    for (const kf of r.key_features || []) {
+      if (!reg.geography.has(kf)) err(`aurelith region '${rid}': unknown key feature '${kf}'`);
+    }
+    const me = mapError(`aurelith/${rid}`, r.map);
+    if (me) err(me);
+  }
+
+  // geography -> continent / regions / settlements / adjacent features
+  for (const f of filesUnder("geography")) {
+    const d = docs.get(rel(f));
+    if (!d || Array.isArray(d.waters)) continue;
+    const gid = d.id || rel(f);
+    ref(`geography/${gid}`, d.continent, new Set(["aurelith"]), "continents");
+    for (const rg of d.regions || []) {
+      ref(`geography/${gid}`, rg, reg.regions, "regions");
+    }
+    for (const s of d.nearby_settlements || []) {
+      ref(`geography/${gid}`, s, new Set(reg.cities.keys()), "cities");
+    }
+    for (const a of d.adjacent_to || []) {
+      ref(`geography/${gid}`, a, reg.geography, "geography");
     }
   }
 
@@ -400,6 +480,7 @@ function main() {
       items: filesUnder("items").length,
       regions: reg.regions.size,
       ages: reg.ages.size,
+      geography: reg.geography.size,
     };
     console.log("Vaeloria world validator");
     console.log("------------------------");

@@ -1,0 +1,27 @@
+{
+  "id": "the-deep-dunes",
+  "name": "The Deep Dunes",
+  "type": "desert",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "regions": ["the-burning-sands"],
+  "summary": "The southern sand-sea: dunes that shift like slow animals, still places between them where nothing moves, and the buried eye of Akhmat somewhere beneath. The Dhar Roads cross it by memory and cairn; everyone else crosses it lost.",
+  "geography": {
+    "character": "tall shifting dune-seas, hardpan pans, silence-hollows between the crests",
+    "notable_sites": [
+      { "name": "The Deep Dune Cairn", "note": "The southern route-marker of the salt roads' deep branch; travelers add a stone and a name." },
+      { "name": "The Buried Eye", "note": "Hollowborn teaching holds that Akhmat watches from under the sands; the still places are said to be where the gaze rests heaviest." }
+    ]
+  },
+  "adjacent_to": ["the-glass-reach", "the-oasis-of-hollow-wells", "the-salt-roads"],
+  "nearby_settlements": ["hollow-wells"],
+  "lore_notes": [
+    "'No sea in the desert — but the desert has its own tide'; old dune-folk claim the sands move in a slow year-cycle anyone can read who survives one full turn.",
+    "Storm-Bound exiles speak of walking the deep dunes as penance; the Roads give them water and pretend not to know why."
+  ],
+  "adventure_hooks": [
+    "A caravan's tracks are found continuing over a dune that was not there when they camped.",
+    "Players escort an empty flask across the deep dunes — sealed, unopened, wanted at the far edge within nine days."
+  ],
+  "map": { "shape": "poly", "coords": [[34,78],[48,76],[56,82],[50,90],[36,88]] }
+}
