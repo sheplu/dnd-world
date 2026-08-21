@@ -1,0 +1,38 @@
+{
+  "id": "hallord",
+  "name": "Hallord",
+  "type": "hold",
+  "continent": "aurelith",
+  "region": "the-dusk-reach",
+  "summary": "The oldest of the Sunken Halls and the arbiter of deep-folk clans. Carved into the Stone Crown's root before the Concord, Hallord has never fallen, never opened its lowest door, and never — in 4,000 years — written down a law. All law is spoken, remembered, and sworn on the First Forge.",
+  "role": "eldest hold; arbitrator of the clans",
+  "ruler": {
+    "title": "Hall-Voice",
+    "current": "Hall-Voice Borin Nine-Rings",
+    "note": "Named for the nine iron rings of his beard: clan, craft, age, oath, grief, war, craft again (a second mastery), silence, and one ring no one asks about."
+  },
+  "districts": [
+    { "id": "the-first-forge", "name": "The First Forge", "type": "sacred-industrial", "description": "The hall's heart: a forge said to be lit from Orbren's own hammer-fall at the Deep-Forging. Its fire has never gone out. All clan law is sworn here, and steel signed here is trusted continent-wide." },
+    { "id": "the-speaking-stairs", "name": "The Speaking Stairs", "type": "civic", "description": "A spiral descent where disputes are heard: accuser above, accused below, and the Hall-Voice on the middle step. Verdicts travel up as echoes." },
+    { "id": "thering-vault", "name": "The Ring-Vault", "type": "treasury", "description": "Where the clans' oath-rings are stored when their bearers die. Generations of iron, each ring a life. The vault's lock has no key; it opens only to a unanimous clan council." },
+    { "id": "the-lowest-door", "name": "The Lowest Door", "type": "sealed", "description": "At the hall's deepest point: a door of stone not mined but grown shut, sealed by Khord's first Door-Keepers. No record says what it holds. Every Hall-Voice inherits the duty of not asking." }
+  ],
+  "landmarks": [
+    { "id": "the-ring-gallery", "name": "The Ring Gallery", "description": "A corridor of ten thousand iron rings, each from a dead deep-folk bearer. Visitors walk it in silence; the deep-folk walk it speaking the names." },
+    { "id": "the-surface-porch", "name": "The Surface Porch", "description": "Hallord's only above-ground structure: a stone porch and trade-house where surface folk wait. Deals are struck here because outsiders may pass one threshold only." },
+    { "id": "the-humming-shaft", "name": "The Humming Shaft", "description": "A mine shaft sealed three years ago by the Deep-Shapers after it began 'ringing' — the same note the Storm-Bound hear at sea. The seal is fresh. The ringing has not stopped." }
+  ],
+  "economy": ["signed steel", "stone-warden contracts", "oath-brokerage", "sealed vaults"],
+  "conflicts": [
+    "The Humming Shaft: the Deep-Shapers sealed it without consulting the clans, and Hall-Voice Borin has not demanded an answer — which frightens the elders more than the shaft does.",
+    "Surface trade is booming and purists resent the Surface Porch's wealth of strange coin.",
+    "Greenwood roots breach the lower galleries each spring; the ancient tension with the greenfolk turns litigious.",
+    "Young deep-folk take surface contracts and return with dangerous questions about the Lowest Door."
+  ],
+  "inhabitants": [
+    { "species": "dwarf", "share": "majority", "note": "~8,000 souls across nine clan-holds within the greater Hallord system." },
+    { "species": "human", "share": "minority", "note": "Trade factors confined to the Surface Porch; a few stone-wardens' families granted residence." },
+    { "species": "elf", "share": "rare", "note": "Verdant kin envoys come each spring to negotiate the root-treaties. They are fed well and watched closely." },
+    { "species": "hollowborn", "share": "rare", "note": "A single caravan factor holds the southern trade charter; she has learned never to hum while underground." }
+  ]
+}

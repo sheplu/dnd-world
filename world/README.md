@@ -12,7 +12,13 @@ world/
 ├── continents/
 │   └── aurelith.json    Main continent + regions
 ├── cities/
-│   └── velkash.json     Capital city (districts, landmarks, conflicts)
+│   ├── velkash.json         Capital city (districts, landmarks, conflicts)
+│   ├── ashveil-cross.json   Ashlands garrison town at the Quiet's crossing
+│   ├── hallord.json         Eldest deep-folk hold in the Stone Crown
+│   ├── hollow-wells.json    Oasis city and caravan hub of the sands
+│   ├── karvess-ruin.json    Lost: the glass kingdom vitrified by the Rent
+│   ├── solmere-city.json    Lost: silence-zone of the Backfiring
+│   └── hearthvale.json      Lost: sacred vale of the Nine Hearths
 ├── species/
 │   ├── human.json       Humans — makers of the current age
 │   ├── dwarf.json       Deep-folk of the Stone Crown
@@ -42,6 +48,7 @@ world/
 - **Timeline:** see [history.json](history.json) — First Stillness → Age of Stone → Concord of Weavers → the Sundering → Age of Silence → Age of Ashes.
 - **Continent:** Aurelith, four regions (Crownlands, Ashlands, Dusk Reach, Burning Sands).
 - **Capital:** Velkash, on the Weavers' River.
+- **Settlements:** every region has a living hub (Velkash, Ashveil Cross, Hallord, Hollow Wells) and lost sites from prior ages (`status: "lost"` — Karvess, Solmere City, Hearthvale).
 - **Magic:** the Glimmer — rare, feared, contained by the Censer order.
 - **The Quiet:** a rent in reality left by the Sundering, running across Aurelith.
 - **Deities:** the Chorus — Solvane, Luneth, Orbren, Veyra, Vaelmarr, Mornath, Ithyn, Cayren — worshipped differently by each species (same names, recast names, or rejected). Unique deities: Khord (dwarf), the Eldertree (elf), Akhmat (hollowborn). Minor deities: Glass-Thane (ash and ruin), Deep-Eye (the deep forest silence), Oath-Keeper (lawful succession), the-Remembered (forbidden knowledge), the-Veil-Thread (the thinning Veil), First-Heard (the song's return in year 812).

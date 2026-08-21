@@ -1,0 +1,38 @@
+{
+  "id": "ashveil-cross",
+  "name": "Ashveil Cross",
+  "type": "town",
+  "continent": "aurelith",
+  "region": "the-ashlands",
+  "summary": "The only sanctioned crossing of the Quiet. Where the King's Road meets the scar, a garrison town of silence-bells and veiled lanterns holds the road open — barely. Everyone here is paid to be near the wound, and everyone has a reason they can't leave.",
+  "role": "garrison and toll town; the Quiet's crossing",
+  "ruler": {
+    "title": "Warden of the Cross",
+    "current": "Warden Otta Kell, appointed jointly by the Reeve's court and the Censer",
+    "note": "The dual appointment means two paymasters, two sets of orders, and one very careful woman."
+  },
+  "districts": [
+    { "id": "the-veiled-gate", "name": "The Veiled Gate", "type": "landmark-quarter", "description": "The crossing itself: a mile of paved road through the Quiet's edge, lined with silence-bells that ring soundlessly when the scar stirs. Crossed by caravan only at dawn, in single file, with veils drawn." },
+    { "id": "bellrow", "name": "Bellrow", "type": "residential", "description": "The garrison's homes: low stone houses whose doorways face away from the Quiet. Custom forbids looking at the scar after dark." },
+    { "id": "tollmarket", "name": "The Toll Market", "type": "trade", "description": "Where caravans pay passage and buy ash-glass trinkets sold as protective charms. Half the charms are fake; the other half are worse." },
+    { "id": "the-ashcloister", "name": "The Ash Cloister", "type": "institution", "description": "A walled Censer outpost where circle-tests are administered to every traveler who cannot produce clean papers." }
+  ],
+  "landmarks": [
+    { "id": "the-silence-bells", "name": "The Silence-Bells", "description": "Forty-one bronze bells along the crossing, cast from melted Concord coin. They hang motionless — until the Quiet moves, when they swing without sound. Warden Kell's private tally of silent-rings is the continent's best data on the scar's growth." },
+    { "id": "the-last-well", "name": "The Last Well", "description": "The town's only sweet-water well, dug deep past the ash-line. Its water tastes faintly of metal, and locals say dreams drunk here are true." },
+    { "id": "kellss-tally", "name": "Kell's Tally-House", "description": "The warden's office, where forty-one years of bell-records are kept in sealed tubes. The Veil-Wardens would trade much for copies; the Censer forbids their release." }
+  ],
+  "economy": ["crossing tolls", "caravan services", "ash-glass trinkets", "Censer garrison wages"],
+  "conflicts": [
+    "Two masters: the Reeve's court funds the road, the Censer funds the cloister, and Warden Kell serves both badly.",
+    "The Quiet advanced a hand's width this year — the Veiled Gate will need re-paving within a decade, or abandoning.",
+    "Smugglers use dawn-crossings to move banned texts between the Hollow Mile and the Burning Sands' Rememberers.",
+    "Refugees from dying ash-farms crowd the road north; the town has neither food nor legal grounds to turn them away."
+  ],
+  "inhabitants": [
+    { "species": "human", "share": "majority", "note": "Garrison families, toll-keepers, and ash-farmers who won't leave." },
+    { "species": "dwarf", "share": "minority", "note": "Stone-wardens who maintain the crossing's pavement; they volunteer for work no one else will take." },
+    { "species": "hollowborn", "share": "minority", "note": "Caravan hands on the southern routes; they cross the Quiet with unsettling calm." },
+    { "species": "elf", "share": "rare", "note": "Verdant kin come only to read the ash-line's progress. They never stay the night." }
+  ]
+}

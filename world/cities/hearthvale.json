@@ -1,0 +1,31 @@
+{
+  "id": "hearthvale",
+  "name": "Hearthvale",
+  "type": "sacred-site",
+  "status": "lost",
+  "continent": "aurelith",
+  "region": "the-dusk-reach",
+  "destroyed": "~50 CoW — abandoned, not destroyed",
+  "summary": "The vale where the Nine Hearths lit their nine fires during the War of Heaven's Edge, and where the Compact was dissolved a thousand years later. Not ruined — retired. The terraces stand, the hearth-platforms remain, and the last fire has been kept alive ever since by whoever passes: a custom older than every kingdom on Aurelith.",
+  "original_role": "capital of the Nine Hearths (see factions/extinct-orders.json)",
+  "current_state": {
+    "access": "open to all who come on foot; the folk-custom of hearth-right holds here absolutely",
+    "condition": "overgrown terraces, nine stone hearth-platforms in a ring, one fire kept burning by travelers for ~1,750 years",
+    "inhabitants": "none permanent. A rotation of the devout, the homeless, and the hunted keeps the Last Fire. Verdant kin prune the vale's trees but never settle."
+  },
+  "sites": [
+    { "id": "the-nine-hearths", "name": "The Nine Hearths", "description": "Nine stone platforms in a ring, each scorched black from a century of use. Eight are cold. The ninth — the Stranger's Hearth, open to any who flee — holds the Last Fire." },
+    { "id": "the-last-fire", "name": "The Last Fire", "description": "Burning continuously since before the Concord. Fed by every traveler who passes; it has never once gone out. Local law in three realms treats extinguishing it as the oldest crime there is." },
+    { "id": "the-moot-stones", "name": "The Moot Stones", "description": "Nine seats of raised earth where the hearth-moots were held. Speech made here is traditionally safe — even the Censer honors this, though no treaty requires it." },
+    { "id": "the-shared-graves", "name": "The Shared Graves", "description": "Where the Nine Hearths buried the dead of both divine armies. Ground no god may claim, by the Compact's first vow. Greenfolk tend it; deep-folk cut its markers; neither claims it." }
+  ],
+  "hazards": [
+    "None by intent — which makes the vale the safest place on Aurelith, and the most watched",
+    "Censer observers record visitors' names at the vale's edge; the Moonwardens record the same list and falsify it"
+  ],
+  "adventure_hooks": [
+    "A fugitive Glimmerborn begs escort to the Last Fire: within the vale, even the Censer's writ pauses — officially",
+    "The Last Fire guttered for the first time in living memory last Duskfall; the devout want investigators, the Censer wants them followed",
+    "Beneath the moot stones, someone has begun digging. The graves must not be opened — every faith on Aurelith agrees, which means someone will try"
+  ]
+}

@@ -11,6 +11,7 @@
       "climate": "temperate",
       "summary": "The fertile heart of Aurelith, seat of the old kingdoms and the capital Velkash. Breadbasket, crossroads, and center of the current political order.",
       "cities": ["velkash"],
+      "lost_settlements": ["solmere-city"],
       "key_features": ["the King's Road", "the Thresher's Vale", "the Broken Moat"]
     },
     {
@@ -18,7 +19,8 @@
       "name": "The Ashlands",
       "climate": "wasteland",
       "summary": "Where the Sundering struck hardest. A grey scrubland of dead magic and leaning ruins, dotted with villages that pay the Quiet in prayer and silence.",
-      "cities": [],
+      "cities": ["ashveil-cross"],
+      "lost_settlements": ["karvess-ruin"],
       "key_features": ["the Quiet", "the Ruin of Karvess", "Ashveil Cross"]
     },
     {
@@ -26,7 +28,8 @@
       "name": "The Dusk Reach",
       "climate": "cold-temperate",
       "summary": "Northern highlands of long winters and old stone. Home to the deep-kingdoms and the last stands of greenwood.",
-      "cities": [],
+      "cities": ["hallord"],
+      "lost_settlements": ["hearthvale"],
       "key_features": ["the Stone Crown mountains", "the Greenwood", "the Sunken Halls"]
     },
     {
@@ -34,7 +37,8 @@
       "name": "The Burning Sands",
       "climate": "desert",
       "summary": "A southern desert of glass-dunes and buried cities, crossed by silent-tongue caravans. The Glimmer here flickers like heat-haze.",
-      "cities": [],
+      "cities": ["hollow-wells"],
+      "lost_settlements": [],
       "key_features": ["the Glass Reach", "the Oasis of Hollow Wells", "the Sand-Drowned"]
     }
   ],

@@ -1,0 +1,32 @@
+{
+  "id": "karvess-ruin",
+  "name": "Karvess (Ruin)",
+  "type": "ruin",
+  "status": "lost",
+  "continent": "aurelith",
+  "region": "the-ashlands",
+  "destroyed": "1 Sun (spring) — vitrified by the Rent",
+  "summary": "The greatest ruin on Aurelith: an entire Concord city of woven glass turned to glass again in a single hour when the Rent passed beneath it. Towers, fountains, and ten thousand people preserved mid-motion, translucent and humming. The Censer forbids all expeditions. The Reeve wants one mounted.",
+  "original_role": "capital of the Glass Kingdom (see factions/extinct-orders.json)",
+  "current_state": {
+    "access": "illegal by Censer writ; approachable only across forty miles of ash-farm and scrub",
+    "condition": "structurally perfect, structurally dead — the glass sings on quiet nights and cracks spread each Mistshroud",
+    "inhabitants": "Glass-Keepers tend the outer mouth; nothing else is confirmed"
+  },
+  "sites": [
+    { "id": "the-singing-towers", "name": "The Singing Towers", "description": "Nine glass towers still standing, leaning into the wind. On quiet nights they hum the same note heard in Hallord's sealed shaft and beyond the Veiled Sea's horizon." },
+    { "id": "the-vitrified-square", "name": "The Vitrified Square", "description": "The central plaza: a market caught mid-morning, vendors and buyers fused into a single clear mass. Faces remain visible. Visitors report the faces are never quite where they remembered." },
+    { "id": "the-glasskeepers-hut", "name": "The Glass-Keepers' Hut", "description": "A rough stone shelter at the ruin's mouth where the Keepers rest, mark crack-maps, and leave water for travelers who will not admit they came." },
+    { "id": "the-deep-gallery", "name": "The Deep Gallery", "description": "A collapsed entrance to underground galleries beneath the city. The glass around it is black, not clear. No expedition has returned from below; one came back, but that is disputed." }
+  ],
+  "hazards": [
+    "Vitrified ground fails without warning; three Censer surveyors have been swallowed since the Edict",
+    "The singing induces shared dreams in those who camp within earshot — always the same dream",
+    "Censer patrol airships (drift-barges) cross monthly; landing parties shoot first"
+  ],
+  "adventure_hooks": [
+    "Reeve Aldara's secret commission: map the Deep Gallery before the Censer learns the expedition exists",
+    "A Glass-Keeper offers crack-maps in exchange for retrieving a bell from the Vitrified Square — rung once, it might answer the towers",
+    "The humming stopped last week. Every faction noticed. None will say what they fear it means."
+  ]
+}
