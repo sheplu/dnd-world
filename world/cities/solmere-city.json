@@ -1,0 +1,32 @@
+{
+  "id": "solmere-city",
+  "name": "Solmere City (Silence-Zone)",
+  "type": "silence-zone",
+  "status": "lost",
+  "continent": "aurelith",
+  "region": "the-crownlands",
+  "destroyed": "183 AA — the Backfiring",
+  "summary": "The capital of the Bright Kingdom, undone by its own harvest-blessing. A civic working tore a pocket of Quiet beneath the city; now it stands a day's walk from Velkash, perfect and silent, inside a treaty line no one crosses. Every Censer argument ends with 'remember Solmere.'",
+  "original_role": "capital of Solmere, the Bright Kingdom (see factions/extinct-orders.json)",
+  "current_state": {
+    "access": "forbidden by the Accords of 184 AA; the treaty line is marked by white posts and Censer watchtowers",
+    "condition": "buildings intact, colors unfaded within the zone; sound does not carry across the line and does not quite behave inside it",
+    "inhabitants": "none confirmed. Birds circle the line and land elsewhere. Once a year, on the Backfiring's anniversary, every bell in Velkash rings once, unassisted."
+  },
+  "sites": [
+    { "id": "the-sunspire", "name": "The Sunspire", "description": "Solmere's temple to Solvane, still bright. Its great lens remains aimed at the sun; Veil-Wardens theorize the working is not broken but paused, mid-blessing." },
+    { "id": "the-harvest-square", "name": "The Harvest Square", "description": "Where the working was cast. The cobblestones bear a spiral crack that has not widened in 629 years — or has widened by exactly one hand's width, depending which survey is believed." },
+    { "id": "the-treaty-posts", "name": "The Treaty Posts", "description": "White posts marking the Accords line, each carved with the names of the signatories. Someone leaves flowers at the nearest post every Stilleven; the Censer has stopped investigating who." },
+    { "id": "the-open-college", "name": "The Open College", "description": "Solmere's reopened college of the Weave, abandoned mid-lecture. Chalkboards still bear diagrams. The Censer burned the library in 184 AA; the cellars were never searched." }
+  ],
+  "hazards": [
+    "Sound dies at the line; travelers report their own footsteps continuing without them",
+    "The pocket of Quiet beneath the city is small but growing — Veil-Wardens measure it yearly against the treaty posts",
+    "Censer watchtowers every half-mile; crossers are taken, not killed, and 'taken' is worse"
+  ],
+  "adventure_hooks": [
+    "The Veil-Wardens' yearly survey needs discreet escorts: the measurement shows the pocket grew twice as fast this year",
+    "A Rememberer cell believes the Open College's cellars hold pre-Edict texts Solmere's scholars collected — the one library the Censer never catalogued",
+    "Who leaves the flowers? The answer intersects with House Dellet's sealed records in the Censer Quarter"
+  ]
+}
