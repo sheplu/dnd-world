@@ -9,6 +9,7 @@ world/
 ├── meta.json            World settings, calendar, currency, languages
 ├── history.json         Six ages, sub-eras, per-age year counts
 ├── cosmology.json       Creation myth, planes, magic, prophecies
+├── magic.json           The Glimmer: mechanics, costs, traditions, law
 ├── continents/
 │   └── aurelith.json    Main continent + regions
 ├── cities/
@@ -49,7 +50,7 @@ world/
 - **Continent:** Aurelith, four regions (Crownlands, Ashlands, Dusk Reach, Burning Sands).
 - **Capital:** Velkash, on the Weavers' River.
 - **Settlements:** every region has a living hub (Velkash, Ashveil Cross, Hallord, Hollow Wells) and lost sites from prior ages (`status: "lost"` — Karvess, Solmere City, Hearthvale).
-- **Magic:** the Glimmer — rare, feared, contained by the Censer order.
+- **Magic:** the Glimmer — rare, feared, contained by the Censer order. See [magic.json](magic.json): workings cost the caster the Greying and thin the Veil; five traditions from forbidden Old Weaver craft to hedge-craft.
 - **The Quiet:** a rent in reality left by the Sundering, running across Aurelith.
 - **Deities:** the Chorus — Solvane, Luneth, Orbren, Veyra, Vaelmarr, Mornath, Ithyn, Cayren — worshipped differently by each species (same names, recast names, or rejected). Unique deities: Khord (dwarf), the Eldertree (elf), Akhmat (hollowborn). Minor deities: Glass-Thane (ash and ruin), Deep-Eye (the deep forest silence), Oath-Keeper (lawful succession), the-Remembered (forbidden knowledge), the-Veil-Thread (the thinning Veil), First-Heard (the song's return in year 812).
 - **Species:** humans (Crownlands), deep-folk (Dusk Reach), greenfolk (Dusk Reach), hollowborn (Burning Sands).

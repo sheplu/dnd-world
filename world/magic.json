@@ -1,0 +1,93 @@
+{
+  "id": "vaeloria-magic",
+  "name": "The Glimmer",
+  "type": "magic-system",
+  "world": "vaeloria",
+  "summary": "Magic in Vaeloria is the Glimmer: a broken echo of the creation-song, scattered when the Sundering shattered the Weavers' binding. It is rare, feared, and expensive — every working thins the Veil and greys the caster. This document consolidates how magic works, who can work it, what it costs, and how the realms govern it.",
+  "nature": {
+    "what_it_is": "A residue of the song of creation. Where the world's underlying music runs close to the surface — ruins, true places, cursed ground — it can be coaxed into effect. The Glimmer is not a force to be commanded but a melody to be borrowed.",
+    "how_it_manifests": "Workings announce themselves: a faint tone beneath hearing, a shimmer like heat-haze, a moment where colors sharpen. Witnesses report the sensation of a held breath. In the Burning Sands the Glimmer flickers visibly; in the Dusk Reach it moves like something walking under leaves.",
+    "what_it_is_not": "It is not divine favor — the gods withdrew before the Glimmer existed. It is not the song itself; the song is whole only in prophecy. Casting the Glimmer is whistling a fragment of a broken symphony."
+  },
+  "the_cost": {
+    "on_the_world": "Every working feeds the thinning of the Veil. This is why magic is feared: the sum of all workings, mortal and Concord alike, tore the Quiet open once. The Backfiring of Solmere (183 AA) proved even small licensed magic carves local wounds.",
+    "on_the_caster": {
+      "name": "the Greying",
+      "description": "Each working takes a note from the caster's own aliveness. Colors dim around them. Food loses taste. Their voice flattens; their footsteps go quiet. Long-term casters become easy to pick out in a crowd: too-still people in a world of noise.",
+      "progression": [
+        { "stage": "faint", "sign": "food tastes of little; mirrors seem slightly dull" },
+        { "stage": "marked", "sign": "voice flattens; animals grow wary; candlelight bends toward them" },
+        { "stage": "deep", "sign": "footsteps silent; shadows lag a half-beat; the caster stops dreaming" },
+        { "stage": "hollow", "sign": "the caster barely registers to the senses — most at this stage walk into the Quiet 'of their own accord'" }
+      ],
+      "reversal": "Unknown. Rest slows it; nothing documented has undone it. The First-Heard sect claims the Waking's young Glimmerborn grey slower — evidence, they say, that the song is healing."
+    }
+  },
+  "glimmerborn": {
+    "who": "Those born with the echo intact enough to hear and use. Not trained — born. The talent traces to Weaver bloodlines, proximity to true places, and chance; the Censer's birth-record watchlists exist because of the first two.",
+    "waves": "Glimmerborn appear in waves correlated with the Veil's thinning: many during the Silence's purges, near-none through the Grey Peace, and rising again since the Waking (~700 AA). Year 812 has seen more births than any year since Solmere.",
+    "without_training": "Untrained Glimmerborn work by instinct: small effects, unpredictable, often triggered by strong emotion. These 'wild notes' are what circle-tests are designed to catch.",
+    "with_training": "Given structure (Old Weaver craft or patient instinct), a Glimmerborn can work deliberately — but every deliberate working deepens the Greying. Most hedge-witches refuse to teach for exactly this reason.",
+    "fate": "In the Crownlands: taken by the Censer, and none return. In the deep-folk holds: turned out into the snow. In the Greenwood: the first, forbidden exile. In the sands: quietly ignored, if they are discreet."
+  },
+  "traditions": [
+    {
+      "id": "old-weaver-craft",
+      "name": "Old Weaver Craft",
+      "status": "forbidden",
+      "summary": "The Concord's tradition: structured workings taught through written Old Weaver notation. Precise, powerful, and exactly what the Edict of Silence bans. The Rememberers preserve it; the Censer burns it.",
+      "practitioners": "Rememberers' cells, sealed colleges (if any survive), the Censer's own archive-wardens"
+    },
+    {
+      "id": "hedge-craft",
+      "name": "Hedge-Craft",
+      "status": "tolerated, barely",
+      "summary": "Folk magic: charms, knots, spoken bargains with the echo. Weak, slow, and mostly harmless — coaxing rather than commanding. Common enough that every village has a hedge-witch; harmless enough that the Censer rarely bothers.",
+      "practitioners": "Village hedge-witches, midwives, caravan charm-sellers (half of Ashveil Cross's stock is fake; half is worse)"
+    },
+    {
+      "id": "sanctioned-circle-work",
+      "name": "Sanctioned Circle Work",
+      "status": "Censer monopoly",
+      "summary": "Workings performed inside warded circles under Censer observation: tests, containments, and the rare licensed working. Legal nowhere else. The Oath-Sept's certified cantrips for royal disputes are the Crownlands' one tiny lawful niche.",
+      "practitioners": "Censer wardens, Oath-Sept clerks"
+    },
+    {
+      "id": "the-unbinding-path",
+      "name": "The Unbinding Path",
+      "status": "heresy, capital crime",
+      "summary": "Ithyn's teaching: the song belongs to no institution. Its texts are the most hunted objects on Aurelium — a single genuine page sold in the Hollow Mile for a king's ransom in 812 AA.",
+      "practitioners": "None openly. The Unbinding faction died in the Sundering; its texts did not."
+    },
+    {
+      "id": "first-heard-path",
+      "name": "The First-Heard Path",
+      "status": "schism within the Censer",
+      "summary": "A new tradition, barely a decade old: work with the returning Glimmer gently, treat each Glimmerborn as a musician not a prisoner. Its practitioners are incense-bearers within the Censer itself — which makes it either heresy or reform.",
+      "practitioners": "The First-Heard sect"
+    }
+  ],
+  "detection_and_law": {
+    "circle_tests": "The Censer's standard procedure: a suspect stands in a warded circle while a warden strikes a tuning-fork of Concord glass. If the echo answers — visible as a shimmer — the suspect is marked. False positives occur; quotas exist; this is known and unspoken.",
+    "birth_records": "Moonwardens keep the birth-ledgers the Censer cross-checks against Weaver bloodlines. Some wardens falsify entries; others report them.",
+    "signs_anyone_can_see": "The Greying's later stages are visible to any careful observer: too-quiet footsteps, dull mirrors, wariness of animals. Vigilance committees predate the Censer.",
+    "legal_status_by_realm": [
+      { "realm": "the-crownlands", "law": "Edict of Silence (never repealed): written Old Weaver banned; Glimmerborn remanded to the Censer; certified cantrips witnessed by the Oath-Sept only", "note": "Solmere's fall (183 AA) created the Accords giving the Censer its modern warrant" },
+      { "realm": "the-dusk-reach-deep-holds", "law": "Outright ban; the Glimmer is 'a lie the earth never made'. Glimmerborn are cast out into the snow", "note": "No exceptions recorded in four millennia" },
+      { "realm": "the-greenwood", "law": "The Glimmer is a sickness on living things. A greenfolk who takes it suffers the first, forbidden exile", "note": "The Root-Wardens purge Glimmer-sickness from crops near the Quiet's edge" },
+      { "realm": "the-burning-sands", "law": "No formal ban; discretion is the law of the road", "note": "The sands' flickering Glimmer makes concealment easier; the Well-Sisters' only rule is do no harm to water" }
+    ]
+  },
+  "the_quiet": {
+    "interaction": "Within the Quiet, the Glimmer does not answer — castings simply fail, silently. Near its edge, workings behave strangely: delayed, doubled, or answered from the wrong direction.",
+    "the_backfiring_precedent": "Solmere's harvest-blessing (183 AA) tore a pocket of Quiet beneath its own capital. Every serious magical accident since is measured against it.",
+    "answered_workings": "Veil-Wardens record cases of workings near the edge receiving an answer no caster gave. The reports are filed, not investigated. No one wants to know what answers."
+  },
+  "prophecy_tie": "The Last Weaver prophecy (see cosmology.json) promises one born with the whole song, not the echo. The First-Heard sect believes the rising Glimmerborn waves are searching for that voice; the Nine Ashes believe the same thing and dread it.",
+  "adventure_hooks": [
+    "Players witness a circle-test mark an obvious innocent and must decide whether quota-fraud is worth exposing mid-caravan.",
+    "A hedge-witch offers to teach a Glimmerborn player character — and shows her own greyed hands as the full price list.",
+    "A working near the Quiet's edge receives an answer. The Veil-Wardens will pay to know what shape it took.",
+    "The First-Heard sect asks players to smuggle a young Glimmerborn out of Ashveil Cross before the monthly barge — using a forged warrant bought from the Hollow Mile."
+  ]
+}
