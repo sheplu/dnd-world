@@ -1,0 +1,42 @@
+{
+  "id": "the-silent-war",
+  "name": "The Silent War",
+  "type": "event",
+  "world": "vaeloria",
+  "age": "concord-of-weavers",
+  "years": "~1,100–1,201 CoW (the final century of the Concord)",
+  "scale": "continental spell-war",
+  "summary": "The Weavers' civil war: the last hundred years of the golden age, fought between the High Concord — who would contain the song — and the Unbinding faction, Ithyn's heirs, who held that the song belonged to no institution. It was a war of woven spells rather than swords: cities unmade overnight, storms turned to soldiers, memories edited in whole districts. The High Concord won every battle and lost the world. Its own hardliners stole the Unbinding's texts to attempt a controlled unbinding — and completed the Song Unbinding at the Stone Crown, triggering the Sundering.",
+  "participants": [
+    { "kind": "faction", "name": "the-high-concord", "side": "containment", "note": "the Weavers' ruling conclave; wardens, sanctioned circles, containment doctrine" },
+    { "kind": "faction", "name": "the-unbinding", "side": "release", "note": "Ithyn's exiled acolytes and their converts; guerrillas of the song" },
+    { "kind": "deity", "name": "ithyn", "side": "absent teacher", "note": "exiled ~950 CoW; taught a dozen students before leaving; refused all sides afterward" },
+    { "kind": "species", "name": "common folk of the Concord", "side": "collateral", "note": "learned to fear woven weather and edited memory" }
+  ],
+  "course_of_events": [
+    { "phase": "The Exile's Shadow", "when": "~950–1,100 CoW", "what": "After Ithyn departs, her twelve students scatter. Four repent into Concord service; seven found the Unbinding; Beleth the Quiet-Walker vanishes toward the Ashlands. The Concord begins sanctioning circles — and policing them." },
+    { "phase": "The First Unbinding", "when": "~500 CoW (prelude)", "what": "Decades earlier, Ithyn's acolytes cut a thread in sanctioned circle as demonstration; its execution by proto-Censer wardens sets the pattern both sides will follow for centuries." },
+    { "phase": "The Woven Battles", "when": "1,100–1,190 CoW", "what": "Open war. Cities are unmade and remade wrong; storms are conscripted; a district's memories are rewritten so thoroughly that its people forget which side they lived on. The Veil thins with every working — both sides treat that as the other's fault." },
+    { "phase": "The Theft", "when": "~1,185 CoW", "what": "High Concord hardliners conclude that a controlled unbinding beats chaos — and steal the Unbinding's own texts from its hidden archive. The faction's greatest heresy is about to be committed by its enemies." },
+    { "phase": "The Unraveling Begins", "when": "1,187 CoW", "what": "The hardliners gather at the True Place under the Stone Crown and speak the first words of the Song Unbinding. The Chorus is silent. They do not stop." },
+    { "phase": "The End", "when": "1,201 CoW", "what": "The Song Unbinding is completed. The Sundering begins. The Silent War ends because there is no longer anyone left to fight it." }
+  ],
+  "key_places": [
+    { "name": "The Rewritten District", "description": "A Velkash quarter whose population's memories were edited in 1,142 CoW. To this day its oldest families keep genealogies that contradict every archive — and every one of them is certain.", "status": "site, within Velkash" },
+    { "name": "The Unbinding Archive", "description": "The hidden vault where the Unbinding kept its texts — robbed in ~1,185 CoW. Never located since; some Rememberers cells claim to descend from its third circle.", "status": "lost" },
+    { "name": "The Storm Fields", "description": "Conscripted hurricanes were fought across these southern plains; the Bound Storms' chains broke here first. The grass still grows in spiral patterns.", "status": "scarred plains" },
+    { "name": "The True Place under the Stone Crown", "description": "Where the Song Unbinding was spoken. The deep-folk sealed the approaches afterward and will not discuss what is sealed with them.", "status": "sealed" }
+  ],
+  "consequences": [
+    "The Sundering — the war's true casualty count includes the world.",
+    "The Censer inherits the High Concord's wardens, oath, and fear.",
+    "The Rememberers inherit the Unbinding's mission and guilt.",
+    "Common folk inherit the phrase 'fear' for magic — coined during the Bound Storms, confirmed by this war."
+  ],
+  "remembrance": "Officially unremembered: the Edict of Silence later banned discussion of the war's causes along with the old tongue. It survives as children's rhyme ('thread by thread the sky came down') and in the deep-folk saga cycle, which blames everyone equally.",
+  "adventure_hooks": [
+    "The Rewritten District's contradictory genealogies turn out to match — matching each other, not any archive. Someone is still editing.",
+    "Players find the Unbinding Archive's third-circle seal. The Rememberers want it opened; the Censer wants it melted; what's inside wants out.",
+    "A dying veteran of the Woven Battles offers testimony in exchange for one impossible errand: she wants to see the storm-fields spirals before she goes."
+  ]
+}

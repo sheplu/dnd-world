@@ -1,0 +1,43 @@
+{
+  "id": "the-sundering",
+  "name": "The Sundering",
+  "type": "event",
+  "world": "vaeloria",
+  "age": "the-sundering",
+  "years": "1 Sun (the Year of Madness)",
+  "scale": "cataclysm — continental and beyond",
+  "summary": "The fixed point of Vaelorian history. In a single year, the Song Unbinding completed what nine centuries of divine war had begun: the Veil tore along a north-east to south-west seam, the song shattered, magic turned wild or died, the Quiet opened, and the kingdoms of the Concord fell within months. A third of all Weavers died, a third went mad, and a third walked silent into the Quiet. The gods did not return. Every calendar on Aurelith now counts from this year.",
+  "participants": [
+    { "kind": "faction", "name": "the-high-concord", "side": "author, in hardliners' hands", "note": "spoke the Song Unbinding believing control was possible" },
+    { "kind": "faction", "name": "the-unbinding", "side": "vindicated and annihilated", "note": "their texts armed the catastrophe; their members were its first casualties" },
+    { "kind": "deity", "name": "mornath", "side": "last to leave", "note": "walked out last at winter's end; the Veil-Keepers keep his vigil" },
+    { "kind": "species", "name": "all peoples of Aurelith", "side": "survivors", "note": "every living culture descends from someone who survived this year" }
+  ],
+  "course_of_events": [
+    { "phase": "The Rent (spring)", "when": "1 Sun", "what": "The Veil tears along a north-east to south-west seam. Where it passes, magic dies and sound follows — villages report the world going mute for days. Karvess vitrifies in a single hour, mid-morning. The Quiet opens as a permanent wound." },
+    { "phase": "The Madness (summer)", "when": "1 Sun", "what": "Weavers everywhere are struck by visions of the un-sung song. A third die outright. A third go mad. A third go silent and walk into the Quiet — walking, witnesses insist, willingly and in step." },
+    { "phase": "The Falling Kingdoms (autumn)", "when": "1 Sun", "what": "The Concord's great kingdoms collapse within weeks. Glass cities shatter; woven bridges fail; refugees flee toward the world's edges. Solmere does not yet exist; Karvess is already glass." },
+    { "phase": "The First Censer (winter)", "when": "1 Sun", "what": "Survivors of the High Concord gather in Velkash's broken thread-quarter and swear the oath: contain the Glimmer forever. Each carries a censer of ash from the burned Colleges." },
+    { "phase": "The Last God Walks (winter's end)", "when": "1 Sun", "what": "Mornath departs last. The Veil reaches its thinnest recorded state. The first Stilleven silence is observed across the world — and has been observed every year since." }
+  ],
+  "key_places": [
+    { "name": "The Quiet", "description": "The rent itself: a scar of cracked earth and silver mist running from the Stone Crown to the Burning Sands, advancing a hand's width most years. Within it the Glimmer does not answer — and something listens.", "status": "active wound" },
+    { "name": "Karvess", "description": "The glass kingdom, vitrified mid-morning on the Rent's first day. Towers, fountains, ten thousand people preserved translucent. It hums on quiet nights.", "status": "ruin", "ref": "karvess-ruin" },
+    { "name": "Velkash's Broken Thread-Quarter", "description": "Where the First Censer swore its oath among still-smoldering silk works. Rebuilt twice since; the oath-stones remain in the Censer Quarter's foundation.", "status": "rebuilt site" },
+    { "name": "The Warm Winter", "description": "Not a place but an anomaly: the winter that ended the Sundering was unnaturally warm across the whole continent. The Reeve's archive holds the records. No one has explained it.", "status": "recorded anomaly" }
+  ],
+  "consequences": [
+    "Per-age calendars: every realm counts years from this one.",
+    "The Glimmer replaces the song — magic becomes rare, feared, and expensive.",
+    "The Quiet becomes the world's defining wound and its slowest disaster.",
+    "The Censer is founded; containment becomes law for eight centuries.",
+    "The gods' silence begins — no verified divine contact since.",
+    "Old Weaver becomes dangerous knowledge; within eighty years it becomes contraband."
+  ],
+  "remembrance": "Stilleven, the month of silence, re-enacts the year's end annually. The phrase 'since the world screamed once' means 'for as long as anyone can imagine'. Deep-folk mark it differently: their saga calls it 'the year the doors held'.",
+  "adventure_hooks": [
+    "A 'silent walker' returns out of the Quiet after 812 years — alive, unaged, and asking for someone by name.",
+    "Players discover why the winter was warm. The answer is buried in three archives that hate each other.",
+    "The Rent's seam is measured again: this year it moved two hand-widths, not one. Nobody wants to be the one who reports it."
+  ]
+}

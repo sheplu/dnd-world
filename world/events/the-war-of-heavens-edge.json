@@ -1,0 +1,46 @@
+{
+  "id": "the-war-of-heavens-edge",
+  "name": "The War of Heaven's Edge",
+  "type": "event",
+  "world": "vaeloria",
+  "age": "age-of-stone",
+  "years": "~2,100–3,000 AS (roughly nine centuries)",
+  "scale": "divine-continental",
+  "summary": "The god-war that broke the first covenant. Nine centuries after mortals lit their first fires, Solvane demanded the absolute worship the Settling had forbidden; Luneth refused, keeping her cycles independent. The quarrel became war — immortal armies walking the earth, the Veil tearing in seven places, and the Seven True Places turned from neutral ground into battlefields. Mortals died by the million, caught between powers who would not stop. The war ended not with victory but with withdrawal: the gods left the world, and the Veil has never fully closed since.",
+  "participants": [
+    { "kind": "deity", "name": "Solvane", "side": "the Dawn Host", "note": "demanded absolute worship; his legions were light given armor" },
+    { "kind": "deity", "name": "Luneth", "side": "the Tide Court", "note": "fought with cycles, tides, and secrets rather than open battle" },
+    { "kind": "deity", "name": "Orbren", "side": "neutral, fortified", "note": "sealed the deep holds and armed neither side" },
+    { "kind": "deity", "name": "Veyra", "side": "sheltering", "note": "opened the Greenwood to mortal refugees of both armies" },
+    { "kind": "deity", "name": "Vaelmarr", "side": "the Dawn Host, reluctantly", "note": "fought for Solvane from oath, not love — a debt he does not discuss" },
+    { "kind": "deity", "name": "Mornath", "side": "neutral", "note": "buried the dead of both armies without favor" },
+    { "kind": "faction", "name": "the-nine-hearths", "side": "mortal shelter", "note": "nine tribes sworn to shelter any who fled the war" },
+    { "kind": "species", "name": "mortals of Aurelith", "side": "caught between", "note": "millions died; the refugee roads became the King's Road" }
+  ],
+  "course_of_events": [
+    { "phase": "The First Battle of the Sky", "when": "~2,100 AS", "what": "Solvane's demand meets Luneth's refusal at the Stone Crown's high altar. The battle shatters the altar and rips the Veil; mortal mages feel the Quiet's cold wind for the first time." },
+    { "phase": "The Seven Battles", "when": "~2,100–2,900 AS", "what": "Each True Place becomes a battlefield as both hosts race to control the neutral grounds. The covenant that made them sacred makes them strategic. The flooded True Place is drowned deliberately in the fourth battle — its waters never fully drain." },
+    { "phase": "The Kindling Resistance", "when": "throughout", "what": "Mortals organize not to fight but to survive: the Nine Hearths' refuge-roads, Orbren's sealed halls, Veyra's green shelters. More mortals survive these nine centuries than the gods expect." },
+    { "phase": "The Whisper", "when": "~3,000 AS", "what": "How it ended depends on the teller: Luneth whispered something to Solvane that no one else heard, or she hid the moon to deny him his audience. Either way, both hosts stopped mid-campaign." },
+    { "phase": "The Withdrawal", "when": "3,000 AS", "what": "The gods cease walking the earth. The Veil thickens behind them like scar tissue. The Last Walk (~2,500 AS) is retroactively named: no god comes back." }
+  ],
+  "key_places": [
+    { "name": "The Shattered Altar", "description": "The Stone Crown's summit altar, split by the First Battle of the Sky. The pieces still hum on certain nights. Deep-folk pilgrims climb to it; no greenfolk will.", "status": "ruin" },
+    { "name": "The Drowned True Place", "description": "Deliberately flooded in the war's fourth battle. Its waters have never fully drained — marsh-country somewhere in the unmapped interior, and the likeliest site where Ith-belen later heard the song.", "status": "lost" },
+    { "name": "The Shared Graves", "description": "Where the Nine Hearths buried the dead of both divine armies in ground no god may claim. Now tended at Hearthvale by every faith on Aurelith.", "status": "sacred site", "ref": "hearthvale" },
+    { "name": "The Seven Tears", "description": "The seven places where the Veil ripped during the war. Sealed by the Withdrawal's thickening, but 'the ground hums there on certain nights' — the ghosts of divine combat.", "status": "sealed scars" }
+  ],
+  "consequences": [
+    "The gods withdraw from the world — worship continues, presence does not.",
+    "The Veil never fully closes again; every later thinning builds on these wounds.",
+    "The Nine Hearths' refuge roads become the King's Road; hearth-right becomes custom.",
+    "Deep-folk neutrality becomes doctrine: the holds seal their doors and keep them shut.",
+    "Greenwood sanctuary becomes treaty: the Compact of Five Roots is sworn in the war's aftermath."
+  ],
+  "remembrance": "Told differently by every species: the deep-folk call it 'the Nine Centuries of Noise'; greenfolk sagas barely mention the war, only the sheltering; human hearth-sagas center the Nine Hearths. All agree on one detail — the last battle ended mid-motion, and nobody knows what was said.",
+  "adventure_hooks": [
+    "A seventh Tear unseals near a Crownlands village; whatever walks out remembers the war from the other side.",
+    "Players find a weapon dropped mid-battle at the Shattered Altar — divine make, still under oath to a side.",
+    "The Drowned True Place surfaces during a drought year. Every church, the Censer, and three realms dispatch expeditions."
+  ]
+}

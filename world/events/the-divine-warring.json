@@ -1,0 +1,36 @@
+{
+  "id": "the-divine-warring",
+  "name": "The Divine Warring and the Settling",
+  "type": "event",
+  "world": "vaeloria",
+  "age": "first-stillness",
+  "years": "uncounted (mythic)",
+  "scale": "divine",
+  "summary": "The first quarrel. In creation's morning, Solvane claimed the sun as his alone; Luneth refused, holding the moon a shared secret. Their pride wounded the song itself — the first tear in the Veil, made not by malice but by vanity. The Settling ended it: day and night would rotate, neither would rule the other's realm, and the Veil was woven as a peace treaty with seven neutral grounds marked upon the world.",
+  "participants": [
+    { "kind": "deity", "name": "Solvane", "side": "claimed the sun", "note": "demanded first voice in the song" },
+    { "kind": "deity", "name": "Luneth", "side": "held the moon shared", "note": "refused to sing second" },
+    { "kind": "deity", "name": "the Chorus", "side": "brokers of the Settling", "note": "the lesser gods forced both to arbitrate rather than unmake creation" }
+  ],
+  "course_of_events": [
+    { "phase": "The Claim", "when": "uncounted", "what": "Solvane names the day and claims sole authorship of light; Luneth answers by drawing the shadow long across his morning." },
+    { "phase": "The Wounding", "when": "uncounted", "what": "Their duelling verses fall out of harmony; the song tears — the first wound in the Veil. Stars gutter. Something on the far side notices." },
+    { "phase": "The Arbitration", "when": "uncounted", "what": "Orbren strikes an anvil-note that neither can talk over; Mornath holds the hourglass sideways until both agree to speak in turn." },
+    { "phase": "The Settling", "when": "uncounted", "what": "Day and night rotate by covenant. The Veil is woven as a peace-treaty membrane. Seven True Places are crowned as neutral ground where all voices may be heard and none may dominate." }
+  ],
+  "key_places": [
+    { "name": "The First Wound", "description": "The original tear in the Veil, sealed by the Settling but never healed — sages say every later wound, including the Quiet, echoes its shape.", "status": "sealed, mythic" },
+    { "name": "The Seven True Places", "description": "Seven sites where the song runs strongest, crowned neutral by covenant. All are lost to memory and map; at least one lies under the Stone Crown, another under a flooded ruin.", "status": "lost" }
+  ],
+  "consequences": [
+    "No single god may dominate — the covenant every later divine dispute has broken or invoked.",
+    "The Veil exists as treaty, not wall: thinning it is breach, not accident.",
+    "The Seven True Places become the world's most consequential lost treasure map."
+  ],
+  "remembrance": "No mortal witnessed it; everything known comes from the gods' own oaths and the Deep Tongue creation-sagas. Dwarven smiths still strike an anvil-note to open disputes — 'speaking like Orbren' means forcing arbitration.",
+  "adventure_hooks": [
+    "A True Place is found. Whoever claims it holds a piece of the original covenant — every church on Aurelith will want a word.",
+    "The First Wound's 'shape' appears in a new scar near the Quiet. Either history repeats, or something is copying it.",
+    "An Old Weaver text claims the Settling had a third signatory whose name was struck from the song."
+  ]
+}
