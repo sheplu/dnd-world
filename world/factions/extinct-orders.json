@@ -1,0 +1,140 @@
+{
+  "id": "extinct-orders",
+  "name": "Extinct Orders",
+  "type": "faction-collection",
+  "world": "vaeloria",
+  "status": "extinct",
+  "summary": "Factions that shaped the world and ended. Their ruins, seals, and unfinished works are adventure sites; their ideas never quite died — they evolved into the factions of today.",
+  "orders": [
+    {
+      "id": "colleges-of-the-weave",
+      "name": "The Colleges of the Weave",
+      "era": "concord-of-weavers (1–1,201 CoW)",
+      "founded": "1 CoW, after the First Thread",
+      "ended": "1,201 CoW (the Sundering)",
+      "summary": "The teaching institutions of high magic. Seven great colleges taught the song as craft; their ruins still hum in the Ashlands.",
+      "history": [
+        { "year": "1 CoW", "event": "Ith-belen binds the first thread; within a decade the first college opens its doors." },
+        { "year": "~150 CoW", "event": "The colleges raise Velkash on the Silk; their woven bridges stand where masons would have failed." },
+        { "year": "~700 CoW", "event": "The Bound Storms: the colleges' proudest working plants the first seed of common fear." },
+        { "year": "1,201 CoW", "event": "The Sundering destroys four colleges outright; three seal themselves and are never heard from again." }
+      ],
+      "legacy": "Sealed colleges may still hold Weavers — or something wearing them. The Censer's archive-quarter is built on a college's foundation.",
+      "evolved_into": ["the-censer", "the-rememberers"]
+    },
+    {
+      "id": "the-high-concord",
+      "name": "The High Concord",
+      "era": "concord-of-weavers (~700–1,201 CoW)",
+      "founded": "~700 CoW, after the Bound Storms",
+      "ended": "1 Sun (winter) — dissolved into the First Censer",
+      "summary": "The Weavers' ruling conclave, formed to contain the song after hubris became policy. It contained nothing, but its wardens survived to swear the Censer's oath.",
+      "history": [
+        { "year": "~700 CoW", "event": "Formed by moderates horrified by the Bound Storms; given power to sanction or forbid any working." },
+        { "year": "900–1,100 CoW", "event": "Refuses Ithyn's push to bind the whole song; her exile splits the Concord's soul." },
+        { "year": "1,100–1,201 CoW", "event": "Leads the Silent War against the Unbinding faction — and wins every battle while losing the world." },
+        { "year": "1,187 CoW", "event": "Its own hardliners speak the Song Unbinding at the Stone Crown, believing controlled unbinding safer than Ithyn's heirs' chaos." },
+        { "year": "1 Sun (winter)", "event": "Survivors dissolve the Concord and swear the First Censer's oath in Velkash's broken thread-quarter." }
+      ],
+      "legacy": "The Censer is the High Concord's ghost — same fear, new name. Its seal (a ring of nine threads) survives in the Nine Ashes' voting stones.",
+      "evolved_into": ["the-censer"]
+    },
+    {
+      "id": "the-unbinding",
+      "name": "The Unbinding Faction",
+      "era": "concord-of-weavers (900–1,201 CoW)",
+      "founded": "~950 CoW, at Ithyn's exile",
+      "ended": "1,201 CoW — destroyed by its own victory",
+      "summary": "Ithyn's heirs, who believed the song belonged to no institution. They won the Silent War, completed the Song Unbinding, and were annihilated by what they unleashed.",
+      "history": [
+        { "year": "~950 CoW", "event": "A dozen exiled acolytes take the name Unbinding and begin teaching in secret." },
+        { "year": "1,100–1,201 CoW", "event": "Fight the Silent War with stolen workings; lose cities, gain converts." },
+        { "year": "1,187 CoW", "event": "Hardliners among the High Concord steal the Unbinding's texts — the faction's own words doom the world." },
+        { "year": "1,201 CoW", "event": "The Sundering. A third die, a third go mad, a third walk silent into the Quiet. The faction ends as a name on Censer watchlists." }
+      ],
+      "legacy": "The Rememberers claim their memory; the Censer claims their guilt. Both are half right. The 'silent ones' who walked into the Quiet may be the faction's last members — still singing.",
+      "evolved_into": ["the-rememberers"]
+    },
+    {
+      "id": "first-whisperers",
+      "name": "The First Whisperers",
+      "era": "concord-of-weavers (900–1,100 CoW)",
+      "founded": "~900 CoW",
+      "ended": "~1,100 CoW — absorbed or purged",
+      "summary": "Ithyn's first dozen students, taught the Unbinding before her exile. Some repented into the High Concord's service; some founded the Unbinding; one is said to have walked into the Quiet alive and on purpose.",
+      "history": [
+        { "year": "~900 CoW", "event": "Ithyn teaches twelve acolytes the whole song, believing knowledge shared cannot be hoarded." },
+        { "year": "~950 CoW", "event": "Her exile scatters them: four repent and join the Concord's wardens, seven found the Unbinding, one — Beleth the Quiet-Walker — vanishes toward the Ashlands." },
+        { "year": "~1,100 CoW", "event": "The last repentant Whisperer dies in Censer service, her confession sealed in the archive's deepest vault." }
+      ],
+      "legacy": "Beleth's fate is unwritten history. If she lived, her descendants — mortal or otherwise — would be 2,000 years old and remember everything.",
+      "evolved_into": ["the-unbinding", "the-censer"]
+    },
+    {
+      "id": "the-nine-hearths",
+      "name": "The Nine Hearths",
+      "era": "age-of-stone (~1,900–3,000 AS)",
+      "founded": "~1,900 AS, at the First Battle of the Sky",
+      "ended": "~50 CoW — dissolved voluntarily",
+      "summary": "The mortal alliance of the god-war: nine river-tribes who swore mutual shelter while immortal armies burned the sky. The only authority that functioned through the War of Heaven's Edge.",
+      "history": [
+        { "year": "~1,900 AS", "event": "At the First Battle of the Sky, nine hearth-fires are lit in one vale; each tribe vows shelter to any who flee the divine war, friend or stranger." },
+        { "year": "~2,100–3,000 AS", "event": "Keep neutral ways and refugee roads through the war; bury the dead of both immortal armies in shared ground no god may claim." },
+        { "year": "3,000 AS", "event": "Survive the Withdrawal as the continent's only working authority — roads kept, granaries sealed, oaths intact." },
+        { "year": "~1–50 CoW", "event": "As the Weavers rise, hearth authority fades. The last moot dissolves the Compact voluntarily, gifting its refugee roads to the new kingdoms." }
+      ],
+      "legacy": "The King's Road follows their refugee roads. 'Hearth-right' — shelter for any who ask — survives as folk custom across the Crownlands. The salt-and-harvest council's round table echoes the hearth-moot.",
+      "evolved_into": ["reeves-court"]
+    },
+    {
+      "id": "karvess",
+      "name": "Karvess, the Glass Kingdom",
+      "era": "concord-of-weavers (~200 CoW – 1 Sun)",
+      "founded": "~200 CoW, the Glass Schism",
+      "ended": "1 Sun (autumn), the Falling Kingdoms",
+      "summary": "The greatest glass city-state of the southern Concord, founded by weavers who left Velkash over craft disputes. Now the Ruin of Karvess — the largest standing ruin in the Ashlands.",
+      "history": [
+        { "year": "~200 CoW", "event": "The Glass Schism: master weavers who scorn silk leave Velkash to weave light itself; Karvess raises towers of woven glass over the southern plain." },
+        { "year": "~400 CoW", "event": "Height of the kingdom: light-works banish night across the Ashlands; even Velkash buys Karvess glass." },
+        { "year": "~700 CoW", "event": "Joins the High Concord reluctantly; its weavers favor binding over unbinding and oppose the Silent War on both sides." },
+        { "year": "1 Sun (spring)", "event": "The Rent passes directly beneath the city; Karvess vitrifies in a single hour — towers, people, and fountains turned to glass together." },
+        { "year": "1 Sun (autumn)", "event": "Formally counted among the Falling Kingdoms. Survivors scatter south; some say hollowborn Rememberers count Karvess among their ancestors." }
+      ],
+      "legacy": "The Ruin of Karvess hums on quiet nights. The Censer forbids all expeditions; the Reeve wants one mounted. What the glass remembers, no one has dared ask.",
+      "evolved_into": []
+    },
+    {
+      "id": "house-dellet",
+      "name": "House Dellet",
+      "era": "age-of-silence (~150–460 Si)",
+      "founded": "~150 Si, ennobled after the first continental purge",
+      "ended": "~460 Si — extinguished by its own choice",
+      "summary": "The Censer's ennobled hunters. Granted title and land for every Glimmerborn delivered, they became the purge's face — and its most willing hands.",
+      "history": [
+        { "year": "~150 Si", "event": "House Dellet elevated to nobility after delivering seventeen Glimmerborn in a single season — a record the Nine Ashes still cite." },
+        { "year": "~200–310 Si", "event": "Lead the Great Collection's field work. 'The Dellets are coming' becomes a threat parents hush children with." },
+        { "year": "~450 Si", "event": "The heir, Sella Dellet, is born Glimmerborn. The house faces the choice its whole history was built on: blood or oath." },
+        { "year": "~460 Si", "event": "Chooses the oath. Surrenders Sella to the Censer, seals the house line, and cedes its lands to the order. No Dellet is recorded again." }
+      ],
+      "legacy": "The Dellet estate is now the Censer Quarter's eastern wall. 'Dellet's choice' is proverbial for duty over love — and what became of Sella is the order's most quietly guarded question.",
+      "evolved_into": ["the-censer"]
+    },
+    {
+      "id": "solmere",
+      "name": "Solmere, the Bright Kingdom",
+      "era": "age-of-ashes (12–183 AA)",
+      "founded": "12 AA",
+      "ended": "183 AA — the Backfiring",
+      "summary": "The kingdom that tried to restore the golden age in a generation. Its fall is the Censer's favorite cautionary tale — and the legal foundation of the order's modern warrant.",
+      "history": [
+        { "year": "12 AA", "event": "Founded on the Thresher's Vale's south bank by followers of a Solvane revival movement preaching that the sun god's silence could be ended by worthy works." },
+        { "year": "~90 AA", "event": "Solmere's courts quietly employ hedge-casters: the Glimmer taxed, licensed, and taught — a controlled return of magic, generations before the Waking." },
+        { "year": "~150 AA", "event": "Proclaims the Second Dawn: public workings, a reopened college, Old Weaver studied openly. Refugees of fear flee the Crownlands for Solmere's promise." },
+        { "year": "183 AA", "event": "The Backfiring: a civic working meant to bless the harvest tears a pocket of Quiet beneath the capital. The city of Solmere is now a silence-zone inside the Crownlands." },
+        { "year": "184 AA", "event": "The Censer arrives to 'help'. The shattered Crownlands sign the Accords granting the order its modern warrant — the law the Reeve's court now chafes against." }
+      ],
+      "legacy": "Every Censer argument ends with 'remember Solmere'. The silence-zone is off-limits by treaty; some Veil-Wardens believe the working still runs beneath it, waiting to finish what it started.",
+      "evolved_into": ["the-censer"]
+    }
+  ]
+}

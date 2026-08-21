@@ -1,0 +1,44 @@
+{
+  "id": "the-rememberers",
+  "name": "The Rememberers",
+  "type": "faction",
+  "world": "vaeloria",
+  "status": "active (underground)",
+  "founded": "~950 CoW (Ithyn's exile); organized ~310 Si",
+  "summary": "The keepers of the forbidden. Descended from Ithyn's exiled acolytes, the Rememberers copy Old Weaver by hand, memorize what cannot be written, and wait for the world to want its song back. They are the Censer's oldest enemy and the reason the archives are never complete.",
+  "history": [
+    { "age": "concord-of-weavers", "year": "~950", "event": "Roots: Ithyn is exiled from the Collegium. Her acolytes scatter — some join the Censer-to-be, some hide, and a dozen begin the work of remembering what the Concord wants burned." },
+    { "age": "the-sundering", "year": "1 (summer)", "event": "Vindication and horror: the Madness proves the Unbinding was real. The scattered acolytes survive precisely because they were already in hiding." },
+    { "age": "age-of-silence", "year": "~310", "event": "Organization: the Great Collection nearly destroys them. The survivors formalize the Chain of Memory — each text copied thrice, each copy held by a different cell, no cell knowing more than two others." },
+    { "age": "age-of-silence", "year": "~490", "event": "The Grey Peace: hunted to myth. The Rememberers become a story mothers tell children who ask too many questions." },
+    { "age": "age-of-ashes", "year": "~500", "event": "The Return: scholars emerge from the Hollow Mile with genuine Old Weaver texts. The court protects them; the Censer hunts them; the order is suddenly real again — and careless." },
+    { "age": "age-of-ashes", "year": "812 (current)", "event": "The Chain frays: young Rememberers want to teach openly as the Glimmer wakes; elders insist on silence. And someone is selling true pages through the Mile — pages only the Chain should hold." }
+  ],
+  "structure": {
+    "leadership": "the Chain of Memory: cells of three, linked but blind to one another",
+    "ranks": ["copyist", "memorizer", "cell-keeper"],
+    "headquarters": "none; cells meet in wells, ruins, and the Mile's deepest stalls",
+    "membership": "perhaps 300 worldwide; no one knows for certain, by design"
+  },
+  "goals": [
+    "Preserve every surviving word of Old Weaver",
+    "Keep the Chain unbroken until the world asks for the song",
+    "Find out who is selling the Chain's pages"
+  ],
+  "methods": [
+    "Memorization over paper: the safest archive is a living mind",
+    "Texts copied thrice and split across cells",
+    "Recruitment of the curious, the exiled, and the quietly grieving"
+  ],
+  "relations": [
+    { "faction": "the-censer", "stance": "hunter and hunted", "note": "800 years of cat and mouse. Some Rememberers are ex-Censer; some Censer are failed Rememberers." },
+    { "faction": "the-hollow-mile", "stance": "uneasy partners", "note": "The Mile moves their texts and never asks what they say. Mostly." },
+    { "faction": "reeves-court", "stance": "useful shield", "note": "The court protects them when it suits the game against the Censer." },
+    { "faction": "first-heard-sect", "stance": "hopeful contact", "note": "For the first time, some inside the Censer want to listen. The elders forbid contact; the young are already meeting." }
+  ],
+  "adventure_hooks": [
+    "A dying memorizer needs players to carry a song — held only in her mind — to a cell she cannot name.",
+    "Players discover a cell has been compromised for years; everything it 'preserved' was fed to it by the Censer.",
+    "A young Rememberer asks players to broker the forbidden meeting with First-Heard before the Nine purge the sect."
+  ]
+}

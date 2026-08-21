@@ -18,6 +18,14 @@ world/
 │   ├── dwarf.json       Deep-folk of the Stone Crown
 │   ├── elf.json         Greenfolk of the Greenwood
 │   └── hollowborn.json  Desert people of the Burning Sands
+├── factions/
+│   ├── the-censer.json      Glimmer hunters (multi-age history)
+│   ├── reeves-court.json    Velkash civil authority
+│   ├── the-hollow-mile.json Black market of the forbidden
+│   ├── storm-bound.json     Vaelmarr's wave-oathed order
+│   ├── the-rememberers.json Underground keepers of Old Weaver
+│   ├── extinct-orders.json  Colleges, High Concord, Unbinding, Whisperers
+│   └── religious-orders.json Clergy of all deities
 └── deities/
     └── pantheon.json    The Chorus: 8 deities
 ```
@@ -38,9 +46,9 @@ world/
 - **The Quiet:** a rent in reality left by the Sundering, running across Aurelith.
 - **Deities:** the Chorus — Solvane, Luneth, Orbren, Veyra, Vaelmarr, Mornath, Ithyn, Cayren — worshipped differently by each species (same names, recast names, or rejected). Unique deities: Khord (dwarf), the Eldertree (elf), Akhmat (hollowborn). Minor deities: Glass-Thane (ash and ruin), Deep-Eye (the deep forest silence), Oath-Keeper (lawful succession), the-Remembered (forbidden knowledge), the-Veil-Thread (the thinning Veil), First-Heard (the song's return in year 812).
 - **Species:** humans (Crownlands), deep-folk (Dusk Reach), greenfolk (Dusk Reach), hollowborn (Burning Sands).
+- **Factions:** the Censer vs the Reeve's court is the central rivalry; the Hollow Mile feeds on both; the Rememberers outlast them all. See [factions/](factions/).
 
 ## Next steps
 
 - Flesh out the remaining cities (Dusk Reach holds, Ashlands towns, Burning Sands oases).
-- Add factions (the Censer, the Reeve's court, the Hollow Mile, Storm-Bound).
 - Begin campaign documents referencing this world.

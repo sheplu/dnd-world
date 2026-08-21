@@ -1,0 +1,44 @@
+{
+  "id": "the-censer",
+  "name": "The Censer",
+  "type": "faction",
+  "world": "vaeloria",
+  "status": "active",
+  "founded": "1 Sun (winter), the Sundering's end",
+  "summary": "The order that contains the Glimmer. Born from the shame of the High Concord's survivors, the Censer hunts Glimmerborn, seizes forbidden writings, and hoards the last true knowledge of the song in archives no outsider has seen. It is the most feared institution on Aurelith — and, in year 812 AA, the most divided.",
+  "history": [
+    { "age": "concord-of-weavers", "year": "1,100–1,201", "event": "Prehistory: the Silent War. The High Concord's wardens — keepers of sanctioned circles — fight the Unbinding faction with woven spells. When the Sundering comes, the wardens are the only Weavers left with a purpose." },
+    { "age": "the-sundering", "year": "1 (winter)", "event": "The First Censer: survivors of the High Concord gather in Velkash's broken thread-quarter and swear to contain the Glimmer forever. Each warden carries a censer of ash from the burned Colleges — the order's name and symbol." },
+    { "age": "age-of-silence", "year": "~200", "event": "The first continental purge: the Censer seizes Glimmerborn and forbidden books across Aurelith. The Hollow Mile is born as a black market for everything they take." },
+    { "age": "age-of-silence", "year": "~310", "event": "The Great Collection: the Censer's agents seize every Old Weaver text they can find. Their archive-quarter is built in Velkash; its deepest wing is said to hold 'the silent ones' who walked into the Quiet." },
+    { "age": "age-of-ashes", "year": "~700", "event": "The Waking: the first Glimmerborn in a century appears. The Censer takes her; three more follow within the year. The hunts double and the old fear returns." },
+    { "age": "age-of-ashes", "year": "812 (current)", "event": "The Schism of Ashfall: a minority sect (First-Heard) believes the returning Glimmer is a second chance, not a threat. The hierarchy suspects them of heresy. For the first time in 800 years, the Censer is divided against itself." }
+  ],
+  "structure": {
+    "leadership": "the Nine Ashes — nine senior incense-bearers who vote on doctrine",
+    "ranks": ["ash-novice", "censer-bearer", "warden-of-circles", "incense-bearer", "the Nine Ashes"],
+    "headquarters": "Censer Quarter, Velkash (walled enclave)",
+    "membership": "several thousand sworn; unknown number of informants"
+  },
+  "goals": [
+    "Contain or eliminate every Glimmerborn",
+    "Seize and archive all writings of the old song",
+    "Guard the sealed wing — none but the Nine know what it holds"
+  ],
+  "methods": [
+    "Birth-records watchlists in every major town",
+    "Sanctioned circle-tests for suspected casters",
+    "Book-purges conducted with local reeves' consent (or without it)"
+  ],
+  "relations": [
+    { "faction": "reeves-court", "stance": "uneasy rivals", "note": "The Reeve needs the Censer's legitimacy; the Censer needs the Reeve's courts. Both resent the dependence." },
+    { "faction": "the-hollow-mile", "stance": "prey and parasite", "note": "Every purge feeds the black market; every raid confirms the Mile's value." },
+    { "faction": "the-rememberers", "stance": "hunter and hunted", "note": "The Censer's oldest enemy; the Rememberers are why the archives are never complete." },
+    { "faction": "first-heard-sect", "stance": "internal schism", "note": "The heretics within. The Nine have not yet decided whether to purge them." }
+  ],
+  "adventure_hooks": [
+    "A Censer warden defects with a page of the Song Unbinding — both the Nine and the Hollow Mile want them.",
+    "Players hired as circle-test 'witnesses' discover the tests mark innocents as Glimmerborn for quota's sake.",
+    "The sealed wing's 'silent ones' are not prisoners. They are listening — and one has begun to answer."
+  ]
+}
