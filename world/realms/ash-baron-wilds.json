@@ -1,0 +1,39 @@
+{
+  "id": "ash-baron-wilds",
+  "name": "The Ash-Baron Wilds",
+  "type": "lawless-territory",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "region": "the-ashlands",
+  "capital": null,
+  "seat": null,
+  "status": "lawless",
+  "summary": "The Ashlands' interior: a shifting map of salvage-camps, fortified farmsteads, and petty 'barons' who rule exactly as far as their riders can ride. There is no government, no law, and no shortage of order — the barons' code is simple: toll at the crossing, tribute to no one, and what the Sundering left belongs to whoever carries it out.",
+  "government": {
+    "title": "none",
+    "current": null,
+    "note": "Roughly a dozen barons command riders; alliances last a season. The strongest, Baron Hesk of the Glass Road, mints no coins but his tokens spend."
+  },
+  "population": [
+    { "species": "human", "share": "majority", "note": "salvage crews, ash-farmers, riders" },
+    { "species": "dwarf", "share": "minority", "note": "independent stone-wardens; respected everywhere" },
+    { "species": "hollowborn", "share": "minority", "note": "runners between the wilds and the sands" },
+    { "species": "elf", "share": "rare" }
+  ],
+  "laws": "None written, none sworn. Custom: crossing-toll is sacred, water is shared, Glimmerborn are left alone (the wilds remember Solmere's refugees kindly), and Censer wagons are fair salvage.",
+  "relations": [
+    { "realm": "the-ash-march", "stance": "ignores the claim", "note": "Barons pay crossing-toll and nothing else." },
+    { "realm": "ashveil-free-town", "stance": "trading partner", "note": "The town's market is the wilds' only safe commerce." },
+    { "faction": "the-censer", "stance": "open hostility", "note": "Seizure convoys get ambushed; ambushers get purged; repeat." }
+  ],
+  "economy": ["salvage", "ash-glass", "smuggling", "protection"],
+  "history_notes": [
+    "The wilds sheltered Solmere's refugees after 183 AA — the barons' one point of pride.",
+    "Baron Hesk's riders were first on-site when the Karvess humming stopped. They will not say what they saw."
+  ],
+  "adventure_hooks": [
+    "Players need a baron's riders as guides to Karvess; the price is stealing back a hostage from a rival baron.",
+    "A Censer wagon wreck litters the road with seized books; every faction wants them and the barons auction them at dawn.",
+    "An ash-farm village asks players to carry its tithe to Baron Hesk — and its real plea to the Crown."
+  ]
+}

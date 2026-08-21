@@ -1,0 +1,40 @@
+{
+  "id": "the-dhar-roads",
+  "name": "The Dhar Roads",
+  "type": "caravan-confederacy",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "region": "the-burning-sands",
+  "capital": null,
+  "seat": "wherever the dusk-candle is lit — the Roads' seat moves with the caravans",
+  "status": "active",
+  "summary": "The nomadic realm: every sworn caravan on the southern routes, governed not by place but by the code of the road under Dhar, the Shifting Dune. The Roads have no territory and no fixed seat; they carry the desert's trade, its post, its news, and its secrets — including, in sealed crates, some of its banned writing.",
+  "government": {
+    "title": "Road-Mother / Road-Father (one per great caravan)",
+    "current": "seventeen sworn caravans; the eldest Road-Mother speaks at moots",
+    "note": "Each caravan governs itself on the road; disputes between caravans are heard at crossroads-moots under a lit candle to Dhar."
+  },
+  "population": [
+    { "species": "hollowborn", "share": "majority", "note": "caravan-born; the Roads raise their own" },
+    { "species": "human", "share": "minority", "note": "sworn outsiders; rare but not unknown" },
+    { "species": "dwarf", "share": "rare", "note": "freight-masters under lifetime charter" },
+    { "species": "elf", "share": "rare" }
+  ],
+  "laws": "The code of the road: the oath of carriage (a sealed crate arrives unopened), water-sharing in emergency, sanctuary for any who walk the road in good faith, and dusk-candle truce at all moots. Breaking road-code makes one 'off the road' — no caravan will carry them again.",
+  "relations": [
+    { "realm": "the-well-league", "stance": "lifeline", "note": "Wells for carriage; the League's voice on the wind." },
+    { "realm": "the-shard-cities", "stance": "carriers of last resort", "note": "The Roads haul what others refuse — for triple freight." },
+    { "faction": "storm-bound", "stance": "sea-kin", "note": "Road-code and wave-oath recognize each other; freight passes at fair rates." },
+    { "faction": "the-hollow-mile", "stance": "northern partners", "note": "Some crates travel from the sands into the Mile without ever legally existing." }
+  ],
+  "economy": ["carriage and freight", "post and news", "guideship", "sealed cargo"],
+  "history_notes": [
+    "As old as the salt roads (~300 AA) and organized long before; the Roads claim their code predates the Edict.",
+    "Seventeen caravans are sworn today — the fewest ever. The sands sing more often, and crews resign."
+  ],
+  "adventure_hooks": [
+    "Players swear the oath of carriage on a crate they must not open; the crate begins whispering on the third night.",
+    "A crossroads-moot must judge a caravan that carried Censer agents in disguise; players hold the deciding testimony.",
+    "The Roads offer players guideship across the deep dunes — payment due only if everyone reaches water alive."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "the-well-league",
+  "name": "The Well-League",
+  "type": "oasis-confederation",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "region": "the-burning-sands",
+  "capital": "hollow-wells",
+  "status": "active",
+  "summary": "The hollowborn confederation: every settled oasis from the Glass Reach to the southern dunes, bound by water-law rather than borders. The Well-Sisters' councils govern locally; the League's one enforceable rule is the oldest — poison a well and answer to every well at once.",
+  "government": {
+    "title": "First Well-Sister (of the foremost oasis)",
+    "current": "Well-Sister Mahal of the Deep Ring (Hollow Wells)",
+    "note": "No central capital by design; Hollow Wells is 'foremost', not ruler. The League speaks through the Water-Moot, convened when any well is threatened."
+  },
+  "population": [
+    {
+      "species": "hollowborn",
+      "share": "majority"
+    },
+    {
+      "species": "human",
+      "share": "minority",
+      "note": "northern factors; a permanent, uninvited Censer legation"
+    },
+    {
+      "species": "dwarf",
+      "share": "minority",
+      "note": "well engineers on long charter"
+    },
+    {
+      "species": "elf",
+      "share": "rare",
+      "note": "the desert-medicine envoy"
+    }
+  ],
+  "laws": "Water-law absolute: fouling a well is the League's single capital crime. Otherwise, oasis-councils rule locally and the code of the road governs caravans. No formal magic ban — discretion is the law of the sands.",
+  "relations": [
+    {
+      "realm": "the-shard-cities",
+      "stance": "uneasy kin",
+      "note": "The cities dig where the League forbids; both need each other's trade."
+    },
+    {
+      "realm": "the-dhar-roads",
+      "stance": "lifeline",
+      "note": "The caravans are the League's hands and voice."
+    },
+    {
+      "faction": "well-sisters",
+      "stance": "Well-Sisters are its spine",
+      "note": "Akhmat's clergy hold the water-law."
+    }
+  ],
+  "economy": [
+    "water rights",
+    "caravan trade",
+    "glass",
+    "licensed excavation"
+  ],
+  "history_notes": [
+    "Older than the Accords, the Edict, and most realms — the League dates itself to the first shared well.",
+    "Akhmat's Tears turned salty last month: the first salt-well in living memory, and the Water-Moot has been called."
+  ],
+  "adventure_hooks": [
+    "Players attend the Water-Moot as neutral witnesses to the salt-well investigation.",
+    "A Censer legation demands the Relic Walk; the League offers players as 'impartial assessors' who must find grounds to refuse.",
+    "A Rememberers' cell in the Buried Gate is betrayed from inside; the League quietly asks players to find the traitor before the Censer does."
+  ]
+}

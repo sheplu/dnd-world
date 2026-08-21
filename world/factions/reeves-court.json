@@ -5,6 +5,8 @@
   "world": "vaeloria",
   "status": "active",
   "founded": "~120 AA (the Crown Re-set)",
+  "realm": "the-velkash-crown",
+  "role_in_realm": "ruling body — the Crown's executive: courts, tax-farmers, and the city watch",
   "summary": "The civil authority of Velkash and, by extension, the Crownlands. The High Reeve is elected every ten years by the salt-and-harvest council — grain magnates, silk-weavers, and shipwrights. The court is the Censer's great rival: it holds the law, the coin, and the people, while the Censer holds only fear.",
   "history": [
     { "age": "age-of-silence", "year": "~80", "event": "Prehistory: the first Reeve of Velkash issues the Edict of Silence, banning the written Old Weaver. The office is born as an instrument of fear — a junior partner to the rising Censer." },

@@ -1,0 +1,41 @@
+{
+  "id": "the-velkash-crown",
+  "name": "The Velkash Crown",
+  "type": "elected-reeve-dom",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "region": "the-crownlands",
+  "capital": "velkash",
+  "status": "active",
+  "summary": "The dominant power of the Crownlands: a merchant-state where the salt-and-harvest council elects a High Reeve every ten years. The Crown holds the King's Road, the Weavers' River trade, and the continent's deepest purse — and claims, on paper older than anyone alive, all of the Ashlands besides.",
+  "government": {
+    "title": "High Reeve",
+    "current": "Reeve Aldara of the White Step",
+    "council": "the salt-and-harvest council: grain magnates, silk-weavers, shipwrights, well-sisters (~40 seats)",
+    "note": "Elected every ten years; the council can un-elect by two-thirds vote, which has happened four times."
+  },
+  "population": [
+    { "species": "human", "share": "majority" },
+    { "species": "dwarf", "share": "minority", "note": "stonewrights and smiths of Velkash's Thread" },
+    { "species": "elf", "share": "minority", "note": "greenwood emissaries and healers" },
+    { "species": "hollowborn", "share": "rare", "note": "southern trade factors" }
+  ],
+  "laws": "Edict of Silence in force (written Old Weaver banned); Glimmerborn remanded to Censer custody under the Accords; certified cantrips witnessed only by the Oath-Sept.",
+  "relations": [
+    { "realm": "the-wealdmark", "stance": "cold rivalry", "note": "River tolls and grain prices are a permanent low war." },
+    { "realm": "the-septuary", "stance": "indispensable nuisance", "note": "Every succession and major contract must pass Septuary clerks." },
+    { "realm": "the-ash-march", "stance": "claimant", "note": "The Crown's map says the Ashlands are theirs. The Ashlands disagree." },
+    { "faction": "reeves-court", "stance": "is the government", "note": "The court is the Crown's executive body." },
+    { "faction": "the-censer", "stance": "uneasy partners", "note": "The Accords bind both; neither is happy about it." }
+  ],
+  "economy": ["grain", "white silk", "river tolls", "coin minting", "salt"],
+  "history_notes": [
+    "Crown Re-set (~120 AA) founded the modern council.",
+    "Solmere's fall (183 AA) forced the Accords granting the Censer its warrant — the Crown's oldest wound."
+  ],
+  "adventure_hooks": [
+    "A council seat falls vacant; Wealdmark gold backs a candidate who will break the Accords.",
+    "The Crown quietly charters an expedition to Karvess that the Censer forbade — players are the crew.",
+    "Ashfall-poisoned grain threatens the dole; finding the source means crossing three realms' jurisdictions."
+  ]
+}

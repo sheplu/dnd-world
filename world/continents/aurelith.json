@@ -12,6 +12,7 @@
       "summary": "The fertile heart of Aurelith, seat of the old kingdoms and the capital Velkash. Breadbasket, crossroads, and center of the current political order.",
       "cities": ["velkash"],
       "lost_settlements": ["solmere-city"],
+      "realms": ["the-velkash-crown", "the-wealdmark", "the-septuary"],
       "key_features": ["the King's Road", "the Thresher's Vale", "the Broken Moat"]
     },
     {
@@ -21,6 +22,7 @@
       "summary": "Where the Sundering struck hardest. A grey scrubland of dead magic and leaning ruins, dotted with villages that pay the Quiet in prayer and silence.",
       "cities": ["ashveil-cross"],
       "lost_settlements": ["karvess-ruin"],
+      "realms": ["ashveil-free-town", "the-ash-march", "ash-baron-wilds"],
       "key_features": ["the Quiet", "the Ruin of Karvess", "Ashveil Cross"]
     },
     {
@@ -30,6 +32,7 @@
       "summary": "Northern highlands of long winters and old stone. Home to the deep-kingdoms and the last stands of greenwood.",
       "cities": ["hallord"],
       "lost_settlements": ["hearthvale"],
+      "realms": ["the-sunken-holds", "the-greenwood-compact", "northmarch"],
       "key_features": ["the Stone Crown mountains", "the Greenwood", "the Sunken Halls"]
     },
     {
@@ -39,15 +42,26 @@
       "summary": "A southern desert of glass-dunes and buried cities, crossed by silent-tongue caravans. The Glimmer here flickers like heat-haze.",
       "cities": ["hollow-wells"],
       "lost_settlements": [],
+      "realms": ["the-well-league", "the-shard-cities", "the-dhar-roads"],
       "key_features": ["the Glass Reach", "the Oasis of Hollow Wells", "the Sand-Drowned"]
+    },
+    {
+      "id": "the-bone-archipelago",
+      "name": "The Bone Archipelago",
+      "climate": "cold-maritime",
+      "summary": "Eastern isles of skeleton coasts and fog: pirate harbors, wreck-shrines older than the Compact, and storm-lashed fishing holds. The Storm-Bound's tide-moots convene here.",
+      "cities": [],
+      "lost_settlements": [],
+      "realms": ["the-skeleton-courts"],
+      "key_features": ["the Drift Moot", "the wreck-shrines", "Greyspire's sister light"]
     }
   ],
   "neighbors": [
-    { "id": "the-veiled-sea", "name": "The Veiled Sea", "relation": "western waters", "note": "Uncharted; ships that sail past the horizon are said to find the Veil." },
-    { "id": "the-bone-archipelago", "name": "The Bone Archipelago", "relation": "eastern isles", "note": "Skeleton coasts; home to pirates and forgotten shrines." }
+    { "id": "the-veiled-sea", "name": "The Veiled Sea", "relation": "western waters", "note": "Uncharted; ships that sail past the horizon are said to find the Veil." }
   ],
   "geography_notes": [
     "The Quiet runs north-east to south-west, a visible scar of cracked earth and silver mist.",
-    "The King's Road avoids the Quiet at all costs; Ashveil Cross is its single sanctioned crossing."
+    "The King's Road avoids the Quiet at all costs; Ashveil Cross is its single sanctioned crossing.",
+    "Beyond Ashveil Cross's charter line, the Ashlands' interior is ash-baron country — no law but salvage custom."
   ]
 }

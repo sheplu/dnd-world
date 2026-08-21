@@ -1,0 +1,40 @@
+{
+  "id": "the-shard-cities",
+  "name": "The Shard Cities",
+  "type": "excavation-city-states",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "region": "the-burning-sands",
+  "capital": null,
+  "seat": "no single seat; the Glass Table rotates between member cities each season",
+  "status": "active",
+  "summary": "A league of three excavation city-states built into the mouths of buried Concord cities on the Glass Reach. Where the Well-League forbids digging, the Shard Cities' whole economy is digging: they mine the old world — glass, stonework, relics, and sometimes writing — and sell it north at ruinous markup.",
+  "government": {
+    "title": "Dig-Lords (one per city)",
+    "current": "Dig-Lord Sarei of Vetchgate, Dig-Lord Ommu of the Third Mouth, Dig-Lord Ferrin of Saltglass",
+    "note": "The Glass Table settles boundaries between digs; disputes are settled by which city's claim-stakes survive the season."
+  },
+  "population": [
+    { "species": "hollowborn", "share": "majority", "note": "diggers, rope-masters, relic-brokers" },
+    { "species": "human", "share": "minority", "note": "northern buyers' factors" },
+    { "species": "dwarf", "share": "minority", "note": "shoring engineers; the only ones the diggers trust underground" },
+    { "species": "elf", "share": "rare" }
+  ],
+  "laws": "City law is dig-law: claims, shares, and shoring-safety. The Edict of Silence is enforced at the docks (outbound papers searched) and nowhere else — what is found below stays below until sold.",
+  "relations": [
+    { "realm": "the-well-league", "stance": "uneasy kin", "note": "Water comes from League wells; relics flow north past League tolls." },
+    { "realm": "the-dhar-roads", "stance": "carriers", "note": "Only the Roads will haul sealed crates without asking." },
+    { "faction": "the-censer", "stance": "running feud", "note": "Outbound relic searches; inbound Censer buyers with deep purses." },
+    { "faction": "the-rememberers", "stance": "secret patrons", "note": "Some Dig-Lords sell true texts to the Chain at 'misprint' prices." }
+  ],
+  "economy": ["relic excavation and brokerage", "glass", "concord stonework", "sealed freight"],
+  "history_notes": [
+    "Founded by dig-camps that refused Well-League limits after the Salt Roads opened (~300 AA).",
+    "The Third Mouth's lower galleries were sealed 'by common consent' after the third disappearance — the consent of everyone except the Dig-Lord who funded the fourth expedition."
+  ],
+  "adventure_hooks": [
+    "Players are hired to escort a sealed crate to Velkash — the crate hums, and the Roads' carriers refuse it.",
+    "A Dig-Lord offers players exclusive rights to a fresh gallery: first pick of finds, if they go down before the shorers.",
+    "A Censer buyer recognizes a sold text as genuine Song Unbinding page; players must trace it through three cities before the Nine do."
+  ]
+}

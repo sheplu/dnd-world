@@ -1,0 +1,39 @@
+{
+  "id": "the-wealdmark",
+  "name": "The Wealdmark",
+  "type": "hereditary-kingdom",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "region": "the-crownlands",
+  "capital": null,
+  "seat": "the Weald Hold (upriver fortress-palace, unlisted in city records)",
+  "status": "active",
+  "summary": "The old kingdom upriver of Velkash: forest, orchard-country, and the Weavers' River's upper fords. The Wealdmark predates the Crown Re-set, claims pre-Sundering noble blood, and regards the Velkash Crown as merchants who bought a throne. Both are right.",
+  "government": {
+    "title": "Warden-King",
+    "current": "King Emrys of the Old Weald",
+    "note": "Hereditary; succession requires Septuary certification of lineage — which gives the tiny temple-state leverage over both river kingdoms."
+  },
+  "population": [
+    { "species": "human", "share": "majority", "note": "orchard-farmers, river-wardens, old military families" },
+    { "species": "elf", "share": "minority", "note": "largest greenfolk population outside the Greenwood; orchard-tenders by treaty" },
+    { "species": "dwarf", "share": "rare" },
+    { "species": "hollowborn", "share": "rare" }
+  ],
+  "laws": "Mirrors the Crown's Edict of Silence in public; enforcement is famously slower. Glimmerborn born in the Wealdmark have a way of emigrating before their name reaches a watchlist.",
+  "relations": [
+    { "realm": "the-velkash-crown", "stance": "cold rivalry", "note": "Toll wars on the river; marriage negotiations as periodic ceasefires." },
+    { "realm": "the-greenwood-compact", "stance": "ancient treaty partner", "note": "The orchard-treaty: greenfolk tend Wealdmark orchards, the kingdom keeps loggers out of the Greenwood." },
+    { "faction": "the-censer", "stance": "formal compliance", "note": "Accords honored in writing; wardens complain the Wealdmark is 'soft country'." }
+  ],
+  "economy": ["orchard fruit and cider", "river trade", "timber (regulated)", "old-family credit"],
+  "history_notes": [
+    "Claims continuity with a Concord-era river province — its archives burned in the Sundering, conveniently.",
+    "Sheltered Solmere refugees after 183 AA; never returned them to Censer custody."
+  ],
+  "adventure_hooks": [
+    "A Wealdmark heir's lineage fails Septuary certification; proving the clerk forged it means entering Censer archives.",
+    "River tolls double; Velkash hires players to find an alternate route — through Greenwood treaty land.",
+    "An old Solmere refugee dies leaving a trunk of pre-Edict texts to 'the child of the orchard'."
+  ]
+}

@@ -4,6 +4,7 @@
   "type": "oasis-city",
   "continent": "aurelith",
   "region": "the-burning-sands",
+  "realm": "the-well-league",
   "summary": "The greatest oasis of the Burning Sands and the southern terminus of the salt roads. Built around a ring of deep wells sunk into the floor of a buried Concord cistern, Hollow Wells is half living city, half excavation — its people dwell literally on top of the old world and sell pieces of it north.",
   "role": "caravan hub; well-capital of the sands",
   "ruler": {
@@ -12,17 +13,55 @@
     "note": "Elected for life by the well-councils; can be un-elected by the same, which has happened twice in living memory."
   },
   "districts": [
-    { "id": "the-deep-ring", "name": "The Deep Ring", "type": "sacred-civic", "description": "The innermost circle of wells, tended by the Well-Sisters of Akhmat. Water is drawn at dawn and dusk only; drawing at night is theft of the goddess's tears." },
-    { "id": "the-buried-gate", "name": "The Buried Gate", "type": "excavation", "description": "The half-excavated mouth of a Concord city beneath the oasis. Licensed diggers work the upper strata; the lower galleries are sealed by common consent after the third disappearance." },
-    { "id": "the-salt-market", "name": "The Salt Market", "type": "trade", "description": "Where caravans water, rest, and trade: salt, glass, relics, and rumors. Prices are signed, not spoken — Hollow Sign was born here." },
-    { "id": "tentspire", "name": "The Tentspire", "type": "residential", "description": "The caravan quarter: a hill of tents and rope bridges that changes shape weekly. Permanent residents are outnumbered forty to one." }
+    {
+      "id": "the-deep-ring",
+      "name": "The Deep Ring",
+      "type": "sacred-civic",
+      "description": "The innermost circle of wells, tended by the Well-Sisters of Akhmat. Water is drawn at dawn and dusk only; drawing at night is theft of the goddess's tears."
+    },
+    {
+      "id": "the-buried-gate",
+      "name": "The Buried Gate",
+      "type": "excavation",
+      "description": "The half-excavated mouth of a Concord city beneath the oasis. Licensed diggers work the upper strata; the lower galleries are sealed by common consent after the third disappearance."
+    },
+    {
+      "id": "the-salt-market",
+      "name": "The Salt Market",
+      "type": "trade",
+      "description": "Where caravans water, rest, and trade: salt, glass, relics, and rumors. Prices are signed, not spoken — Hollow Sign was born here."
+    },
+    {
+      "id": "tentspire",
+      "name": "The Tentspire",
+      "type": "residential",
+      "description": "The caravan quarter: a hill of tents and rope bridges that changes shape weekly. Permanent residents are outnumbered forty to one."
+    }
   ],
   "landmarks": [
-    { "id": "akhmats-tears", "name": "Akhmat's Tears", "description": "The deepest well, said to be wept by the goddess herself. Its water never diminishes — but last month, for the first time in living memory, it tasted of salt." },
-    { "id": "the-relic-walk", "name": "The Relic Walk", "description": "A colonnade of excavated Concord stonework lining the road north, each stone carved with the name of the digger who found it. The Censer wants it confiscated; the Well-Sisters refuse." },
-    { "id": "the-listening-dune", "name": "The Listening Dune", "description": "A dune outside the walls that never moves. Hollowborn say the buried city beneath it is listening; negotiators meet there when words must not be overheard by the living." }
+    {
+      "id": "akhmats-tears",
+      "name": "Akhmat's Tears",
+      "description": "The deepest well, said to be wept by the goddess herself. Its water never diminishes — but last month, for the first time in living memory, it tasted of salt."
+    },
+    {
+      "id": "the-relic-walk",
+      "name": "The Relic Walk",
+      "description": "A colonnade of excavated Concord stonework lining the road north, each stone carved with the name of the digger who found it. The Censer wants it confiscated; the Well-Sisters refuse."
+    },
+    {
+      "id": "the-listening-dune",
+      "name": "The Listening Dune",
+      "description": "A dune outside the walls that never moves. Hollowborn say the buried city beneath it is listening; negotiators meet there when words must not be overheard by the living."
+    }
   ],
-  "economy": ["water rights", "caravan trade", "glass", "licensed excavation", "relic brokerage"],
+  "economy": [
+    "water rights",
+    "caravan trade",
+    "glass",
+    "licensed excavation",
+    "relic brokerage"
+  ],
   "conflicts": [
     "Akhmat's Tears turned salty — the Well-Sisters do not believe the goddess did it, and are quietly investigating their own aquifer.",
     "Censer agents press the Well-Sisters to surrender the Relic Walk and the Buried Gate's finds; the council refuses, citing the oath of the road.",
@@ -30,9 +69,25 @@
     "Water rights grow tense as northern demand rises with the Crownlands' growth."
   ],
   "inhabitants": [
-    { "species": "hollowborn", "share": "majority", "note": "Well-clans, diggers, and caravan houses; the city's bones are theirs." },
-    { "species": "human", "share": "minority", "note": "Northern factors and a permanent Censer legation that is tolerated and never invited anywhere." },
-    { "species": "dwarf", "share": "minority", "note": "Deep-folk engineers who helped sink the modern wells; they consult on the Buried Gate's supports." },
-    { "species": "elf", "share": "rare", "note": "A single Verdant kin envoy maintains the desert-medicine trade. She plants one tree a year; eleven survive." }
+    {
+      "species": "hollowborn",
+      "share": "majority",
+      "note": "Well-clans, diggers, and caravan houses; the city's bones are theirs."
+    },
+    {
+      "species": "human",
+      "share": "minority",
+      "note": "Northern factors and a permanent Censer legation that is tolerated and never invited anywhere."
+    },
+    {
+      "species": "dwarf",
+      "share": "minority",
+      "note": "Deep-folk engineers who helped sink the modern wells; they consult on the Buried Gate's supports."
+    },
+    {
+      "species": "elf",
+      "share": "rare",
+      "note": "A single Verdant kin envoy maintains the desert-medicine trade. She plants one tree a year; eleven survive."
+    }
   ]
 }

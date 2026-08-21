@@ -1,0 +1,37 @@
+{
+  "id": "ashveil-free-town",
+  "name": "Ashveil Free Town",
+  "type": "chartered-city-state",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "region": "the-ashlands",
+  "capital": "ashveil-cross",
+  "status": "active",
+  "summary": "The only governed ground in the Ashlands: a chartered city-state one mile wide, jointly held by the Velkash Crown's road-charter and the Censer's crossing-writ. Warden Otta Kell serves two masters, collects tolls for both, and keeps the continent's best data on the Quiet in a private tally-house.",
+  "government": {
+    "title": "Warden of the Cross",
+    "current": "Warden Otta Kell (dual-appointed: Crown charter + Censer writ)",
+    "note": "The dual appointment means two paymasters, two sets of orders, and one very careful woman."
+  },
+  "population": [
+    { "species": "human", "share": "majority", "note": "garrison families, toll-keepers, ash-farmers who won't leave" },
+    { "species": "dwarf", "share": "minority", "note": "stone-wardens; they volunteer for work no one else takes" },
+    { "species": "hollowborn", "share": "minority", "note": "southern caravan hands" },
+    { "species": "elf", "share": "rare", "note": "ash-line readers; never stay the night" }
+  ],
+  "laws": "Charter law inside the walls (Kell's word is final); Censer writ at the Veiled Gate and cloister; the Edict of Silence enforced on all papers passing the toll.",
+  "relations": [
+    { "realm": "the-velkash-crown", "stance": "charter-holder", "note": "Funds the road; audits the tolls; ignores the town otherwise." },
+    { "realm": "the-ash-march", "stance": "island of order", "note": "Everything beyond the walls is the March." },
+    { "faction": "the-censer", "stance": "co-warden", "note": "The Ash Cloister tests papers; Kell counts bells." }
+  ],
+  "economy": ["crossing tolls", "caravan services", "ash-glass trinkets", "garrison wages"],
+  "history_notes": [
+    "Chartered when the King's Road was re-cut after the Rebuilding; the charter has never been renegotiated — both signatories fear opening it."
+  ],
+  "adventure_hooks": [
+    "Kell offers players her bell-tally copies if they escort them to the Veil-Wardens — without the Censer learning.",
+    "A dawn caravan carries banned texts; players must decide before the toll-gate closes which side of the Edict they stand on.",
+    "The silence-bells rang last night. All forty-one. Nobody has rung since, and nobody will say why that is worse."
+  ]
+}

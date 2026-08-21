@@ -1,0 +1,39 @@
+{
+  "id": "northmarch",
+  "name": "Northmarch",
+  "type": "frontier-earldom",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "region": "the-dusk-reach",
+  "capital": null,
+  "seat": "Greyspire (pass-fortress at the Stone Crown's southern shoulder)",
+  "status": "active",
+  "summary": "The human frontier of the highlands: one long valley of pass-forts, lead- and silver-mines, and hard bargains. Northmarch exists because somebody must hold the passes between the Crownlands and the deep-folk realm — and because the ore is good.",
+  "government": {
+    "title": "Warden-Earl",
+    "current": "Earl Maren of Greyspire",
+    "note": "The earldom swears to the Velkash Crown in theory; in practice the passes answer to whoever keeps them open."
+  },
+  "population": [
+    { "species": "human", "share": "majority", "note": "miners, pass-wardens, goat-herds" },
+    { "species": "dwarf", "share": "minority", "note": "leased mine-masters and their crews" },
+    { "species": "elf", "share": "rare" },
+    { "species": "hollowborn", "share": "rare" }
+  ],
+  "laws": "Crown law, lightly — the March keeps its own pass-code: tolls, weights, and mine-safety are sworn on iron. Glimmerborn are reported south per the Accords, when anyone remembers to.",
+  "relations": [
+    { "realm": "the-sunken-holds", "stance": "profitable neighbor", "note": "Ore-weight honesty is the whole relationship." },
+    { "realm": "the-velkash-crown", "stance": "nominal liege", "note": "Tithes arrive late but arrive." },
+    { "realm": "the-greenwood-compact", "stance": "distant respect", "note": "The March sells no Greenwood timber and says so loudly." }
+  ],
+  "economy": ["lead and silver", "pass tolls", "goat and wool", "mine-lease fees"],
+  "history_notes": [
+    "Chartered after the Rebuilding to hold the passes no army had held since the Sundering.",
+    "Deep-Shapers sealed a ringing shaft in a March mine last spring; Earl Maren's questions went unanswered."
+  ],
+  "adventure_hooks": [
+    "A leased dwarf mine breaks through into something that rings; both realms seal it and both hire players to watch the other's seal.",
+    "Silver shipments vanish between pass-forts; the only witness is a Glimmerborn goatherd the Accords require be surrendered.",
+    "The Warden-Earl invites players to a feast and an inquisition: someone in Greyspire sold pass-keys to the ash-barons."
+  ]
+}

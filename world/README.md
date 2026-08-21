@@ -25,6 +25,20 @@ world/
 │   ├── dwarf.json       Deep-folk of the Stone Crown
 │   ├── elf.json         Greenfolk of the Greenwood
 │   └── hollowborn.json  Desert people of the Burning Sands
+├── realms/
+│   ├── the-velkash-crown.json   Elected reeve-dom; dominant Crownlands power
+│   ├── the-wealdmark.json       Old river kingdom, Velkash's rival
+│   ├── the-septuary.json        Oath-Sept temple-state of contracts
+│   ├── the-ash-march.json       Disputed Crown claim over the Ashlands
+│   ├── the-sunken-holds.json    Deep-folk clan federation (Hallord)
+│   ├── the-greenwood-compact.json Greenfolk realm under the Root-Wardens
+│   ├── northmarch.json          Frontier earldom of the passes
+│   ├── ashveil-free-town.json   Chartered city-state at the Quiet crossing
+│   ├── ash-baron-wilds.json     Lawless salvage country
+│   ├── the-well-league.json     Hollowborn oasis confederation
+│   ├── the-shard-cities.json    Excavation city-states of the Glass Reach
+│   ├── the-dhar-roads.json      Nomadic caravan confederacy
+│   └── the-skeleton-courts.json Pirate confederacy of the Bone Archipelago
 ├── factions/
 │   ├── the-censer.json      Glimmer hunters (multi-age history)
 │   ├── reeves-court.json    Velkash civil authority
@@ -49,7 +63,8 @@ world/
 
 - **World:** Vaeloria — Age of Ashes, year 812 AA (per-age count).
 - **Timeline:** see [history.json](history.json) — First Stillness → Age of Stone → Concord of Weavers → the Sundering → Age of Silence → Age of Ashes.
-- **Continent:** Aurelith, four regions (Crownlands, Ashlands, Dusk Reach, Burning Sands).
+- **Continent:** Aurelith, five regions (Crownlands, Ashlands, Dusk Reach, Burning Sands, Bone Archipelago).
+- **Realms:** 13 political entities across the continent — see [realms/](realms/). Central tension: the Velkash Crown vs the Wealdmark on the river; the Censer's writ runs through every realm.
 - **Capital:** Velkash, on the Weavers' River.
 - **Settlements:** every region has a living hub (Velkash, Ashveil Cross, Hallord, Hollow Wells) and lost sites from prior ages (`status: "lost"` — Karvess, Solmere City, Hearthvale).
 - **Magic:** the Glimmer — rare, feared, contained by the Censer order. See [magic.json](magic.json): workings cost the caster the Greying and thin the Veil; five traditions from forbidden Old Weaver craft to hedge-craft.
@@ -60,5 +75,4 @@ world/
 
 ## Next steps
 
-- Flesh out the remaining cities (Dusk Reach holds, Ashlands towns, Burning Sands oases).
 - Begin campaign documents referencing this world.
