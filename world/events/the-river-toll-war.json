@@ -1,0 +1,44 @@
+{
+  "id": "the-river-toll-war",
+  "name": "The River Toll War",
+  "type": "event",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "age": "age-of-ashes",
+  "years": "~550–600 AA (the war); the Arbitration of the Long Ledger, 601 AA",
+  "scale": "inter-realm war — the continent's largest mortal conflict since the Sundering",
+  "summary": "Fifty years of on-and-off war between the Velkash Crown and the Wealdmark over the Weavers' River: who owned the water, the fords, the tolls, and finally the silk. It was the largest purely mortal fight since the Sundering — no magic above hedge-craft, no gods, just grain fleets burned at anchor, pass-forts starved, and two realms learning that neither could afford the other's defeat. It ended not in battle but in a ledger: the Septuary's arbitration, which made the tiny temple-state the arbiter of everything that followed.",
+  "participants": [
+    { "kind": "realm", "name": "the-velkash-crown", "side": "downstream", "note": "fought for free navigation and the mouth of the river" },
+    { "kind": "realm", "name": "the-wealdmark", "side": "upstream", "note": "fought for the fords, the orchard country's barge-rights, and pride older than coin" },
+    { "kind": "faction", "name": "storm-bound", "side": "mercenaries both", "note": "riverine companies fought on both sides; their tide-moot afterward banned taking both contracts again" },
+    { "kind": "faction", "name": "the-septuary", "side": "the arbiters", "note": "refused all commissions; kept both realms' ledgers; ended the war with arithmetic" },
+    { "kind": "species", "name": "river folk", "side": "the bled", "note": "toll-farmers, barge-crews, ferry families — the war's actual casualties" }
+  ],
+  "course_of_events": [
+    { "phase": "The Toll Disputes", "when": "~550–565 AA", "what": "Wealdmark raises ford-tolls; Velkash answers with a blockade of 'customs inspections'. Barges are seized politely. Then impolitely. The first skirmish is over a ferry-lease and kills four men." },
+    { "phase": "The Burning Fleets", "when": "~571 AA", "what": "Open war. Velkash grain fleets burn at Wealdmark anchorages; Wealdmark orchard-country is raided to the tree-line. Both realms discover their armies are built for parades." },
+    { "phase": "The Starving Passes", "when": "~575–590 AA", "what": "The war grinds into siege economics: Northmarch's passes closed to Wealdmark steel, Wealdmark cider embargoed from Crown tables, the Hollow Mile selling forged passports to refugees at scandalous rates. Fifteen years of hunger punctuated by battles nobody wins." },
+    { "phase": "The Silk Fire", "when": "~597 AA", "what": "The war's atrocity: Velkash's Thread district burns again — second time in its history — under circumstances both sides blame on each other. The white silk looms of the old age are lost forever. Public opinion turns." },
+    { "phase": "The Arbitration", "when": "601 AA", "what": "Exhausted, both realms submit every disputed claim to the Septuary — which has spent the war refusing commissions and keeping both treasuries' books. First Clerk of the day reads out, claim by claim, exactly what each side owes the other. The totals are so precise, so public, and so humiliating that fighting further becomes impossible. The River Compact follows within the year." }
+  ],
+  "key_places": [
+    { "name": "The Burned Anchorage", "description": "The Wealdmark cove where the grain fleets burned. Charred hull-stubs remain as navigation markers; river-wardens name them 'the Crown's candles'.", "status": "memorial wreck-site" },
+    { "name": "The Cut Orchard Line", "description": "Where raiding stopped at the Greenwood border — trees on one side cut, on the other untouched. The line is visible from the air to this day; the Compact's deterrence made mapmakers of soldiers.", "status": "living monument" },
+    { "name": "The Long Ledger Hall", "description": "The Septuary archive where the arbitration was read aloud over eleven days. Both realms' original claims hang framed beside the final totals — displayed, by treaty, where every new clerk can read them.", "status": "active institution" },
+    { "name": "The Ferryman's Ford", "description": "Site of the first skirmish over a ferry-lease. A small stone bears four names and the words 'it began here with four' — raised by the ferry families, not either crown.", "status": "common memorial" }
+  ],
+  "consequences": [
+    "The River Compact: shared tolls, joint dredging, and the fords demilitarized — holding for 200 years.",
+    "The Septuary becomes untouchable: arbiter of successions, contracts, and inter-realm disputes everywhere.",
+    "Both realms cap their standing forces by treaty — the continent's only arms-limitation.",
+    "The Storm-Bound adopt strict contract-exclusivity after fighting themselves.",
+    "A generation of veterans seeds every modern mercenary company and watch-house."
+  ],
+  "remembrance": "Neither realm celebrates it. The ferry families' stone receives more flowers than any king's statue. In Velkash, 'reading the Ledger' means being forced to face an account you cannot dispute.",
+  "adventure_hooks": [
+    "River Compact renewal falls due; a third party has been forging toll receipts to reignite the feud — players hold the ledger page that proves it.",
+    "Dredging the fords uncovers a sunk treasury barge both realms claimed lost 'to the river'; the Septuary owns its contents by arbitration clause nobody read carefully.",
+    "A veteran company's banner from the war surfaces in a Mile auction — sworn to a side that never paid them. Their descendants want it honored or destroyed."
+  ]
+}

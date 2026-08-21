@@ -1,0 +1,36 @@
+{
+  "id": "the-deep-forging",
+  "name": "The Deep-Forging",
+  "type": "event",
+  "world": "vaeloria",
+  "age": "age-of-stone",
+  "years": "~410 AS",
+  "scale": "civilizational founding",
+  "summary": "The moment the deep-folk became a people: Orbren's hammer fell on the Stone Crown, and where it struck, the first halls were opened. Before the Deep-Forging the deep-folk were cave-dwellers and surface herders; after it they were a civilization of signed steel, spoken law, and doors. Every hold, every oath-ring, and every sealed door on Aurelith descends from the strikes made in that generation.",
+  "participants": [
+    { "kind": "deity", "name": "orbren", "side": "the teacher", "note": "walked among mortals openly — this was before the Withdrawal; his hammer-fall is remembered as sound, not metaphor" },
+    { "kind": "species", "name": "deep-folk", "side": "the taught", "note": "nine tribes under the Stone Crown received the hammer in turn" }
+  ],
+  "course_of_events": [
+    { "phase": "The Calling Down", "when": "~405 AS", "what": "The nine tribes send nine speakers into the mountain's root to ask the earth for shelter from the long winters above. The saga says the earth answered with a knock." },
+    { "phase": "The Hammer Falls", "when": "~410 AS", "what": "Orbren strikes the Stone Crown; the first hall opens 'like an eye'. He teaches for a generation: the hammer, the forge, the oath-ring, and the rule that every opening must be earned and every closing must be kept." },
+    { "phase": "The First Forge", "when": "~415–450 AS", "what": "Hallord's heart-fire is lit from Orbren's own forge-heat. It has never gone out. The first laws are sworn here because nothing written can be trusted yet — only memory and fire." },
+    { "phase": "The Doors Learn to Close", "when": "~450–600 AS", "what": "The holds spread through the Crown's root. The first Door-Keepers are sworn when a gallery opens onto something that should have stayed shut. Khord's silence enters the law." }
+  ],
+  "key_places": [
+    { "name": "The Hammerfall Gallery", "description": "The first opened hall, deepest of all Hallord's works. Its walls bear a single dent the size of a god's fist. Pilgrims touch it once per lifetime.", "status": "sacred site" },
+    { "name": "The First Forge", "description": "Hallord's heart: lit ~415 AS, never extinguished. All deep-folk law is sworn here; all signed steel is trusted because of it.", "status": "active shrine" },
+    { "name": "The Nine Speakers' Seats", "description": "Nine stone seats at the mountain's root where the tribes first asked the earth for shelter. Vacant by custom — no one sits in a god's audience.", "status": "preserved" }
+  ],
+  "consequences": [
+    "Deep-folk civilization begins: craft, spoken law, oath-rings, and the doctrine of closed doors.",
+    "Orbren becomes the one deity every species later names the same — the forge-god's teaching outlived the gods' presence.",
+    "The Sunken Halls' architecture of 'earned openings' shapes deep-folk culture to this day."
+  ],
+  "remembrance": "Forging-Day is the deep-folk year's highest feast: fires are re-struck symbolically, apprentices take their first hammer-stroke, and the saga of the Nine Speakers is spoken aloud in every hold simultaneously.",
+  "adventure_hooks": [
+    "A surface scholar claims the Hammerfall dent is natural geology; Hallord offers players the chance to prove otherwise — or be proven wrong forever.",
+    "An apprentice steals a hammer-stroke on Forging-Day (unheard of); the scandal reaches the Ring-Vault.",
+    "Something knocks back from beyond the Lowest Door — three times, like the earth answering."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "the-greenwood-compact",
+  "name": "The Greenwood Compact",
+  "type": "event",
+  "world": "vaeloria",
+  "continent": "aurelith",
+  "age": "age-of-stone",
+  "years": "~1,100 AS",
+  "scale": "treaty — constitutional and divine",
+  "summary": "In the long shadow of the god-war, the elven groves swore the Compact of Five Roots with Veyra: the green would stand while the world stood, and those who sheltered under it would keep it. Born from a millennium of war-sheltering, it is the oldest living treaty on Aurelith — the constitution of the Greenwood Compact realm, the charter of the Verdant kin, and the reason the forest has laws at all.",
+  "participants": [
+    { "kind": "deity", "name": "veyra", "side": "the vow-keeper", "note": "poured herself into the green during creation; the Compact is her promise given legal form" },
+    { "kind": "species", "name": "greenfolk", "side": "the sworn", "note": "the groves' speakers, led by the wardens who would become the Root-Wardens" },
+    { "kind": "faction", "name": "verdant-kin", "side": "founded by it", "note": "the Compact created the druid orders that serve green and farmland alike" },
+    { "kind": "species", "name": "war refugees of the god-war", "side": "the sheltered", "note": "human and dwarf survivors whose presence forced the question: what does the green owe strangers?" }
+  ],
+  "course_of_events": [
+    { "phase": "The Long Sheltering", "when": "~2,100–3,000 AS (background)", "what": "Through nine centuries of divine war, Veyra's Greenwood shelters mortal refugees of both armies. The groves bend but do not break. The sheltered begin to call the forest 'the first neutral ground'." },
+    { "phase": "The Question of Roots", "when": "~1,050–1,100 AS", "what": "With the gods withdrawn, refugees settle at the forest's edges. Loggers follow farmers. The groves' speakers walk to the innermost tree and ask Veyra directly: what is owed, and by whom?" },
+    { "phase": "The Five Roots Spoken", "when": "~1,100 AS", "what": "Veyra answers in five vows — the Five Roots: the green stands while the world stands; harm to the green is answered; shelter once given is not revoked; the deep roots remember; and one root the sagas refuse to translate. The groves swear back in kind." },
+    { "phase": "The Wardens Named", "when": "~1,100–1,200 AS", "what": "The speakers become the Root-Wardens; the field-priests become the Verdant kin. The Compact becomes the greenfolk constitution — unamended for ~2,700 years." }
+  ],
+  "key_places": [
+    { "name": "The Vow-Grove", "description": "Where the Five Roots were spoken: five trees grown from five acorns planted in a single hour, perfectly evenly spaced. Geometry this exact should not occur in wildwood.", "status": "sacred site" },
+    { "name": "The Orchard Border", "description": "The Compact's edge with the Wealdmark, marked by orchards tended by greenfolk under treaty — the visible, edible proof of the oath.", "status": "active border" },
+    { "name": "The Untranslated Stone", "description": "A standing stone at the Vow-Grove bearing the fifth root's terms in Green Speech no living elf will render into Common. 'It says what it says,' say the Wardens.", "status": "standing, unread" }
+  ],
+  "consequences": [
+    "The Greenwood becomes a realm with a constitution older than every kingdom.",
+    "The Verdant kin are founded — druids serving both grove and farm.",
+    "Harmers of green answer to Compact law; the first, forbidden exile enters doctrine.",
+    "The fifth root remains open text — invoked rarely, never explained."
+  ],
+  "remembrance": "Roots-Day opens the greenfolk year: five acorns planted, five vows spoken back to the forest. Human orchard-towns celebrate alongside — cider flows, and for one day the orchard-border is open ground.",
+  "adventure_hooks": [
+    "A scholar claims the fifth root is not a vow but a debt — something the green owes, or is owed.",
+    "A logger's mistake injures the Vow-Grove; Compact law requires answer, but the harmer is a child.",
+    "The fifth acorn tree flowers out of season for the first time in 2,700 years. The Wardens will not say what it means."
+  ]
+}
